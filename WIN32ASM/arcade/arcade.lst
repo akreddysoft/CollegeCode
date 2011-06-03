@@ -1,0 +1,118 @@
+Microsoft (R) Macro Assembler Version 6.14.8444		    11/29/03 01:01:58
+E:\programs\WIN32ASM\arcade\arcade.asm			     Page 1 - 1
+
+
+				;PE EXE
+				.386
+				.model	flat,stdcall
+				option 	casemap:none
+				.nolist
+				.listall
+				includelib masm32.lib
+				includelib user32.lib
+				includelib kernel32.lib
+				includelib ac.lib
+ 00000000			.data?
+ 00000000 00000000		hinst	HINSTANCE	?
+
+ 00000000			.data
+
+ 00000000			.const
+				dlgproc	proto  	hwnd:HWND,umsg:DWORD,wparam:WPARAM,lparam:LPARAM
+ 00000000 49 44 44 5F 4D	dialog		db	'IDD_MAIN',0
+	   41 49 4E 00
+ = 00000001			IDOK		EQU	1
+ = 00000065			IDC_ABOUT	equ	101
+ = 00000009			IDEXIT		equ	9
+ 00000000			.code
+ 00000000			start:
+ 00000000				invoke	GetModuleHandle,NULL
+ 00000000  6A 00	   *	    push   +000000000h
+ 00000002  E8 00000000 E   *	    call   GetModuleHandleA
+ 00000007  A3 00000000 R		mov	[hinst],eax
+					invoke	DialogBoxParam,hinst,addr dialog,0,addr dlgproc,0
+ 0000000C  6A 00	   *	    push   +000000000h
+ 0000000E  68 0000002C R   *	    push   dlgproc
+ 00000013  6A 00	   *	    push   +000000000h
+ 00000015  68 00000000 R   *	    push   OFFSET dialog
+ 0000001A  FF 35 00000000 R *	    push   hinst
+ 00000020  E8 00000000 E   *	    call   DialogBoxParamA
+					invoke	ExitProcess,0
+ 00000025  6A 00	   *	    push   +000000000h
+ 00000027  E8 00000000 E   *	    call   ExitProcess
+
+
+ 0000002C 0000002C		dlgproc	proc	hwnd:HWND,uMsg:UINT,wparam:WPARAM,lparam:LPARAM
+ 0000002C  55		   *	    push   ebp
+ 0000002D  8B EC	   *	    mov    ebp, esp
+					.if	uMsg==WM_INITDIALOG
+ 0000002F  81 7D 0C
+	   00000110	   *	    cmp    uMsg, WM_INITDIALOG
+ 00000036  75 0A	   *	    jne    @C0001
+						invoke	installhook,hwnd
+ 00000038  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 0000003B  E8 00000000 E   *	    call   installhook
+					.elseif	uMsg==WM_COMMAND
+ 00000040  EB 63	   *	    jmp    @C0003
+ 00000042		   *@C0001:
+ 00000042  81 7D 0C
+	   00000111	   *	    cmp    uMsg, WM_COMMAND
+ 00000049  75 1B	   *	    jne    @C0004
+ 0000004B  8B 45 10				mov	eax,wparam
+						.if	ax==IDOK
+ 0000004E  66| 83 F8 01	   *	    cmp    ax, IDOK
+ 00000052  75 10	   *	    jne    @C0006
+							invoke	SendMessage,hwnd,WM_CLOSE,0,0
+ 00000054  6A 00	   *	    push   +000000000h
+ 00000056  6A 00	   *	    push   +000000000h
+ 00000058  6A 10	   *	    push   +000000010h
+ 0000005A  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 0000005D  E8 00000000 E   *	    call   SendMessageA
+						.else
+ 00000062  EB 41	   *	    jmp    @C0008
+ 00000064		   *@C0006:
+						.endif
+					.elseif	uMsg==WM_CLOSE
+ 00000064  EB 3F	   *	    jmp    @C0009
+ 00000066		   *@C0004:
+ 00000066  83 7D 0C 10	   *	    cmp    uMsg, WM_CLOSE
+ 0000006A  75 11	   *	    jne    @C000A
+						invoke	removehook
+ 0000006C  E8 00000000 E   *	    call   removehook
+						invoke	EndDialog,hwnd,0
+ 00000071  6A 00	   *	    push   +000000000h
+ 00000073  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 00000076  E8 00000000 E   *	    call   EndDialog
+					.elseif uMsg==WM_USER
+ 0000007B  EB 28	   *	    jmp    @C000C
+ 0000007D		   *@C000A:
+ 0000007D  81 7D 0C
+	   00000400	   *	    cmp    uMsg, WM_USER
+ 00000084  75 16	   *	    jne    @C000D
+						invoke	MessageBox,hwnd,offset dialog,offset dialog,0
+ 00000086  6A 00	   *	    push   +000000000h
+ 00000088  68 00000000 R   *	    push   dword  ptr OFFSET FLAT:dialog
+ 0000008D  68 00000000 R   *	    push   dword  ptr OFFSET FLAT:dialog
+ 00000092  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 00000095  E8 00000000 E   *	    call   MessageBoxA
+						
+					.else
+ 0000009A  EB 09	   *	    jmp    @C000F
+ 0000009C		   *@C000D:
+ 0000009C  B8 00000000				mov	eax,FALSE
+						ret
+ 000000A1  C9		   *	    leave  
+ 000000A2  C2 0010	   *	    ret    00010h
+					.endif
+ 000000A5		   *@C000F:
+ 000000A5		   *@C000C:
+ 000000A5		   *@C0009:
+ 000000A5		   *@C0003:
+ 000000A5		   *@C0008:
+ 000000A5  B8 00000001			mov	eax,TRUE
+					ret												                   		              
+ 000000AA  C9		   *	    leave  
+ 000000AB  C2 0010	   *	    ret    00010h
+ 000000AE			dlgproc	endp
+					
+				end	start	

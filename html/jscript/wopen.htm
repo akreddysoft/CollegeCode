@@ -1,0 +1,49 @@
+<HTML>
+
+<HEAD>
+<TITLE>Example 5.2</TITLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- HIDE FROM OTHER BROWSERS
+
+function urlList(a,b,c,d,e) {
+  // DEFINE FIVE-ELEMENT OBJECT
+  this[0] = a;
+  this[1] = b;
+  this[2] = c;
+  this[3] = d;
+  this[4] = e;
+}
+
+function selectPage(list) {
+  // SELECT RANDOM PAGE
+  var today = new Date();
+  var page = today.getSeconds() % 5;
+
+
+  // OPEN PAGE
+  window.open(list[page],"Random_Page");
+
+}
+
+// DEFINE SELECTION LIST
+choices = new urlList("http://www.yahoo.com",
+                      "http://www.cnn.com", 
+                      "http://www.dataphile.com.hk", 
+                      "http://home.netscape.com", 
+                      "http://www.landegg.org/landegg"); 
+
+// STOP HIDING FROM OTHER BROWSERS -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY onLoad = "selectPage(choices);">
+<H1>
+<HR>
+Please Wait ... Selecting Page.
+<HR>
+</H1>
+</BODY>
+
+</HTML> 

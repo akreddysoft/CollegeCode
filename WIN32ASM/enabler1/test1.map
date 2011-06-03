@@ -1,0 +1,57 @@
+ test1
+
+ Timestamp is 3fb64ee9 (Sat Nov 15 21:36:01 2003)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000096H .text                   CODE
+ 0002:00000000 0000001cH .idata$5                DATA
+ 0002:0000001c 00000062H .rdata                  DATA
+ 0002:00000080 00000028H .idata$2                DATA
+ 0002:000000a8 00000014H .idata$3                DATA
+ 0002:000000bc 0000001cH .idata$4                DATA
+ 0002:000000d8 00000068H .idata$6                DATA
+ 0002:00000140 00000000H .edata                  DATA
+ 0003:00000000 00000018H .data                   DATA
+ 0003:00000018 00000004H .bss                    DATA
+ 0004:00000000 00000070H .rsrc$01                DATA
+ 0004:00000070 000000d8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       _start                     00401000 f   test1.obj
+ 0001:0000002c       _dlgproc@16                0040102c f   test1.obj
+ 0001:00000078       _DialogBoxParamA@20        00401078 f   user32:user32.dll
+ 0001:0000007e       _EndDialog@8               0040107e f   user32:user32.dll
+ 0001:00000084       _MessageBoxA@16            00401084 f   user32:user32.dll
+ 0001:0000008a       _ExitProcess@4             0040108a f   kernel32:kernel32.dll
+ 0001:00000090       _GetModuleHandleA@4        00401090 f   kernel32:kernel32.dll
+ 0002:00000000       __imp__GetModuleHandleA@4  00402000     kernel32:kernel32.dll
+ 0002:00000004       __imp__ExitProcess@4       00402004     kernel32:kernel32.dll
+ 0002:00000008       \177kernel32_NULL_THUNK_DATA 00402008     kernel32:kernel32.dll
+ 0002:0000000c       __imp__MessageBoxA@16      0040200c     user32:user32.dll
+ 0002:00000010       __imp__EndDialog@8         00402010     user32:user32.dll
+ 0002:00000014       __imp__DialogBoxParamA@20  00402014     user32:user32.dll
+ 0002:00000018       \177user32_NULL_THUNK_DATA 00402018     user32:user32.dll
+ 0002:00000080       __IMPORT_DESCRIPTOR_user32 00402080     user32:user32.dll
+ 0002:00000094       __IMPORT_DESCRIPTOR_kernel32 00402094     kernel32:kernel32.dll
+ 0002:000000a8       __NULL_IMPORT_DESCRIPTOR   004020a8     user32:user32.dll
+
+ entry point at        0001:00000000
+
+ Static symbols
+
+ 0001:00000000       _$$$00001@0                00401000 f   test1.obj
+ 0001:00000041       @C0001                     00401041 f   test1.obj
+ 0001:00000068       @C0004                     00401068 f   test1.obj
+ 0001:0000006e       @C0008                     0040106e f   test1.obj
+ 0001:0000006e       @C0003                     0040106e f   test1.obj
+ 0001:0000006e       @C0006                     0040106e f   test1.obj
+
+Line numbers for E:\programs\WIN32ASM\enabler1\test1.obj(E:\programs\WIN32ASM\enabler1\test1.asm) segment .text
+
+    34 0001:00000000    35 0001:00000007    36 0001:0000000c    37 0001:00000025
+    40 0001:0000002c    41 0001:0000002f    42 0001:00000035    43 0001:0000003f
+    44 0001:0000004a    45 0001:0000004d    46 0001:00000053    49 0001:00000066
+    50 0001:00000068    51 0001:0000006a    53 0001:0000006e    54 0001:00000073

@@ -1,0 +1,139 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 370, 178
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Message Sender"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Exit",IDOK,143,95,50,14
+    COMBOBOX        IDC_MESSAGE,106,49,76,15,CBS_DROPDOWN | CBS_UPPERCASE | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Message",IDC_STATIC,109,31,66,11
+    LTEXT           "wparam",IDC_STATIC,197,30,66,11
+    LTEXT           "lparam",IDC_STATIC,273,30,78,11
+    EDITTEXT        IDC_EWPARAM,195,50,61,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ELPARAM,275,48,61,12,ES_AUTOHSCROLL
+    LTEXT           "HANDLE",IDC_STATIC,25,34,66,11
+    EDITTEXT        IDC_HWND,19,51,61,12,ES_AUTOHSCROLL
+    LTEXT           "MESSAGE SENDER",IDC_STATIC,131,18,172,11
+    PUSHBUTTON      "Send!",IDC_SEND,143,70,52,16
+    CONTROL         "Dec Number",IDC_WPARAM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,203,70,54,10
+    CONTROL         "Dec Number",IDC_LPARAM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,273,70,54,10
+    LISTBOX         IDC_LIST1,19,86,92,70,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Decimal",IDC_RWPARAM,"Button",BS_AUTORADIOBUTTON,205,91,
+                    56,8
+    CONTROL         "Hex",IDC_RWPARAM2,"Button",BS_AUTORADIOBUTTON,203,107,
+                    56,8
+    CONTROL         "Text",IDC_RWPARAM3,"Button",BS_AUTORADIOBUTTON,203,124,
+                    56,8
+    CONTROL         "Decimal",IDC_RLPARAM,"Button",BS_AUTORADIOBUTTON,268,93,
+                    56,8
+    CONTROL         "Hex",IDC_RLPARAM2,"Button",BS_AUTORADIOBUTTON,270,109,
+                    56,8
+    CONTROL         "Text",IDC_RLPARAM3,"Button",BS_AUTORADIOBUTTON,270,123,
+                    56,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 363
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG1 DLGINIT
+BEGIN
+    IDC_MESSAGE, 0x403, 11, 0
+0x4d57, 0x435f, 0x4d4f, 0x414d, 0x444e, "\000" 
+    0
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

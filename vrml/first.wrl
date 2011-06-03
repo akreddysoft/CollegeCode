@@ -1,0 +1,38 @@
+#VRML V2.0 utf8
+
+Group {
+	children [
+		Group {
+		}
+	]
+	
+}
+
+WorldInfo {
+	title "madhur's first vrml file"
+	info "hello vrml"
+}
+
+
+DEF	FBOX Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+		#	emissiveColor 0 1 0
+			specularColor  0 0 1
+
+		#	ambientIntensity 34
+		}
+	}
+	geometry Box {
+	}
+}
+
+Transform {
+	translation 1 1 1
+	rotation 0 1 0 0.78
+	scale 2 1 2
+	children [
+		USE FBOX
+	]
+}

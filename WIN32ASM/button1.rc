@@ -1,0 +1,22 @@
+/****************************************************************************
+
+
+BUTTON.RC
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+
+
+IDD_DIALOG1 DIALOGEX 3, 13, 145, 89
+STYLE DS_ABSALIGN | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Validation"
+FONT 8, "MS Sans Serif", 0, 0
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+{
+ CONTROL "Enter password", 102L, "STATIC", SS_CENTER | WS_CHILD | WS_VISIBLE, 16, 8, 96, 9
+ CONTROL "OK", 1L, "BUTTON", BS_DEFPUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 40, 60, 50, 14
+ CONTROL "", 101L, "EDIT", ES_LEFT | ES_LOWERCASE | ES_PASSWORD | WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP, 16, 32, 108, 13, WS_EX_STATICEDGE
+}
+

@@ -1,0 +1,38 @@
+#VRML V2.0 utf8
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+		}
+
+		texture	ImageTexture {
+			url	"wind.jpg"
+		}
+	}
+
+	geometry Box {
+		size 5.5 3.75 1.0
+	}
+}
+
+#first color will be set to green but will be ov
+#overwritten by the texture
+
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+		}
+	}
+
+	geometry Cylinder {
+   radius 0.4
+   height 10
+   top FALSE
+}
+
+
+}
+
+

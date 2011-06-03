@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0038)http://localhost/servlet/GuestBook?add -->
+<HTML><HEAD>
+<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type>
+<SCRIPT language=javascript>function test(){var a1=new String;a1=document.forms('guest').item('name').value;if(a1==""){alert('You must enter the name');return false;	//return 0 will not work}a1=document.forms('guest').item('com').value;if(a1==""){alert('You must enter the comment');return false;	//return 0 will not work}delete a1;return true;}</SCRIPT>
+
+<META content="MSHTML 5.00.3502.5390" name=GENERATOR></HEAD>
+<BODY bgColor=black text=white>
+<H1 align=left>Welcome to GuestBook</H1>
+<P>
+<P>
+<FORM action=/servlet/GuestBook method=get name=guest onsubmit="return test();">
+<TABLE border=0 cellSpacing=1 width="70%">
+  <TBODY>
+  <TR bgColor=green text="black">
+    <TD width="35%">Name:</TD>
+    <TD width="70%"><INPUT name=name size=40></TD></TR>
+  <TR bgColor=green>
+    <TD>Email:</TD>
+    <TD><INPUT name=email size=40></TD></TR>
+  <TR bgColor=green>
+    <TD>Website:</TD>
+    <TD><INPUT name=web size=40 value=http://></TD></TR>
+  <TR bgColor=green>
+    <TD>Comments:</TD>
+    <TD><TEXTAREA cols=40 name=com rows=10></TEXTAREA></TD></TR>
+  <TR bgColor=green>
+    <TD><INPUT type=submit value=submit></INPUT></TD>
+    <TD><INPUT type=reset value=reset></INPUT></TD></TR></TBODY></TABLE></FORM>
+<P><A href="http://localhost/servlet/GuestBook">Back the GuestBook</A>
+<P></P></BODY></HTML>

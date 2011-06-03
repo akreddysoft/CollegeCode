@@ -1,0 +1,30 @@
+#VRML V2.0 utf8
+
+Shape {
+   appearance Appearance {
+	   material Material {
+		   emissiveColor 0 0.8 0
+      }
+   }
+ 
+   geometry Box {
+   }
+}
+
+
+Shape {
+   appearance Appearance {
+	   texture ImageTexture	{
+		   url "wind.jpg"
+		   repeatS TRUE
+	   }
+      material Material {
+          diffuseColor 1 0 0
+		  emissiveColor 0 0.8 0
+		 #transparency 0.5
+      }
+   }
+   geometry	Cone {
+	   height 5
+	   } 
+}

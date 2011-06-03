@@ -1,0 +1,32 @@
+<?xml?>
+<workspace_user>
+	<active_project>
+		<label>Servlets</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>Servlets</label>
+			<showfiles>false</showfiles>
+		</project>
+	</projects>
+	<open_files>
+		<docitem>
+			<path>..\java1\SimpleSwing.java</path>
+			<source>true</source>
+			<index>0</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>..\java1\CenterFrame.java</path>
+			<source>true</source>
+			<index>1</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>..\java1\FramePanel.java</path>
+			<source>true</source>
+			<index>2</index>
+			<active>true</active>
+		</docitem>
+	</open_files>
+</workspace_user>

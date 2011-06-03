@@ -1,0 +1,19 @@
+// Decompiled by DJ v1.5.5.28 Copyright 2000 Atanas Neshkov  Date: 18-Jul-04 6:05:25 PM
+// Home Page : http//members.fortunecity.com/neshkov/dj.html  - Check often for new version!
+// Decompiler options: packimports(3) 
+// Source File Name:   inter.java
+
+
+class test
+{
+
+    test()
+    {
+    }
+
+    public static void main(String args[])
+    {
+        client client1 = new client();
+        client1.callback(2);
+    }
+}

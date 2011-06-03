@@ -1,0 +1,16 @@
+<?xml?>
+<workspace>
+	<settings>
+		<label>smtpmail</label>
+	</settings>
+	<users>
+		<user>
+			<path>smtpmail.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>smtpmail.jcp</path>
+		</project>
+	</projects>
+</workspace>

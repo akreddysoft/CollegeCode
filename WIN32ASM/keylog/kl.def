@@ -1,0 +1,5 @@
+LIBRARY kl
+EXPORTS
+installhook
+removehook
+keyproc

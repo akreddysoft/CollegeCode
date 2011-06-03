@@ -1,0 +1,53 @@
+<!--very imp program-->
+
+
+
+<html>
+<head>
+<title></title>
+<script language="JavaScript">
+<!--
+function df(sss)
+{
+	document.write(sss);
+
+/* interesting thing happens here, as the above statement is executed, the contents of form.htm is replaced with
+the contents of document.write(sss); and all the objects like text11 and results get destroyed. this results in error
+with the execution of next statement. this is the result of events. 
+
+after the document has been completely loaded and if we do a document.write, then the document cant change at runtime
+without reloading from the server.*/
+
+
+	sss.text11.value="ahuja";
+
+}
+
+function calculate(form) {
+
+  form.results.value = "ahuja";
+  
+
+}
+
+
+
+-->
+
+
+</script>
+
+</head>
+
+<body>
+<form  method=post>
+<input onclick="df(this.form);" type=text NAME="text11" value="madhur">
+<INPUT TYPE="submit" VALUE="Place My Order Now!">
+<input onclick="calculate(this.form)" type=text NAME="results" value="madhur">
+
+
+</form>
+
+</body>
+
+</html>

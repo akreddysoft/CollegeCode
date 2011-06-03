@@ -1,0 +1,41 @@
+#VRML V2.0 utf8
+
+PROTO SphereCone [ field SFFloat radius 2.0
+	field SFFloat height 5.0
+	field SFNode sphereApp NULL
+	field SFNode coneApp  NULL ] {
+
+		Transform {
+			children [
+				Shape {
+					appearance IS sphereApp
+					geometry Sphere	{radius	IS radius }
+				}
+
+				Shape {
+					appearance IS coneApp
+					geometry Cone {height IS height	}
+				}
+			]
+		}
+	}
+
+	Transform {
+		translation	15 0 0
+		children SphereCone	{
+			radius 5.0
+			height 20.0
+			sphereApp Appearance { material	Material {}}
+			coneApp	Appearance { texture ImageTexture {}}
+		}
+
+	}
+
+	Transform {
+		translation	-10 0 0
+		children SphereCone	{
+			height 1
+			sphereApp Appearance { texture ImageTexture	{}}
+			coneApp	Appearance { material Material {}}
+		}
+	}

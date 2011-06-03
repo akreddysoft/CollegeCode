@@ -1,0 +1,16 @@
+<?xml?>
+<workspace>
+	<settings>
+		<label>cart</label>
+	</settings>
+	<users>
+		<user>
+			<path>cart.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>cart.jcp</path>
+		</project>
+	</projects>
+</workspace>

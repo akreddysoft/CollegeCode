@@ -1,0 +1,61 @@
+// Decompiled by DJ v1.5.5.28 Copyright 2000 Atanas Neshkov  Date: 17-Jul-04 6:25:31 PM
+// Home Page : http//members.fortunecity.com/neshkov/dj.html  - Check often for new version!
+// Decompiler options: packimports(3) disassembler 
+// Source File Name:   window.java
+
+import java.awt.Frame;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
+
+class wind extends Frame
+    implements WindowListener
+{
+
+    wind()
+    {
+    //    0    0:aload_0         
+    //    1    1:invokespecial   #1   <Method void Frame()>
+    //    2    4:aload_0         
+    //    3    5:iconst_1        
+    //    4    6:invokevirtual   #2   <Method void setVisible(boolean)>
+    //    5    9:return          
+    }
+
+    public void windowClosing(WindowEvent windowevent)
+    {
+    //    0    0:aload_0         
+    //    1    1:iconst_0        
+    //    2    2:invokevirtual   #3   <Method void setVisible(boolean)>
+    //    3    5:return          
+    }
+
+    public void windowClosed(WindowEvent windowevent)
+    {
+    //    0    0:return          
+    }
+
+    public void windowActivated(WindowEvent windowevent)
+    {
+    //    0    0:return          
+    }
+
+    public void windowDeactivated(WindowEvent windowevent)
+    {
+    //    0    0:return          
+    }
+
+    public void windowDeiconified(WindowEvent windowevent)
+    {
+    //    0    0:return          
+    }
+
+    public void windowIconified(WindowEvent windowevent)
+    {
+    //    0    0:return          
+    }
+
+    public void windowOpened(WindowEvent windowevent)
+    {
+    //    0    0:return          
+    }
+}

@@ -1,0 +1,14 @@
+MOV     AX,BX
+
+MOV     CX,DX
+
+ADD     A ,C
+
+CLOSEIT XXX ,YYY ,ZZZ
+
+MADHUR CX ,DX
+
+CLOSEIT file1 ,file2 ,file3
+
+END
+

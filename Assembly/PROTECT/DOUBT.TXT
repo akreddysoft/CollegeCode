@@ -1,0 +1,14 @@
+if in softice one traces(p) through single instructions like xor ax,ax then
+int 8 doesnt occurs. but if one encounters any instruction which takes branch
+lilke jmp or any int then int 8 occurs and softice snaps to int 8 if bpint8 is set.
+
+also,suppose there are 2 instructions like this
+xor ax,ax
+xor bx,bx
+
+if one does simple trace through the 2 instructions then int 8 doesnt occurs
+but if one transfers control from first to second instructin by using jump to g
+here(f7) then int 8 snaps.
+
+build a program which will write to a file whenever int 8 occurs. also write
+

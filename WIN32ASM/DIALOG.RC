@@ -1,0 +1,33 @@
+/****************************************************************************
+
+
+dialog.rc
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+
+#include "dialog.rh"
+#include "resource.h"
+#define TEXT2	102
+#define IDC_EDIT1	103
+#define IDC_BUTTON1	106
+#define TEXT1	101
+#define IDCANCEL1	105
+#define IDOK1	104
+#define IDO	4
+MYDIALOGS DIALOG 6, 15, 207, 111
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CLASS "madhur"
+CAPTION "MYDIALOGS"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", IDOK1, "BUTTON", BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 148, 36, 50, 14
+ CONTROL "Cancel", IDCANCEL1, "BUTTON", BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 146, 59, 50, 14
+ CONTROL "", TEXT1, "EDIT", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 22, 14, 103, 14
+ CONTROL "", TEXT2, "EDIT", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 25, 43, 103, 19
+ CONTROL "", IDC_EDIT1, "EDIT", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 22, 80, 115, 11
+ CONTROL "Test handle", IDC_BUTTON1, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 144, 9, 56, 17
+}

@@ -1,0 +1,143 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 355, 210
+STYLE DS_ABSALIGN | DS_3DLOOK | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "Bruteforcer"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Exit",IDEXIT,281,180,50,16
+    EDITTEXT        IDC_EDHWND,102,81,80,13,ES_AUTOHSCROLL
+    LTEXT           "Handle",IDC_STATIC,99,17,83,9
+    LTEXT           "Class",IDC_STATIC,14,17,78,12
+    LTEXT           "Regcode edit handle",IDC_STATIC,13,83,74,11
+    LTEXT           "window handle",IDC_STATIC,13,63,58,10
+    EDITTEXT        IDC_HWND,102,57,80,13,ES_AUTOHSCROLL
+    LTEXT           "button handle",IDC_STATIC,13,104,74,11
+    EDITTEXT        IDC_BUTHWND,102,102,80,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Start Bruteforce",IDC_BRUTE,187,180,77,16
+    LTEXT           "nag button handle",IDC_STATIC,14,125,74,11
+    EDITTEXT        IDC_NAGHWND,102,123,80,13,ES_AUTOHSCROLL
+    LTEXT           "",IDC_CURRENT,177,159,83,9,SS_SUNKEN
+    LTEXT           "Identifier",IDC_STATIC,190,17,78,12
+    EDITTEXT        IDC_BUTID,191,103,80,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BUTNAGID,192,123,80,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "About",IDABOUT,25,180,50,16
+    PUSHBUTTON      "TestSet",IDC_TESTSET,287,84,50,13
+    PUSHBUTTON      "TestPress",IDC_TESTPRESS,287,103,50,13
+    PUSHBUTTON      "TestPress",IDC_TESTPRESS1,287,122,50,13
+    PUSHBUTTON      "Test Settings",IDTEST,107,179,50,16
+    LTEXT           "",IDC_COUNT,129,159,32,9,SS_SUNKEN
+    PUSHBUTTON      "Suspend",IDC_SUSPEND,277,155,50,16
+    PUSHBUTTON      "Reset",IDC_RESET,51,156,50,16
+    EDITTEXT        IDCLASS,13,32,69,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_WINDOW,97,32,69,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_ID,185,32,69,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 250, 141
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,167,105,50,14
+    CTEXT           "Bruteforcer By Madhur Ahuja",IDC_STATIC,107,16,101,18,
+                    SS_SUNKEN | WS_BORDER
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,17,18,49,33
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 348
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

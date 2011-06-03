@@ -1,0 +1,28 @@
+<html>
+<head>
+<title></title>
+<script language="JavaScript">
+function disp(a,b,c)
+{
+	alert(a);
+	alert(b);
+	alert(c);
+}
+
+
+</script>
+</head>
+
+
+<body>
+<form method=post>
+<input type=text name=second value="" title=second number>
+<input type=text name=third value="" title=sum>
+<input type=button value=calculate onclick=disp(this.form,this.value,this)><!-- all are defined-->
+</form>
+<script language="JavaScript">
+disp(this.form,this.value,this)	<!-- only last is define,but what it refers to-->
+</script>
+</body>
+
+</html>

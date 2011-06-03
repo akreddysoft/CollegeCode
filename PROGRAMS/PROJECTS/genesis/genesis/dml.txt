@@ -1,0 +1,89 @@
+SQL> INSERT INTO STUDENTS VALUES
+  2  ('&STUDENTID','&STUDENT','&COLLEGE','&EMAILID','&PHONE','&TIME',&DAY)
+  3  ;
+Enter value for studentid: S0001
+Enter value for student: MADHUR AHUJA
+Enter value for college: BVP
+Enter value for emailid: madhur_ahuja@yahoo.com
+Enter value for phone: 7341538
+Enter value for time: 1100
+Enter value for day: 1
+old   2: ('&STUDENTID','&STUDENT','&COLLEGE','&EMAILID','&PHONE','&TIME',&DAY)
+new   2: ('S0001','MADHUR AHUJA','BVP','madhur_ahuja@yahoo.com','7341538','1100',1)
+
+1 row created.
+
+SQL> SELECT * FROM STUDENTS;
+
+STUDE STUDENT              COLLEGE                        EMAILID                       PHONE TIME D
+----- -------------------- ------------------------------ ------------------------- --------- ---- -
+S0001 MADHUR AHUJA         BVP                            madhur_ahuja@yahoo.com      7341538 1100      
+
+
+
+SQL> INSERT INTO GAMESTATION VALUES
+  2  ('&GAMEID','&GAME',&PLAYERS);
+Enter value for gameid: QUK3
+Enter value for game: Quake 3 Arena
+Enter value for players: 8
+old   2: ('&GAMEID','&GAME',&PLAYERS)
+new   2: ('QUK3','Quake 3 Arena',8)
+
+1 row created.
+
+
+SQL> select * from gamestation;
+
+GAME GAME                   PLAYERS
+---- -------------------- ---------
+QUK3 Quake 3 Arena                8
+SBK2 Super Bike 2001              8
+UT01 Unreal Tournament            8
+NFS3 Need for Speed 3             8
+MTR2 Moto Racer 2                 8
+NFS5 Need for Speed 5             8
+AOE2 Age of Empires 2             8
+
+7 rows selected.
+
+
+SQL> select * from winners;
+
+STUDE GAME     SCORE
+----- ---- ---------
+S0003 QUK3        88
+S8888 QUK3        95
+S3666 QUK3        98
+S6324 SBK2       478
+S7645 SBK2       479
+
+
+SQL> UPDATE WINNERS SET SCORE=90 WHERE STUDENTID='S0003';
+
+1 row updated.
+
+
+SQL> SELECT * FROM WINNERS;
+
+STUDE GAME     SCORE
+----- ---- ---------
+S0003 QUK3        90
+S8888 QUK3        95
+S3666 QUK3        98
+S6324 SBK2       478
+S7645 SBK2       479
+
+SQL> DELETE FROM WINNERS WHERE SCORE=90;
+
+1 row deleted.
+
+SQL> SELECT * FROM WINNERS;
+
+STUDE GAME     SCORE
+----- ---- ---------
+S8888 QUK3        95
+S3666 QUK3        98
+S6324 SBK2       478
+S7645 SBK2       479
+
+

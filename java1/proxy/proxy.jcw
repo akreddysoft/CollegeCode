@@ -1,0 +1,16 @@
+<?xml?>
+<workspace>
+	<settings>
+		<label>proxy</label>
+	</settings>
+	<users>
+		<user>
+			<path>proxy.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>proxy.jcp</path>
+		</project>
+	</projects>
+</workspace>

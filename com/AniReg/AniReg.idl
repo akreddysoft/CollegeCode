@@ -1,0 +1,47 @@
+// AniReg.idl : IDL source for AniReg.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (AniReg.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(C9265561-1922-426D-AA6A-0272866A6C59),
+		dual,
+		helpstring("IAniEmp Interface"),
+		pointer_default(unique)
+	]
+	interface IAniEmp : IDispatch
+	{
+	HRESULT Func1(void);
+	//Function to Add Employees to the Database
+	HRESULT Add_Emp(int, BSTR,int);
+	//Function to Delete Employees from the Database
+	HRESULT Del_Emp(int);
+	HRESULT Search_Emp(int);
+	HRESULT Sort();
+
+
+	};
+
+[
+	uuid(E000165D-8FA6-4517-B760-A43BA364B85E),
+	version(1.0),
+	helpstring("AniReg 1.0 Type Library")
+]
+library ANIREGLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(439B55FF-8A5B-4537-9F81-40E680CBA0AA),  //guid or clsid
+		helpstring("AniEmp Class")
+	]
+	coclass AniEmp
+	{
+		[default] interface IAniEmp;
+	};
+};

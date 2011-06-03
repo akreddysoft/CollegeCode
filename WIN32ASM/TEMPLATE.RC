@@ -1,0 +1,26 @@
+/****************************************************************************
+
+
+TEMPLATE.RC
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+
+
+
+#define IDC_ABOUT	101
+#define IDEXIT	9
+
+IDD_MAIN DIALOGEX 0, 0, 240, 120
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", IDOK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 32, 100, 50, 14
+ CONTROL "Exit", IDEXIT, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 100, 100, 50, 14
+ CONTROL "About", IDC_ABOUT, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 168, 100, 50, 14
+}
+

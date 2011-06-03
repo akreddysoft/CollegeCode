@@ -1,0 +1,4 @@
+Line 37: Class ComctlLib.ProgressBar of control prgbar was not a loaded control class.
+Line 43: The property name _ExtentX in prgbar is invalid.
+Line 44: The property name _ExtentY in prgbar is invalid.
+Line 45: The property name _Version in prgbar is invalid.

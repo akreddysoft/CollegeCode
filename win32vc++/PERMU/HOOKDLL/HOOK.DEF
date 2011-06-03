@@ -1,0 +1,9 @@
+LIBRARY hookdll
+EXPORTS
+installhook
+removehook
+hproc
+
+SECTIONS
+   .SHARDATA   Read Write Shared
+

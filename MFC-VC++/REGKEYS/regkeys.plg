@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: regkeys - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\madhur\LOCALS~1\Temp\RSP1E.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/regkeys.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\programs\MFCVC\REGKEYS\app.cpp"
+"H:\programs\MFCVC\REGKEYS\re.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\madhur\LOCALS~1\Temp\RSP1E.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/regkeys.pdb" /debug /machine:I386 /out:"Debug/regkeys.exe" /pdbtype:sept  .\Debug\app.obj .\Debug\re.obj .\Debug\Script1.res "
+<h3>Output Window</h3>
+Compiling...
+re.cpp
+app.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/regkeys.bsc"  .\Debug\app.sbr .\Debug\re.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+regkeys.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

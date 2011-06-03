@@ -1,0 +1,16 @@
+<?xml?>
+<workspace>
+	<settings>
+		<label>net</label>
+	</settings>
+	<users>
+		<user>
+			<path>net.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>net.jcp</path>
+		</project>
+	</projects>
+</workspace>

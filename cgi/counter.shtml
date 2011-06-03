@@ -1,0 +1,15 @@
+<html>
+<head><title>counter using ssi</title></head>
+<body>
+
+<!--this little code snipper can be inserted in aby  html page
+and cgi file can be modified to maintain seperate counter for 
+each page -->
+
+
+<p>You are the
+<i><!--#exec cgi="/cgi-bin/counter.cgi"--></i>
+person to access this page.</p>
+
+</body>
+</html>

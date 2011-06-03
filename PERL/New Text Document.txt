@@ -1,0 +1,30 @@
+for(0..$#array)
+{
+	print($array[$_]);
+}
+if we dont supply an iterator variable of our own perl use the special $_ variable, which is often used in perl functions as a default value/
+
+what is $!. This is one of Perl's special variables diesigned to give you a way of getting at various things that perl wats to tell  you. in this case, perl is passin gon an error message from the system and this error message should etll you why th eopen failed/
+
+reading from the file
+====================
+while(<FILE>)  this is equivalent to while (defined($_=<FILE>))
+{
+print "$_";
+}
+
+when no arugment is specified the line is read into the $_ variables
+
+
+reading last 5 lines from the file
+=======================
+open FILE,"filename" or die $!;
+my @last5;
+
+while(<FILE>)
+{
+	push @last5,$_;
+	shift @last5 if @last5>5;
+}
+print "last five lines : \n",@last5;
+

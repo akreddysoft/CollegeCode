@@ -1,0 +1,25 @@
+/****************************************************************************
+
+
+test.RC
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+
+
+
+#define IDC_BUTTON2	103
+#define IDC_BUTTON1	102
+IDD_DIALOG1 DIALOGEX 0, 0, 229, 79
+STYLE DS_ABSALIGN | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "Button2", 101L, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_DISABLED | WS_TABSTOP, 112, 13, 68, 13
+ CONTROL "Button2", IDC_BUTTON1, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 84, 48, 52, 14
+ CONTROL "Button3", IDC_BUTTON2, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 32, 22, 48, 17
+}
+
+

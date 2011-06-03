@@ -1,0 +1,103 @@
+<HTML>
+
+<HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- HIDE FORM OTHER BROWSERS
+
+var expires = new Date();
+expires.setTime (expires.getTime() + 24 * 60 * 60 * 30 * 1000); 
+var expiryDate = expires.toGMTString();
+
+function display(form) {
+  parent.output.document.bgColor = form.bg.value;
+  parent.output.document.fgColor = form.fg.value;
+  parent.output.document.linkClor = form.link.value; 
+  parent.output.document.alinkColor = form.alink.value; 
+  parent.output.document.vlinkColor = form.vlink.value; 
+}
+
+function loadPage(url) {
+  var toLoad = url.value;
+  if (url.value == "")
+    toLoad = "sample.htm";
+  open (toLoad,"output");
+}
+
+function newCookie(name,value) {
+  document.cookie = name + "=" + value + "; expires=" + expiryDate;
+}
+
+function getCookie(name) {
+  var cookieFound = false;
+  var start = 0;
+  var end = 0;
+  var cookieString = document.cookie;
+
+  var i = 0;
+
+  // SCAN THE COOKIE FOR name
+  while (i <= cookieString.length) {
+    start = i;
+    end = start + name.length;
+    if (cookieString.substring(start,end) == name) {
+      cookieFound = true;
+      break;
+    }
+    i++;
+  }
+
+  // IS name FOUND?
+  if (cookieFound) {
+    start = end + 1;
+    end = document.cookie.indexOf(";",start); 
+    if (end < start)
+      end = document.cookie.length; 
+    return document.cookie.substring(start,end); 
+  }
+  return "";
+}
+
+// STOP HIDING SCRIPT -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY onLoad="loadPage(document.forms[0].url); display(document.forms[0]);"> 
+
+<CENTER>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- HIDE FROM OTHER BROWSERS
+
+document.write('<H1>The Color Picker</H1>');
+document.write('<FORM METHOD=POST>');
+document.write('Enter Colors:<BR>');
+
+var thisCookie = ((document.cookie != "") && (document.cookie != null));
+
+var bg = (thisCookie) ? getCookie("bg") : document.bgColor; 
+var fg = (thisCookie) ? getCookie("fg") : document.fgColor; 
+var link = (thisCookie) ? getCookie("link") : document.linkColor; 
+var alink = (thisCookie) ? getCookie("alink") : document.alinkColor; 
+var vlink = (thisCookie) ? getCookie("vlink") : document.vlinkColor; 
+var url = (thisCookie) ? getCookie("url") : "sample.htm"; 
+
+document.write('Background: <INPUT TYPE=text NAME="bg" VALUE="' + bg + '" onChange="newCookie(this.name,this.value);"> ... ');
+document.write('Text: <INPUT TYPE=text NAME="fg" VALUE="' + fg + '" onChange="newCookie(this.name,this.value);"><BR>'); 
+document.write('Link: <INPUT TYPE=text NAME="link" VALUE ="' + link + '" onChange="newCookie(this.name,this.value);"> ...');
+document.write('Active Link: <INPUT TYPE=text NAME="alink" VALUE="' + alink + '" onChange="newCookie(this.name,this.value);"><BR>'); 
+document.write('Followed Link: <INPUT TYPE="text" NAME="vlink" VALUE ="' + vlink + '" onChange="newCookie(this.name,this.value);"><BR>'); 
+document.write('Test URL: <INPUT TYPE="text" SIZE=40 NAME="url" VALUE="' + url + '" onChange="newCookie(this.name,this.value); loadPage(this);"><BR>'); 
+document.write('<INPUT TYPE=button VALUE="TEST" onClick="display(this.form);">'); 
+
+document.write('</FORM>');
+
+// STOP HIDING FROM OTHER BROWSERS -->
+</SCRIPT>
+
+</CENTER>
+
+</BODY>
+
+</HTML> 

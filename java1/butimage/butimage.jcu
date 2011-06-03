@@ -1,0 +1,34 @@
+<?xml?>
+<workspace_user>
+	<active_project>
+		<label>butimage</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>butimage</label>
+			<showfiles>true</showfiles>
+		</project>
+	</projects>
+	<open_files>
+		<docitem>
+			<path>butimage.java</path>
+			<source>true</source>
+			<index>0</index>
+			<active>true</active>
+		</docitem>
+	</open_files>
+	<breakpoints>
+		<breakpoint>
+			<path>butimage.java</path>
+			<class>myframe</class>
+			<line>81</line>
+			<enable>false</enable>
+		</breakpoint>
+		<breakpoint>
+			<path>butimage.java</path>
+			<class>butimage</class>
+			<line>94</line>
+			<enable>false</enable>
+		</breakpoint>
+	</breakpoints>
+</workspace_user>

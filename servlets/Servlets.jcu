@@ -1,0 +1,38 @@
+<?xml?>
+<workspace_user>
+	<active_project>
+		<label>Servlets</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>Servlets</label>
+			<showfiles>false</showfiles>
+		</project>
+	</projects>
+	<open_files>
+		<docitem>
+			<path>D:\Program Files\Apache Group\Tomcat 4.1\webapps\ROOT\time.html</path>
+			<source>true</source>
+			<index>0</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>time.java</path>
+			<source>true</source>
+			<index>1</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>D:\Program Files\Apache Group\Tomcat 4.1\webapps\ROOT\TimeApplet.java</path>
+			<source>true</source>
+			<index>2</index>
+			<active>true</active>
+		</docitem>
+		<docitem>
+			<path>..\java1\servlet\TimeServlet.java</path>
+			<source>true</source>
+			<index>3</index>
+			<active>false</active>
+		</docitem>
+	</open_files>
+</workspace_user>

@@ -1,0 +1,32 @@
+<html>
+<head>
+<title></title>
+<script language="JavaScript">
+function house(address,rooms,owner) { 
+  this.address = address;
+  this.rooms = rooms;
+  this.owner = owner;
+}
+
+house1=new house("pune",5,"madhur");
+document.write(house1.address);
+document.write(house1.rooms);
+document.write(house1.owner);
+document.write(house1["address"]);
+document.write(house1["rooms"]);
+document.write(house1["owner"]);
+
+document.write(house1[address]);
+document.write(house1[rooms]);
+document.write(house1[owner]);
+
+</script>
+</head>
+
+<body>
+
+
+
+</body>
+
+</html>

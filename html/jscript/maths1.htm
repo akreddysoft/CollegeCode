@@ -1,0 +1,28 @@
+<html>
+<head>
+<title></title>
+<script language="JavaScript">
+function calculate(form) 
+{
+
+  form.twice.value = form.entry.value * 2;
+  form.square.value = form.entry.value * form.entry.value; 
+
+}
+
+
+</script>
+</head>
+
+
+<body>
+<form method=post>
+first:  <input type=text name=entry value="" title=first number onchange=calculate(this.form)>
+second: <input type=text name=twice value="" title=second number onchange=this.value/2>
+third:  <input type=text name=square value="" title=sum onchange=Math.sqrt(this.value)>
+</form>
+
+
+</body>
+
+</html>

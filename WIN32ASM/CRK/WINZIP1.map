@@ -1,0 +1,100 @@
+ WINZIP1
+
+ Timestamp is 3fbd0678 (Thu Nov 20 23:52:48 2003)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000025cH .text                   CODE
+ 0002:00000000 00000024H .idata$5                DATA
+ 0002:00000024 00000058H .rdata                  DATA
+ 0002:0000007c 00000028H .idata$2                DATA
+ 0002:000000a4 00000014H .idata$3                DATA
+ 0002:000000b8 00000024H .idata$4                DATA
+ 0002:000000dc 0000008aH .idata$6                DATA
+ 0002:00000166 00000000H .edata                  DATA
+ 0003:00000000 00000030H .data                   DATA
+ 0003:00000030 00000004H .bss                    DATA
+ 0004:00000000 00000150H .rsrc$01                DATA
+ 0004:00000150 00000ba8H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       _start                     00401000 f   WINZIP1.obj
+ 0001:0000002c       _dlgproc@16                0040102c f   WINZIP1.obj
+ 0001:0000012d       _abtdlgproc@16             0040112d f   WINZIP1.obj
+ 0001:00000160       _getit@0                   00401160 f   WINZIP1.obj
+ 0001:000001e5       _blah@0                    004011e5 f   WINZIP1.obj
+ 0001:00000208       _dw2hex@8                  00401208 f   masm32:DW2HEX.obj
+ 0001:00000232       _DialogBoxParamA@20        00401232 f   user32:user32.dll
+ 0001:00000238       _EndDialog@8               00401238 f   user32:user32.dll
+ 0001:0000023e       _GetDlgItemTextA@16        0040123e f   user32:user32.dll
+ 0001:00000244       _SetDlgItemTextA@12        00401244 f   user32:user32.dll
+ 0001:0000024a       _ExitProcess@4             0040124a f   kernel32:kernel32.dll
+ 0001:00000250       _GetModuleHandleA@4        00401250 f   kernel32:kernel32.dll
+ 0001:00000256       _lstrlenA@4                00401256 f   kernel32:kernel32.dll
+ 0002:00000000       __imp__GetModuleHandleA@4  00402000     kernel32:kernel32.dll
+ 0002:00000004       __imp__ExitProcess@4       00402004     kernel32:kernel32.dll
+ 0002:00000008       __imp__lstrlenA@4          00402008     kernel32:kernel32.dll
+ 0002:0000000c       \177kernel32_NULL_THUNK_DATA 0040200c     kernel32:kernel32.dll
+ 0002:00000010       __imp__GetDlgItemTextA@16  00402010     user32:user32.dll
+ 0002:00000014       __imp__EndDialog@8         00402014     user32:user32.dll
+ 0002:00000018       __imp__DialogBoxParamA@20  00402018     user32:user32.dll
+ 0002:0000001c       __imp__SetDlgItemTextA@12  0040201c     user32:user32.dll
+ 0002:00000020       \177user32_NULL_THUNK_DATA 00402020     user32:user32.dll
+ 0002:0000007c       __IMPORT_DESCRIPTOR_user32 0040207c     user32:user32.dll
+ 0002:00000090       __IMPORT_DESCRIPTOR_kernel32 00402090     kernel32:kernel32.dll
+ 0002:000000a4       __NULL_IMPORT_DESCRIPTOR   004020a4     user32:user32.dll
+
+ entry point at        0001:00000000
+
+ Static symbols
+
+ 0001:00000000       _$$$00001@0                00401000 f   WINZIP1.obj
+ 0001:0000014e       @C0014                     0040114e f   WINZIP1.obj
+ 0001:00000157       @C0018                     00401157 f   WINZIP1.obj
+ 0001:00000157       @C0016                     00401157 f   WINZIP1.obj
+ 0001:000001ea       next5                      004011ea f   WINZIP1.obj
+ 0001:000001fe       next3                      004011fe f   WINZIP1.obj
+ 0001:00000200       next4                      00401200 f   WINZIP1.obj
+ 0001:00000060       @C0001                     00401060 f   WINZIP1.obj
+ 0001:000000c2       @C000A                     004010c2 f   WINZIP1.obj
+ 0001:000000e5       @C000C                     004010e5 f   WINZIP1.obj
+ 0001:000000e7       @C0006                     004010e7 f   WINZIP1.obj
+ 0001:00000109       @C000E                     00401109 f   WINZIP1.obj
+ 0001:0000011b       @C0004                     0040111b f   WINZIP1.obj
+ 0001:00000124       @C0013                     00401124 f   WINZIP1.obj
+ 0001:00000124       @C0003                     00401124 f   WINZIP1.obj
+ 0001:00000124       @C0011                     00401124 f   WINZIP1.obj
+ 0001:00000124       @C0010                     00401124 f   WINZIP1.obj
+ 0001:00000124       @C000D                     00401124 f   WINZIP1.obj
+ 0001:00000124       @C0008                     00401124 f   WINZIP1.obj
+ 0001:0000018f       loop1                      0040118f f   WINZIP1.obj
+ 0001:000001af       loop2                      004011af f   WINZIP1.obj
+ 0001:000001c0       go                         004011c0 f   WINZIP1.obj
+
+Line numbers for E:\programs\WIN32ASM\CRK\WINZIP1.obj(E:\programs\WIN32ASM\CRK\WINZIP1.asm) segment .text
+
+    35 0001:00000000    36 0001:00000007    37 0001:0000000c    38 0001:00000025
+    40 0001:0000002c    42 0001:0000002f    43 0001:00000038    44 0001:00000047
+    45 0001:0000004c    46 0001:0000005b    47 0001:0000006d    48 0001:00000070
+    49 0001:00000076    50 0001:00000079    51 0001:00000083    52 0001:00000094
+    53 0001:0000009e    54 0001:000000a2    55 0001:000000b1    56 0001:000000c0
+    57 0001:000000c2    58 0001:000000c7    59 0001:000000d6    62 0001:000000e5
+    63 0001:000000ed    64 0001:00000107    65 0001:0000010f    67 0001:00000119
+    68 0001:0000011b    69 0001:00000120    71 0001:00000124    72 0001:00000129
+    75 0001:0000012d    76 0001:00000130    77 0001:00000139    78 0001:0000013c
+    79 0001:00000142    81 0001:0000014c    82 0001:0000014e    83 0001:00000153
+    85 0001:00000157    86 0001:0000015c    89 0001:00000160    94 0001:00000169
+    95 0001:00000173    96 0001:00000177    97 0001:00000179    98 0001:0000017f
+    99 0001:00000181   100 0001:00000183   101 0001:00000185   102 0001:00000187
+   103 0001:00000189   104 0001:0000018b   107 0001:0000018f   108 0001:00000193
+   109 0001:00000196   110 0001:00000198   111 0001:0000019b   112 0001:0000019c
+   113 0001:0000019d   114 0001:0000019f   116 0001:000001a3   117 0001:000001a9
+   118 0001:000001ab   120 0001:000001af   121 0001:000001b2   122 0001:000001b4
+   123 0001:000001b9   124 0001:000001bc   125 0001:000001bd   126 0001:000001be
+   129 0001:000001c0   130 0001:000001c3   132 0001:000001c7   133 0001:000001cb
+   134 0001:000001cf   136 0001:000001d3   137 0001:000001e0   140 0001:000001e5
+   143 0001:000001ea   144 0001:000001ec   145 0001:000001ee   146 0001:000001f3
+   147 0001:000001f5   148 0001:000001f7   149 0001:000001fc   151 0001:000001fe
+   153 0001:00000200   154 0001:00000202   155 0001:00000203   156 0001:00000205

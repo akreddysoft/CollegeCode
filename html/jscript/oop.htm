@@ -1,0 +1,53 @@
+<html>
+<head>
+<title></title>
+<script language="JavaScript">
+function student(name1,age,class1)
+{
+this.name1=name;
+this.age=age;
+this.class1=class1;
+this.disp=disp;		//understand, this is imp,now disp is method of student
+}
+
+function disp()
+{
+document.write("<br>Name:"+this.name1);
+document.write("<br>age:" +this.age);
+document.write("<br>class:" +this.class1);
+}
+
+function uinfo()
+{
+this.name1="madhru ahuja";
+this.age=10;
+}
+
+</script>
+
+</head>
+
+<body>
+<script language="JavaScript">
+//var count,name,age,class;
+
+name=prompt("Enter the name","name");
+age=prompt("Enter the name","age");
+class1=prompt("Enter the name","class");
+
+student1=new student(name,age,class1);
+//student1.student(name,age,class1);	//this wont work
+
+student.prototype.updateinfo=uinfo;	//note here is the student,this adds func with new name, updateinfo
+student1.updateinfo();
+student1.disp();
+
+
+delete student1;
+
+</script>
+
+
+</body>
+
+</html>

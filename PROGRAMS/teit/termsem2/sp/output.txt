@@ -1,0 +1,38 @@
+
+
+
+
+MOV     AX,BX
+
+MOV     CX,DX
+
+ADD     A ,C
+
+;CLOSEIT XXX ,YYY ,ZZZ
+
+CLOSE   &arg1
+
+CLOSE   &arg2
+
+CLOSE   &arg3
+
+
+
+
+
+
+
+;MADHUR CX ,DX
+
+ADD     &A1
+
+ADD     &A2
+
+;CLOSEIT file1 ,file2 ,file3
+
+CLOSE   &arg1
+
+CLOSE   &arg2
+
+CLOSE   &arg3
+

@@ -1,0 +1,28 @@
+                ==============================
+                Welcome to Telnet Server v 1.0
+                ==============================n
+login:madhur
+
+Password: client
+
+Authentication Successful
+
+#$
+
+#$ dir
+ Volume in drive F is DATA
+ Volume Serial Number is 100E-3D45
+
+ Directory of F:\programs\winsock\telnet\Release
+
+08-04-04  07:10p        <DIR>          .
+08-04-04  07:10p        <DIR>          ..
+09-04-04  08:52a                32,768 telnetd.exe
+               1 File(s)         32,768 bytes
+               2 Dir(s)     740,696,064 bytes free
+
+#$
+
+
+
+

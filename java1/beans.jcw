@@ -1,0 +1,16 @@
+<?xml?>
+<workspace>
+	<settings>
+		<label>beans</label>
+	</settings>
+	<users>
+		<user>
+			<path>beans.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>beans.jcp</path>
+		</project>
+	</projects>
+</workspace>

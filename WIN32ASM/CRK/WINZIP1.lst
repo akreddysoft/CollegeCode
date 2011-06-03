@@ -1,0 +1,302 @@
+Microsoft (R) Macro Assembler Version 6.14.8444		    11/20/03 23:52:44
+E:\programs\WIN32ASM\CRK\WINZIP1.asm			     Page 1 - 1
+
+
+				;32BIT EXE                       
+				.386                             
+				.model	flat,stdcall             
+				option 	casemap:none             
+				.NOLIST
+				.LISTALL
+				includelib e:\masm32\lib\masm32.lib
+				includelib e:\masm32\lib\user32.lib            
+				includelib e:\masm32\lib\kernel32.lib          
+ 00000000			.data                            
+ 00000000 6D 61 64 68 75	name1	db	'madhur',20 dup(0)
+	   72
+	   00000014 [
+	    00
+	   ]
+ 0000001A  00000014 [		regcode	db	20 dup(0)                                 
+	    00
+	   ]
+ 00000000			.data?                           
+ 00000000 00000000		hinst	HINSTANCE	?
+ 00000000			.const
+ 00000000 44 49 41 4C 4F	dialog	db	'DIALOG_1',0
+	   47 5F 31 00
+ 00000009 44 49 41 4C 4F	abtdlg	db	'DIALOG_2',0
+	   47 5F 32 00
+ 00000012 43 68 65 63 6B	err1	db	'Check, something is missing',0
+	   2C 20 73 6F 6D
+	   65 74 68 69 6E
+	   67 20 69 73 20
+	   6D 69 73 73 69
+	   6E 67 00
+ 0000002E 57 69 6E 7A 69	title1	db	'Winzip key generator by Madhur',0
+	   70 20 6B 65 79
+	   20 67 65 6E 65
+	   72 61 74 6F 72
+	   20 62 79 20 4D
+	   61 64 68 75 72
+	   00
+ 0000004D 65 6E 74 65 72	err2	db	'enter name',0
+	   20 6E 61 6D 65
+	   00
+ = 00000065			IDCNAME	EQU	101
+ = 00000066			IDCREG	EQU	102
+ = 00000001			IDABOUT	EQU	1
+ = 00000002			IDEXIT	EQU	2
+ = 00000067			IDOK1	EQU	103                                 
+ = 0000000A			IDCSTAT	EQU	10
+				dlgproc	proto hwnd:HWND,uMsg:UINT,wparam:WPARAM,lparam:LPARAM
+				abtdlgproc proto hwnd:HWND,uMsg:UINT,wparam:WPARAM,lparam:LPARAM
+ 00000000			.code                            
+ 00000000			start:                           
+ 00000000				invoke	GetModuleHandle,0
+ 00000000  6A 00	   *	    push   +000000000h
+ 00000002  E8 00000000 E   *	    call   GetModuleHandleA
+ 00000007  A3 00000000 R		mov	[hinst],eax
+					invoke	DialogBoxParam,hinst,addr dialog,0,addr dlgproc,0
+ 0000000C  6A 00	   *	    push   +000000000h
+ 0000000E  68 0000002C R   *	    push   dlgproc
+ 00000013  6A 00	   *	    push   +000000000h
+ 00000015  68 00000000 R   *	    push   OFFSET dialog
+ 0000001A  FF 35 00000000 R *	    push   hinst
+ 00000020  E8 00000000 E   *	    call   DialogBoxParamA
+					invoke	ExitProcess,0
+ 00000025  6A 00	   *	    push   +000000000h
+ 00000027  E8 00000000 E   *	    call   ExitProcess
+					
+ 0000002C 0000002C		dlgproc	proc hwnd:HWND,uMsg:UINT,wparam:WPARAM,lparam:LPARAM
+				;local	hicon:HWND
+ 0000002C  55		   *	    push   ebp
+ 0000002D  8B EC	   *	    mov    ebp, esp
+					.if	uMsg==WM_INITDIALOG
+ 0000002F  81 7D 0C
+	   00000110	   *	    cmp    uMsg, WM_INITDIALOG
+ 00000036  75 28	   *	    jne    @C0001
+						invoke	SetDlgItemText,hwnd,IDCNAME,addr name1
+ 00000038  68 00000000 R   *	    push   OFFSET name1
+ 0000003D  6A 65	   *	    push   +000000065h
+ 0000003F  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 00000042  E8 00000000 E   *	    call   SetDlgItemTextA
+ 00000047  E8 00000114				call	getit
+						invoke	SetDlgItemText,hwnd,IDCREG,addr regcode	
+ 0000004C  68 0000001A R   *	    push   OFFSET regcode
+ 00000051  6A 66	   *	    push   +000000066h
+ 00000053  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 00000056  E8 00000000 E   *	    call   SetDlgItemTextA
+					.elseif	uMsg==WM_COMMAND
+ 0000005B  E9 000000C4	   *	    jmp    @C0003
+ 00000060		   *@C0001:
+ 00000060  81 7D 0C
+	   00000111	   *	    cmp    uMsg, WM_COMMAND
+ 00000067  0F 85 000000AE  *	    jne    @C0004
+ 0000006D  8B 45 10				mov	eax,wparam
+						.if	ax==IDCNAME                                 
+ 00000070  66| 83 F8 65	   *	    cmp    ax, IDCNAME
+ 00000074  75 71	   *	    jne    @C0006
+ 00000076  C1 E8 10					shr	eax,16
+							.if	ax==EN_CHANGE
+ 00000079  66| 3D 0300	   *	    cmp    ax, EN_CHANGE
+ 0000007D  0F 85 000000A1  *	    jne    @C0008
+								invoke	GetDlgItemText,hwnd,IDCNAME,addr name1,20
+ 00000083  6A 14	   *	    push   +000000014h
+ 00000085  68 00000000 R   *	    push   OFFSET name1
+ 0000008A  6A 65	   *	    push   +000000065h
+ 0000008C  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 0000008F  E8 00000000 E   *	    call   GetDlgItemTextA
+								invoke	lstrlen,addr name1
+ 00000094  68 00000000 R   *	    push   OFFSET name1
+ 00000099  E8 00000000 E   *	    call   lstrlenA
+								.if	eax==0
+ 0000009E  0B C0	   *	    or	eax, eax
+ 000000A0  75 20	   *	    jne    @C000A
+									invoke	SetDlgItemText,hwnd,IDCREG,addr err2
+ 000000A2  68 0000004D R   *	    push   OFFSET err2
+ 000000A7  6A 66	   *	    push   +000000066h
+ 000000A9  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 000000AC  E8 00000000 E   *	    call   SetDlgItemTextA
+									invoke	SetDlgItemText,hwnd,IDCSTAT,addr err1
+ 000000B1  68 00000012 R   *	    push   OFFSET err1
+ 000000B6  6A 0A	   *	    push   +00000000Ah
+ 000000B8  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 000000BB  E8 00000000 E   *	    call   SetDlgItemTextA
+								.else					
+ 000000C0  EB 23	   *	    jmp    @C000C
+ 000000C2		   *@C000A:
+ 000000C2  E8 00000099							call	getit
+									invoke	SetDlgItemText,hwnd,IDCREG,addr regcode	
+ 000000C7  68 0000001A R   *	    push   OFFSET regcode
+ 000000CC  6A 66	   *	    push   +000000066h
+ 000000CE  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 000000D1  E8 00000000 E   *	    call   SetDlgItemTextA
+									invoke	SetDlgItemText,hwnd,IDCSTAT,addr title1
+ 000000D6  68 0000002E R   *	    push   OFFSET title1
+ 000000DB  6A 0A	   *	    push   +00000000Ah
+ 000000DD  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 000000E0  E8 00000000 E   *	    call   SetDlgItemTextA
+								.endif
+							.endif				
+ 000000E5		   *@C000C:
+						.elseif	ax==IDABOUT
+ 000000E5  EB 3D	   *	    jmp    @C000D
+ 000000E7		   *@C0006:
+ 000000E7  66| 83 F8 01	   *	    cmp    ax, IDABOUT
+ 000000EB  75 1C	   *	    jne    @C000E
+							invoke	DialogBoxParam,hinst,addr abtdlg,hwnd,addr abtdlgproc,0
+ 000000ED  6A 00	   *	    push   +000000000h
+ 000000EF  68 0000012D R   *	    push   abtdlgproc
+ 000000F4  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 000000F7  68 00000009 R   *	    push   OFFSET abtdlg
+ 000000FC  FF 35 00000000 R *	    push   hinst
+ 00000102  E8 00000000 E   *	    call   DialogBoxParamA
+						.elseif	ax==IDEXIT
+ 00000107  EB 1B	   *	    jmp    @C0010
+ 00000109		   *@C000E:
+ 00000109  66| 83 F8 02	   *	    cmp    ax, IDEXIT
+ 0000010D  75 15	   *	    jne    @C0011
+							invoke	EndDialog,hwnd,0
+ 0000010F  6A 00	   *	    push   +000000000h
+ 00000111  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 00000114  E8 00000000 E   *	    call   EndDialog
+						.endif
+					.else
+ 00000119  EB 09	   *	    jmp    @C0013
+ 0000011B		   *@C0004:
+ 0000011B  B8 00000000				mov	eax,FALSE
+						ret
+ 00000120  C9		   *	    leave  
+ 00000121  C2 0010	   *	    ret    00010h
+					.endif
+ 00000124		   *@C0013:
+ 00000124		   *@C0003:
+ 00000124		   *@C0011:
+ 00000124		   *@C0010:
+ 00000124		   *@C000D:
+ 00000124		   *@C0008:
+ 00000124  B8 00000001			mov	eax,TRUE
+					ret
+ 00000129  C9		   *	    leave  
+ 0000012A  C2 0010	   *	    ret    00010h
+ 0000012D			dlgproc	endp			                                 
+
+ 0000012D			abtdlgproc	proc hwnd:HWND,uMsg:UINT,wparam:WPARAM,lparam:LPARAM
+ 0000012D  55		   *	    push   ebp
+ 0000012E  8B EC	   *	    mov    ebp, esp
+					.if	uMsg==WM_COMMAND
+ 00000130  81 7D 0C
+	   00000111	   *	    cmp    uMsg, WM_COMMAND
+ 00000137  75 15	   *	    jne    @C0014
+ 00000139  8B 45 10				mov	eax,wparam
+						.if	ax==IDOK1
+ 0000013C  66| 83 F8 67	   *	    cmp    ax, IDOK1
+ 00000140  75 15	   *	    jne    @C0016
+							invoke	EndDialog,hwnd,0
+ 00000142  6A 00	   *	    push   +000000000h
+ 00000144  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 00000147  E8 00000000 E   *	    call   EndDialog
+						.endif
+					.else
+ 0000014C  EB 09	   *	    jmp    @C0018
+ 0000014E		   *@C0014:
+ 0000014E  B8 00000000				mov	eax,FALSE
+						ret
+ 00000153  C9		   *	    leave  
+ 00000154  C2 0010	   *	    ret    00010h
+					.endif
+ 00000157		   *@C0018:
+ 00000157		   *@C0016:
+ 00000157  B8 00000001			mov	eax,TRUE
+					ret
+ 0000015C  C9		   *	    leave  
+ 0000015D  C2 0010	   *	    ret    00010h
+ 00000160			abtdlgproc	endp								
+						                                 
+ 00000160			getit	proc	USES ebx esi edi
+				local	len:word
+				local	serial1:word
+				local	serial2:word
+				local	final:dword
+ 00000160  55		   *	    push   ebp
+ 00000161  8B EC	   *	    mov    ebp, esp
+ 00000163  83 C4 F4	   *	    add    esp, 0FFFFFFF4h
+ 00000166  53		   *	    push   ebx
+ 00000167  56		   *	    push   esi
+ 00000168  57		   *	    push   edi
+					invoke	lstrlen,addr name1
+ 00000169  68 00000000 R   *	    push   OFFSET name1
+ 0000016E  E8 00000000 E   *	    call   lstrlenA
+ 00000173  66| 89 45 FE			mov	len,ax
+ 00000177  33 D2			xor	edx,edx
+ 00000179  8D 0D 00000000 R		lea 	ecx,name1
+ 0000017F  8A 11			mov	dl,[ecx]
+ 00000181  33 DB			xor	ebx,ebx
+ 00000183  33 C0			xor 	eax,eax
+ 00000185  8B F1			mov 	esi,ecx
+ 00000187  33 FF			xor 	edi,edi
+ 00000189  33 C9			xor	ecx,ecx
+ 0000018B  66| 8B 4D FE			mov	cx,len        ;get length of name in cx(number of loop)
+
+ 0000018F			loop1:
+ 0000018F  66| 0F B6 D2			movzx 	dx,dl
+ 00000193  0F AF D7			imul 	edx,edi
+ 00000196  03 DA			add	ebx,edx
+ 00000198  8A 56 01			mov 	dl, byte ptr [esi+01]
+ 0000019B  47				inc 	edi
+ 0000019C  46				inc 	esi
+ 0000019D  E2 F0			loop	loop1
+ 0000019F  66| 89 5D FC			mov	serial1,bx
+
+ 000001A3  8D 35 00000000 R		lea	esi,name1
+ 000001A9  8A 2E			mov	ch,byte ptr [esi]
+ 000001AB  66| 8B 55 FE			mov	dx,len
+ 000001AF			loop2:
+ 000001AF  80 FD 00			cmp	ch,0           ;test for end of string i.e. enter char,13
+ 000001B2  74 0C			je	go	
+ 000001B4  E8 0000002C			call	blah
+ 000001B9  8A 6E 01			mov	ch,byte ptr [esi+1]
+ 000001BC  46				inc	esi
+ 000001BD  47				inc	edi
+ 000001BE  EB EF			jmp	loop2
+
+ 000001C0			go:
+ 000001C0  83 C0 63			add	eax,63h
+ 000001C3  66| 89 45 FA			mov	serial2,ax
+
+ 000001C7  66| 89 45 F6			mov	word ptr final+2,ax
+ 000001CB  66| 8B 45 FC			mov	ax,serial1
+ 000001CF  66| 89 45 F4			mov	word ptr final,ax
+
+					invoke	dw2hex,final,addr regcode
+ 000001D3  68 0000001A R   *	    push   OFFSET regcode
+ 000001D8  FF 75 F4	   *	    push   dword  ptr ss:[ebp]+0FFFFFFF4h
+ 000001DB  E8 00000000 E   *	    call   dw2hex
+					ret
+ 000001E0  5F		   *	    pop    edi
+ 000001E1  5E		   *	    pop    esi
+ 000001E2  5B		   *	    pop    ebx
+ 000001E3  C9		   *	    leave  
+ 000001E4  C3		   *	    ret    00000h
+ 000001E5			getit	endp
+
+ 000001E5			blah	proc
+ 000001E5  BA 00000008			mov	edx,8h
+ 000001EA			next5:
+ 000001EA  8B D9			mov	ebx,ecx
+ 000001EC  33 D8			xor	ebx,eax
+ 000001EE  66| F7 C3 8000		test	bx,8000h
+ 000001F3  74 09			je	next3
+ 000001F5  03 C0			add	eax,eax
+ 000001F7  35 00001021			xor	eax,00001021h
+ 000001FC  EB 02			jmp	next4
+ 000001FE			next3:
+ 000001FE  D1 E0			shl	eax,1
+ 00000200			next4:
+ 00000200  D1 E1			shl	ecx,1
+ 00000202  4A				dec	edx
+ 00000203  75 E5			jne	next5
+ 00000205  C3				ret
+ 00000206			blah	endp
+				end	start	                 

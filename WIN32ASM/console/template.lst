@@ -1,0 +1,50 @@
+Microsoft (R) Macro Assembler Version 6.14.8444		    12/29/03 00:25:15
+H:\programs\WIN32ASM\console\template.asm		     Page 1 - 1
+
+
+				;WIN32 CONSOLE PROGRAM
+				.386
+				.model flat, stdcall
+
+				option casemap:none
+				.nolist
+				.listall
+				includelib kernel32.lib
+				includelib user32.lib
+				includelib crtlib.lib
+				includelib masm32.lib
+
+				main proto stdcall :dword, :dword
+
+ 00000000			.code
+				;   startup code
+ 00000000			start:
+ 00000000  83 EC 0C		    sub     esp, 12
+ 00000003  8D 04 24		    lea     eax, [esp+0]    ; &env
+ 00000006  8D 4C 24 04		    lea     ecx, [esp+4]    ; &argc
+ 0000000A  8D 54 24 08		    lea     edx, [esp+8]    ; &argv
+				    invoke  getmainargs, ecx, edx, eax, 0	;this call will put the env,argc,argv on stack,doesnt removes argument
+ 0000000E  6A 00	   *	    push   +000000000h
+ 00000010  50		   *	    push   eax
+ 00000011  52		   *	    push   edx
+ 00000012  51		   *	    push   ecx
+ 00000013  E8 00000000 E   *	    call   __GetMainArgs
+ 00000018  83 C4 10	   *	    add    esp, 000000010h
+ 0000001B  83 C4 04		    add     esp, 4          ; remove env (not used)
+ 0000001E  E8 00000006		    call    main
+				    invoke  ExitProcess, eax
+ 00000023  50		   *	    push   eax
+ 00000024  E8 00000000 E   *	    call   ExitProcess
+
+ 00000029 00000029		main proc argc:dword, argv:dword
+				local a[10]:byte
+					
+ 00000029  55		   *	    push   ebp
+ 0000002A  8B EC	   *	    mov    ebp, esp
+ 0000002C  83 C4 F4	   *	    add    esp, 0FFFFFFF4h
+					ret
+ 0000002F  C9		   *	    leave  
+ 00000030  C2 0008	   *	    ret    00008h
+ 00000033			main endp
+
+				end start

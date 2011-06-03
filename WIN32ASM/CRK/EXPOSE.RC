@@ -1,0 +1,25 @@
+/****************************************************************************
+
+
+expose.rc
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+
+
+#define IDC_EDIT1	101
+#define IDC_EDIT2	102
+
+DIALOG_1 DIALOG 6, 12, 207, 65
+STYLE DS_SYSMODAL | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Win -O-Expose key generator"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "About", IDOK, "BUTTON", BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 148, 24, 50, 14
+ CONTROL "Exit", IDCANCEL, "BUTTON", BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 148, 48, 50, 14
+ CONTROL "Enter your name", -1, "STATIC", SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 7, 5, 127, 14
+ CONTROL "", IDC_EDIT1, "EDIT", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 7, 25, 122, 14
+ CONTROL "", IDC_EDIT2, "EDIT", ES_LEFT | ES_READONLY | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 6, 49, 126, 14
+}

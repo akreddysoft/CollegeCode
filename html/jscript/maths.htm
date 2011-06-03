@@ -1,0 +1,30 @@
+<html>
+<head>
+<title></title>
+<script language="JavaScript">
+function calsum(form)
+{
+	var a=form.first.value;
+	var b=form.second.value;
+	var c=a+b;
+	form.third.value=c;
+}
+
+
+</script>
+</head>
+
+
+<body>
+<form method=post>
+<input type=text name=first value="" title=first number>
+<input type=text name=second value="" title=second number>
+<input type=text name=third value="" title=sum>
+<input type=button value=calculate sum onclick=calsum(this.form);>
+
+</form>
+
+
+</body>
+
+</html>

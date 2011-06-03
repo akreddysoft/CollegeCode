@@ -1,0 +1,32 @@
+<?xml?>
+<workspace_user>
+	<active_project>
+		<label>Jdbc</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>Jdbc</label>
+			<showfiles>false</showfiles>
+		</project>
+	</projects>
+	<open_files>
+		<docitem>
+			<path>MainApp.java</path>
+			<source>true</source>
+			<index>0</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>DataBase.java</path>
+			<source>true</source>
+			<index>1</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>MyModel.java</path>
+			<source>true</source>
+			<index>2</index>
+			<active>true</active>
+		</docitem>
+	</open_files>
+</workspace_user>

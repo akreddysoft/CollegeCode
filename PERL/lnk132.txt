@@ -1,0 +1,7 @@
+h:\masm32\bin\Link h:\MASM32\LIB
+c:\bc5\bin\brcc32
+h:\masm32\bin\Link h:\MASM32\LIB
+h:\masm32\bin\Link h:\MASM32\LIB
+h:\masm32\bin\Link h:\MASM32\LIB
+h:\masm32\bin\Link h:\MASM32\LIB
+h:\masm32\bin\Link h:\MASM32\LIB

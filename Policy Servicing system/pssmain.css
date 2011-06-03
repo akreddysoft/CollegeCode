@@ -1,0 +1,51 @@
+BODY
+{
+    COLOR: purple;
+    FONT-FAMILY: Arial, 'Times New Roman';
+    BACKGROUND-COLOR: lightblue
+}
+TABLE
+{
+}
+TR
+{
+}
+TD
+{
+    TEXT-ALIGN: center
+}
+TH
+{
+    BACKGROUND-COLOR: skyblue
+}
+H1
+{
+    TEXT-ALIGN: center
+}
+HR
+{
+    HEIGHT: 4px;
+    BACKGROUND-COLOR: olive
+}
+LI
+{
+    BORDER-RIGHT: green;
+    BORDER-TOP: green;
+    BORDER-LEFT: green;
+    BORDER-BOTTOM: green;
+    LIST-STYLE-TYPE: square
+}
+A:link
+{
+}
+A:active
+{
+    COLOR: green
+}
+A:visited
+{
+    COLOR: black
+}
+A
+{
+}

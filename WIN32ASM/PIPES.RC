@@ -1,0 +1,26 @@
+/****************************************************************************
+
+
+pipes.RC
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+
+#define IDD_DIALOG1	1
+#define IDC_EDIT	101
+#define IDC_EDIT1	101
+#define IDEXIT	2
+
+IDD_DIALOG1 DIALOGEX 0, 0, 240, 120
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "CONSOLE PIPE"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", IDOK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 44, 92, 50, 14
+ CONTROL "exit", IDEXIT, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 132, 92, 50, 14
+ CONTROL "Edit1", IDC_EDIT, "edit", ES_LEFT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP, 20, 9, 192, 73
+}
+

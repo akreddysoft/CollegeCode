@@ -1,0 +1,46 @@
+ dll1
+
+ Timestamp is 3fca4b69 (Mon Dec 01 01:26:25 2003)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000044H .text                   CODE
+ 0002:00000000 0000000cH .idata$5                DATA
+ 0002:0000000c 00000058H .rdata                  DATA
+ 0002:00000064 00000014H .idata$2                DATA
+ 0002:00000078 00000014H .idata$3                DATA
+ 0002:0000008c 0000000cH .idata$4                DATA
+ 0002:00000098 00000026H .idata$6                DATA
+ 0002:000000c0 00000048H .edata                  DATA
+ 0003:00000000 0000001bH .data                   DATA
+ 0003:0000001c 00000000H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       _DllEntry@12               10001000 f   DLL1.obj
+ 0001:00000024       _madhurahuja@0             10001024 f   DLL1.obj
+ 0001:00000038       _wsprintfA                 10001038 f   user32:user32.dll
+ 0001:0000003e       _MessageBoxA@16            1000103e f   user32:user32.dll
+ 0002:00000000       __imp__MessageBoxA@16      10002000     user32:user32.dll
+ 0002:00000004       __imp__wsprintfA           10002004     user32:user32.dll
+ 0002:00000008       \177user32_NULL_THUNK_DATA 10002008     user32:user32.dll
+ 0002:00000064       __IMPORT_DESCRIPTOR_user32 10002064     user32:user32.dll
+ 0002:00000078       __NULL_IMPORT_DESCRIPTOR   10002078     user32:user32.dll
+
+ entry point at        0001:00000000
+
+ Static symbols
+
+ 0001:00000010       @C0001                     10001010 f   DLL1.obj
+ 0001:00000018       @C0004                     10001018 f   DLL1.obj
+ 0001:00000020       @C0007                     10001020 f   DLL1.obj
+ 0001:00000020       @C0009                     10001020 f   DLL1.obj
+ 0001:00000020       @C0006                     10001020 f   DLL1.obj
+ 0001:00000020       @C0003                     10001020 f   DLL1.obj
+
+Line numbers for E:\programs\WIN32ASM\MASMLI~1\DLL1.obj(E:\programs\WIN32ASM\MASMLI~1\DLL1.asm) segment .text
+
+    18 0001:00000000    19 0001:00000003    20 0001:00000008    22 0001:0000000e
+    24 0001:00000016    26 0001:0000001e    29 0001:00000020    33 0001:00000024
+    36 0001:00000037

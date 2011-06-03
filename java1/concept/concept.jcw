@@ -1,0 +1,16 @@
+<?xml?>
+<workspace>
+	<settings>
+		<label>concept</label>
+	</settings>
+	<users>
+		<user>
+			<path>concept.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>concept.jcp</path>
+		</project>
+	</projects>
+</workspace>

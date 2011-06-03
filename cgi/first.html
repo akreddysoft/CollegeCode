@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>madhur's first cgi</title>
+</head>
+
+<body>
+
+<!--if the file is loaded from the localhost or website then path like this can work-->
+<!--<a href="/cgi-bin/first.cgi">click to launch cgi script</a>-->
+<!--because the path generated in the browser will be of type http://localhost/cgi-bin/first.cgi
+which is the correct virtual path of the file.
+
+if the file is loaded from any other drive folder loacation the path like this
+<a href="/cgi-bin/first.cgi">click to launch cgi script</a>
+will be takes as  file:///H:/cgi-bin/first.cgi and fill will just be loaded rather than executed.
+so in that case full path must be specified as -->
+
+<a href="http://localhost/cgi-bin/first.cgi/this is the path info?THIS IS THE QUERY STRING">click to launch cgi script</a>
+<!-- the path given above must be virtual path(or web path) specified in web server configuration
+     and not the actual directory path, if actual directory path , cgi program will
+     be just loaded rather than executed-->
+     
+</body>
+</html>

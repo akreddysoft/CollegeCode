@@ -1,0 +1,44 @@
+<HTML>
+
+<HEAD>
+<TITLE>Example 5.3</TITLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- HIDE FROM OTHER BROWSERS
+
+function calculate(form) {
+
+  form.results.value = eval(form.entry.value);
+
+}
+
+function getExpression(form) {
+
+  form.entry.blur();
+  form.entry.value = prompt("Please enter a JavaScript mathematical expression",""); 
+  calculate(form);
+
+}
+
+
+// STOP HIDING FROM OTHER BROWSERS -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY>
+
+<FORM METHOD=POST>
+Enter a JavaScript mathematical expression:
+<INPUT TYPE=text NAME="entry" VALUE="" 
+       onFocus="getExpression(this.form);"> 
+<BR>
+The result of this expression is:
+<INPUT TYPE=text NAME="results" VALUE="" 
+       onFocus="this.blur();"> 
+
+</FORM>
+
+</BODY>
+
+</HTML> 

@@ -1,0 +1,25 @@
+#VRML V2.0 utf8
+
+PROTO Ramp[field MFColor colors 0 0 0 field	SFTime cycle 1
+exposedField MFFloat key []
+]{
+	DEF	M Material {}
+	DEF	C ColorInterpolator	{keyValue IS colors	key IS key }
+	DEF	T TimeSensor {enabled TRUE loop	TRUE cycleInterval IS cycle
+	}
+
+	ROUTE T.fraction_changed TO	C.set_fraction
+	ROUTE C.value_changed TO M.diffuseColor
+}
+
+Transform {
+	children Shape {
+		geometry Sphere	{}
+		appearance Appearance{
+			material Ramp {
+				colors [1 0 0,0 0 1,1 0 0]
+				cycle 3.0
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+d:\oldtasm\TD.EXE -sd%2 e:\school\ueout\%1.exe

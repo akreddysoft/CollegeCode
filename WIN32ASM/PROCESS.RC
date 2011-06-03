@@ -1,0 +1,72 @@
+/****************************************************************************
+
+
+input.RC
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+
+
+
+
+DIALOG1 DIALOGEX 0, 0, 240, 120
+STYLE DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "file i/o"
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", IDOK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 64, 96, 50, 14
+ CONTROL "Cancel", IDCANCEL, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 128, 96, 50, 14
+}
+
+
+MENU1 MENUEX 
+{
+ POPUP "&File"
+ {
+  MENUITEM "&New", 101
+  MENUITEM "&Open", 102
+  MENUITEM "&Save", 103
+  MENUITEM "Save &As", 104
+  MENUITEM SEPARATOR
+  MENUITEM "P&rinter Set", 105
+  MENUITEM "Page Set&up", 106
+  MENUITEM "&Print", 107
+  MENUITEM SEPARATOR
+  MENUITEM "E&xit", 108
+ }
+
+ POPUP "&Edit"
+ {
+  MENUITEM "&Undo", 201
+  MENUITEM "&Redo", 202
+  MENUITEM SEPARATOR
+  MENUITEM "Cu&t", 203
+  MENUITEM "&Copy", 204
+  MENUITEM "&Paste", 205
+ }
+
+ POPUP "&Window"
+ {
+  MENUITEM "&Tile", 301
+  MENUITEM "&Cascade", 302
+  MENUITEM "&Hide", 303
+  POPUP "&View"
+  {
+   MENUITEM "&All", 401
+   MENUITEM "&Hidden Document List", 402
+  }
+
+ }
+
+ POPUP "&Help"
+ {
+  MENUITEM "&Help Topics", 901
+  MENUITEM "&What's This?", 902
+  MENUITEM SEPARATOR
+  MENUITEM "&About", 903
+ }
+
+}
+

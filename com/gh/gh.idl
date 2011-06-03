@@ -1,0 +1,20 @@
+// gh.idl : IDL source for gh.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (gh.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(E7EE0A32-32E4-4326-B626-CD89C80B8414),
+	version(1.0),
+	helpstring("gh 1.0 Type Library")
+]
+library GHLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

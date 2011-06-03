@@ -1,0 +1,46 @@
+<?xml?>
+<workspace_user>
+	<active_project>
+		<label>AdBook</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>AdBook</label>
+			<showfiles>false</showfiles>
+		</project>
+	</projects>
+	<open_files>
+		<docitem>
+			<path>..\concept\inner1.java</path>
+			<source>true</source>
+			<index>0</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>..\concept\thread1.java</path>
+			<source>true</source>
+			<index>1</index>
+			<active>true</active>
+		</docitem>
+	</open_files>
+	<breakpoints>
+		<breakpoint>
+			<path>MainApp.java</path>
+			<class>MainWindow</class>
+			<line>319</line>
+			<enable>true</enable>
+		</breakpoint>
+		<breakpoint>
+			<path>MainApp.java</path>
+			<class>MainWindow</class>
+			<line>400</line>
+			<enable>true</enable>
+		</breakpoint>
+		<breakpoint>
+			<path>MainApp.java</path>
+			<class>AddRec</class>
+			<line>504</line>
+			<enable>true</enable>
+		</breakpoint>
+	</breakpoints>
+</workspace_user>

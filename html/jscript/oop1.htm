@@ -1,0 +1,46 @@
+<HTML>
+
+<HEAD>
+<TITLE>Example 4.3</TITLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- HIDE FROM OTHER BROWSERS
+
+//DEFINE METHOD
+function displayInfo() {
+  document.write("<H1>Employee Profile: " + this.name + "</H1><HR><PRE>");
+  document.writeln("Employee Number: " + this.number); 
+  document.writeln("Social Security Number: " + this.socsec);
+  document.writeln("Annual Salary: " + this.salary); 
+  document.write("</PRE>");
+}
+
+//DEFINE OBJECT
+function employee() {
+  this.name=prompt("Enter Employee's Name","Name"); 
+  this.number=prompt("Enter Employee Number for " + this.name,"000-000");
+  this.socsec=prompt("Enter Social Security Number for " + 
+this.name,"000-00-0000"); 
+  this.salary=prompt("Enter Annual Salary for " + this.name,"$00,000");
+  this.displayInfo=displayInfo;
+}
+
+newEmployee=new employee();	//this statement triggers the exucution of function employee
+
+// STOP HIDING  FROM OTHER BROWSERS -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- HIDE FROM OTHER BROWSERS
+
+newEmployee.displayInfo();
+
+// STOP HIDING FROM OTHER BROWSERS -->
+</SCRIPT>
+
+</BODY>
+
+</HTML> 

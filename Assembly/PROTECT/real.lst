@@ -1,0 +1,36 @@
+Microsoft (R) Macro Assembler Version 6.14.8444		    12/19/03 20:53:43
+H:\programs\ASSEMBLY\PROTECT\real.asm			     Page 1 - 1
+
+
+				.386
+ 00000000			data 	segment
+ 00000000 74 20 68 20 69	logo	db	"t h i s is r e a l m o d e"
+	   20 73 20 69 73
+	   20 72 20 65 20
+	   61 20 6C 20 6D
+	   20 6F 20 64 20
+	   65
+ 001A				data	ends
+ 00000000			code	segment
+ 00000000			start:
+ 00000000  66| B8 ---- R		mov	ax,data
+H:\programs\ASSEMBLY\PROTECT\real.asm(7) : error A2004: symbol type conflict
+H:\programs\ASSEMBLY\PROTECT\real.asm(7) : warning A4012: line number information for segment without class 'CODE' : code
+ 00000004  66| 8E D8			mov	ds,ax
+ 00000007  66| 33 DB			xor	bx,bx
+ 0000000A  66| B9 B800			mov	cx,0b800h
+ 0000000E  66| 51			push	cx
+ 00000010  07				pop	es
+ 00000011  67& 26: C6 07		mov	byte ptr es:[bx],'M'	;print  m at 0,0 using seg:offset
+	   4D
+					
+ 00000016  BB 000B8000			mov	ebx,0b8000h
+ 0000001B  66| 52			push	dx
+ 0000001D  07				pop	es
+ 0000001E  26: C6 43 02			mov	byte ptr es:[ebx+2],'N'	;print directly using 32bit address
+	   4E
+					
+ 00000023  B4 4C			mov	ah,4ch
+ 00000025  CD 21			int	21h
+ 00000027 0027			code	ends
+				end 	start

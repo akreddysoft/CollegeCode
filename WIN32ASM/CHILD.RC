@@ -1,0 +1,22 @@
+/****************************************************************************
+
+
+menu.rc
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+
+#include "menu.rh"
+
+MYMENU MENU 
+{
+ POPUP "File"
+ {
+  MENUITEM "setbuttontext", CM_FILEITEM
+  MENUITEM "settexttext", CM_POPUPITEM
+ }
+
+}
+

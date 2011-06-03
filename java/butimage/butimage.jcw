@@ -1,0 +1,16 @@
+<?xml?>
+<workspace>
+	<settings>
+		<label>butimage</label>
+	</settings>
+	<users>
+		<user>
+			<path>butimage.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>butimage.jcp</path>
+		</project>
+	</projects>
+</workspace>

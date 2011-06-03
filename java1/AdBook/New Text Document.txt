@@ -1,0 +1,1 @@
+"D:\Program Files\Java\j2re1.4.1_01\bin\javaw.exe" -jar "%1" %*

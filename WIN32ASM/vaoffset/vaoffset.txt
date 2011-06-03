@@ -1,0 +1,15 @@
+Virtual Address to File Offset - Madhur Ahuja
+5th October 2003
+=============================================
+VA2Offset is a nifty utility to convert the virtual address seen under debuggers like
+softice,ollydbg etc to offsets of the file. Virtual address supplied can reside in any of the
+section or in header of the Portable Executable File. Currently the program supports only
+Portable Executable Files. Future version will support dynamic link libraries also.
+I have tested this program on Win98/2000. 
+
+Made in 100% Win32 assembly (using MASM32). If you like/hate this program, want to suggest 
+improvements, report bug plz email me at madhur_ahuja@yahoo.com
+
+P.S. This program is freeware, so you can share it around; just dont ask money for it (hey,
+who would pay for this anyway?) And yeah, use this program at your own risk, I cant be held
+responsible for any damage caused; but trust me, nothing bad will happen.... 

@@ -1,0 +1,13 @@
+Error: Segment _TEXT exceeds 64K
+
+ Start  Stop   Length Name               Class
+
+ 00000H 00392H 00393H _TEXT              CODE
+ 10000H 10F59H 00F5AH _DATA              DATA
+ 10F5AH 10F5BH 00002H _CVTSEG            DATA
+ 10F5CH 10F61H 00006H _SCNSEG            DATA
+ 10F62H 11167H 00206H _BSS               BSS
+ 11168H 1119DH 00036H _INIT_             INITDATA
+ 1119EH 111A9H 0000CH _EXIT_             EXITDATA
+
+

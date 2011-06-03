@@ -1,0 +1,16 @@
+<?xml?>
+<workspace>
+	<settings>
+		<label>Jdbc</label>
+	</settings>
+	<users>
+		<user>
+			<path>jdbc.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Jdbc.jcp</path>
+		</project>
+	</projects>
+</workspace>

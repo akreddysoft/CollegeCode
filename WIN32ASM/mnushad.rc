@@ -1,0 +1,99 @@
+/****************************************************************************
+
+
+TEMPLATE.RC
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+
+
+
+#define CM_EDITPASTE1	18877
+#define CM_EDITCOPY1	18876
+#define CM_EDITCUT1	18875
+#define CM_EDITREDO1	18874
+#define CM_EDITUNDO1	18873
+#define IDC_Y	103
+#define IDC_X	102
+#define IDC_ABOUT	101
+#define IDEXIT	9
+
+IDD_MAIN DIALOGEX 0, 0, 240, 120
+EXSTYLE WS_EX_DLGMODALFRAME
+STYLE DS_ABSALIGN | DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX
+CAPTION ""
+FONT 8, "MS Sans Serif"
+{
+ CONTROL "OK", IDOK, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 32, 100, 50, 14
+ CONTROL "Exit", IDEXIT, "BUTTON", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 100, 100, 50, 14
+ CONTROL "About", IDC_ABOUT, "button", BS_PUSHBUTTON | BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 168, 100, 50, 14
+ CONTROL "Text1", IDC_X, "static", SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE, 8, 13, 80, 11
+ CONTROL "Text1", IDC_Y, "static", SS_LEFT | SS_SUNKEN | WS_CHILD | WS_VISIBLE, 100, 12, 80, 12
+}
+
+IDM_MENU1 MENU 
+CHARACTERISTICS 1L
+{
+ POPUP "&File"
+ {
+  MENUITEM "&New", 101
+  MENUITEM "&Open", 102
+  MENUITEM "Save &As", 104
+  MENUITEM SEPARATOR
+  MENUITEM "P&rinter Setup", 105
+  MENUITEM "Page Set&up", 106
+  MENUITEM "&Print", 107
+  MENUITEM SEPARATOR
+  MENUITEM "E&xit", 108
+ }
+
+ POPUP "&Edit"
+ {
+  MENUITEM "&Undo", 201
+  POPUP "&Edit"
+  {
+   MENUITEM "&Undo", CM_EDITUNDO1
+   MENUITEM "&Redo", CM_EDITREDO1
+   MENUITEM SEPARATOR
+   MENUITEM "Cu&t", CM_EDITCUT1
+   MENUITEM "&Copy", CM_EDITCOPY1
+   MENUITEM "&Paste", CM_EDITPASTE1
+  }
+
+  MENUITEM "&Redo", 202
+  MENUITEM SEPARATOR
+  MENUITEM "Cu&t", 203
+  MENUITEM "&Copy", 204
+  MENUITEM "&Paste", 205
+ }
+
+ POPUP "&Window"
+ {
+  MENUITEM "&Tile", 301
+  MENUITEM "&Cascade", 302
+  MENUITEM "&Hide", 303
+  POPUP "&View"
+  {
+   MENUITEM "&All", 401
+   MENUITEM "&Hidden Document List", 402
+  }
+
+ }
+
+ MENUITEM "&Save", 103
+ POPUP "&Help"
+ {
+  MENUITEM "&Help Topics", 901
+  MENUITEM "&What's This?", 902
+  MENUITEM SEPARATOR
+  MENUITEM "&About", 903
+ }
+
+}
+
+
+CHARACTERISTICS 0
+
+MYBITMAP BITMAP "hilite.bmp"

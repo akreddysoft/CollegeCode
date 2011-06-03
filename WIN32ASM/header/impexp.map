@@ -1,0 +1,109 @@
+ impexp
+
+ Timestamp is 3ff3b48d (Thu Jan 01 11:17:57 2004)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000036cH .text                   CODE
+ 0002:00000000 00000038H .idata$5                DATA
+ 0002:00000038 00000167H .rdata                  DATA
+ 0002:000001a0 0000003cH .idata$2                DATA
+ 0002:000001dc 00000014H .idata$3                DATA
+ 0002:000001f0 00000038H .idata$4                DATA
+ 0002:00000228 000000caH .idata$6                DATA
+ 0002:000002f2 00000000H .edata                  DATA
+ 0003:00000000 00000014H .data                   DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       _start                     00401000 f   impexp.obj
+ 0001:00000029       _main@8                    00401029 f   impexp.obj
+ 0001:000001da       _printinfo@0               004011da f   impexp.obj
+ 0001:00000201       _rva2offset@8              00401201 f   impexp.obj
+ 0001:00000256       _printfunc@8               00401256 f   impexp.obj
+ 0001:000002ba       _CloseHandle@4             004012ba f   kernel32:kernel32.dll
+ 0001:000002c0       _CreateFileA@28            004012c0 f   kernel32:kernel32.dll
+ 0001:000002c6       _CreateFileMappingA@24     004012c6 f   kernel32:kernel32.dll
+ 0001:000002cc       _ExitProcess@4             004012cc f   kernel32:kernel32.dll
+ 0001:000002d2       _MapViewOfFile@20          004012d2 f   kernel32:kernel32.dll
+ 0001:000002d8       _UnmapViewOfFile@4         004012d8 f   kernel32:kernel32.dll
+ 0001:000002de       _wsprintfA                 004012de f   user32:user32.dll
+ 0001:000002e4       _printf                    004012e4 f   crtlib:CRTDLL.dll
+ 0001:000002ea       ___GetMainArgs             004012ea f   crtlib:CRTDLL.dll
+ 0001:000002f0       _StdOut@4                  004012f0 f   masm32:STDOUT.obj
+ 0001:00000328       _StrLen@4                  00401328 f   masm32:STRLEN.obj
+ 0001:00000360       _GetStdHandle@4            00401360 f   kernel32:kernel32.dll
+ 0001:00000366       _WriteFile@20              00401366 f   kernel32:kernel32.dll
+ 0002:00000000       __imp____GetMainArgs       00402000     crtlib:CRTDLL.dll
+ 0002:00000004       __imp__printf              00402004     crtlib:CRTDLL.dll
+ 0002:00000008       \177CRTDLL_NULL_THUNK_DATA 00402008     crtlib:CRTDLL.dll
+ 0002:0000000c       __imp__ExitProcess@4       0040200c     kernel32:kernel32.dll
+ 0002:00000010       __imp__CreateFileMappingA@24 00402010     kernel32:kernel32.dll
+ 0002:00000014       __imp__WriteFile@20        00402014     kernel32:kernel32.dll
+ 0002:00000018       __imp__CloseHandle@4       00402018     kernel32:kernel32.dll
+ 0002:0000001c       __imp__CreateFileA@28      0040201c     kernel32:kernel32.dll
+ 0002:00000020       __imp__MapViewOfFile@20    00402020     kernel32:kernel32.dll
+ 0002:00000024       __imp__UnmapViewOfFile@4   00402024     kernel32:kernel32.dll
+ 0002:00000028       __imp__GetStdHandle@4      00402028     kernel32:kernel32.dll
+ 0002:0000002c       \177kernel32_NULL_THUNK_DATA 0040202c     kernel32:kernel32.dll
+ 0002:00000030       __imp__wsprintfA           00402030     user32:user32.dll
+ 0002:00000034       \177user32_NULL_THUNK_DATA 00402034     user32:user32.dll
+ 0002:000001a0       __IMPORT_DESCRIPTOR_kernel32 004021a0     kernel32:kernel32.dll
+ 0002:000001b4       __IMPORT_DESCRIPTOR_user32 004021b4     user32:user32.dll
+ 0002:000001c8       __IMPORT_DESCRIPTOR_CRTDLL 004021c8     crtlib:CRTDLL.dll
+ 0002:000001dc       __NULL_IMPORT_DESCRIPTOR   004021dc     kernel32:kernel32.dll
+
+ entry point at        0001:00000000
+
+ Static symbols
+
+ 0001:00000000       _$$$00001@0                00401000 f   impexp.obj
+ 0001:00000222       @C0010                     00401222 f   impexp.obj
+ 0001:00000243       @C0013                     00401243 f   impexp.obj
+ 0001:00000243       @C0011                     00401243 f   impexp.obj
+ 0001:00000247       @C000F                     00401247 f   impexp.obj
+ 0001:0000025f       print                      0040125f f   impexp.obj
+ 0001:000002b2       done                       004012b2 f   impexp.obj
+ 0001:00000040       @C0001                     00401040 f   impexp.obj
+ 0001:00000072       @C0003                     00401072 f   impexp.obj
+ 0001:0000009f       @C0005                     0040109f f   impexp.obj
+ 0001:000000ca       @C0007                     004010ca f   impexp.obj
+ 0001:000000ee       @C000B                     004010ee f   impexp.obj
+ 0001:0000011b       @C0009                     0040111b f   impexp.obj
+ 0001:00000146       @C000E                     00401146 f   impexp.obj
+ 0001:00000146       @C000D                     00401146 f   impexp.obj
+ 0001:0000015e       printdll                   0040115e f   impexp.obj
+ 0001:000001b5       done                       004011b5 f   impexp.obj
+ 0001:000001b5       ret1                       004011b5 f   impexp.obj
+
+Line numbers for H:\programs\WIN32ASM\header\impexp.obj(H:\programs\WIN32ASM\header\impexp.asm) segment .text
+
+    55 0001:00000000    56 0001:00000003    57 0001:00000006    58 0001:0000000a
+    59 0001:0000000e    60 0001:0000001b    61 0001:0000001e    62 0001:00000023
+    64 0001:00000029    65 0001:0000002c    66 0001:00000032    67 0001:0000003c
+    69 0001:00000040    70 0001:00000043    72 0001:00000046    73 0001:0000005f
+    74 0001:00000064    75 0001:0000006e    77 0001:00000072    78 0001:00000077
+    79 0001:0000008c    80 0001:00000090    81 0001:0000009a    83 0001:0000009f
+    84 0001:000000a4    85 0001:000000b7    86 0001:000000bb    87 0001:000000c5
+    90 0001:000000ca    91 0001:000000cf    93 0001:000000d5    94 0001:000000dc
+    95 0001:000000de    96 0001:000000e2    98 0001:000000e4    99 0001:000000ec
+   100 0001:000000ee   101 0001:000000f8   103 0001:00000119   104 0001:0000011b
+   105 0001:00000125   108 0001:00000146   110 0001:0000014c   111 0001:0000014f
+   113 0001:00000158   118 0001:0000015e   119 0001:0000016a   120 0001:00000170
+   121 0001:00000172   122 0001:00000174   125 0001:00000176   126 0001:00000179
+   127 0001:00000185   128 0001:0000018b   130 0001:00000190   131 0001:0000019c
+   133 0001:000001a2   134 0001:000001a4   136 0001:000001b0   137 0001:000001b3
+   147 0001:000001b5   149 0001:000001d6   152 0001:000001da   155 0001:000001db
+   156 0001:000001e5   157 0001:000001e6   158 0001:000001ec   159 0001:000001f6
+   160 0001:00000200   162 0001:00000201   163 0001:00000208   165 0001:0000020b
+   167 0001:0000020e   168 0001:00000211   169 0001:00000213   170 0001:00000219
+   171 0001:0000021d   173 0001:00000220   174 0001:00000222   175 0001:00000227
+   176 0001:0000022a   177 0001:0000022d   178 0001:00000231   179 0001:00000234
+   180 0001:00000236   181 0001:00000239   182 0001:0000023b   185 0001:00000243
+   186 0001:00000246   187 0001:00000247   190 0001:0000024c   191 0001:0000024e
+   194 0001:00000256   196 0001:0000025c   198 0001:0000025f   199 0001:0000026b
+   200 0001:00000271   201 0001:00000273   202 0001:00000275   204 0001:00000277
+   205 0001:00000283   206 0001:00000289   209 0001:0000028b   210 0001:0000028e
+   211 0001:00000291   212 0001:00000294   213 0001:000002a3   215 0001:000002ad
+   216 0001:000002b0   218 0001:000002b2

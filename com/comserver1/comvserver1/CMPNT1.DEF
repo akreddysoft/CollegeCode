@@ -1,0 +1,9 @@
+
+LIBRARY         comvserver1.dll
+
+
+EXPORTS
+                DllRegisterServer	PRIVATE
+DllCanUnloadNow PRIVATE
+DllGetClassObject PRIVATE
+DllUnregisterServer PRIVATE

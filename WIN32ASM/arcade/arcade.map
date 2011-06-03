@@ -1,0 +1,72 @@
+ arcade
+
+ Timestamp is 3fc7a2b0 (Sat Nov 29 01:02:00 2003)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000000deH .text                   CODE
+ 0002:00000000 0000002cH .idata$5                DATA
+ 0002:0000002c 00000009H .rdata                  DATA
+ 0002:00000038 0000003cH .idata$2                DATA
+ 0002:00000074 00000014H .idata$3                DATA
+ 0002:00000088 0000002cH .idata$4                DATA
+ 0002:000000b4 0000009cH .idata$6                DATA
+ 0002:00000150 00000000H .edata                  DATA
+ 0003:00000000 00000000H .data                   DATA
+ 0003:00000000 00000004H .bss                    DATA
+ 0004:00000000 0000006cH .rsrc$01                DATA
+ 0004:00000070 00000118H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       _start                     00401000 f   arcade.obj
+ 0001:0000002c       _dlgproc@16                0040102c f   arcade.obj
+ 0001:000000ae       _DialogBoxParamA@20        004010ae f   user32:user32.dll
+ 0001:000000b4       _EndDialog@8               004010b4 f   user32:user32.dll
+ 0001:000000ba       _MessageBoxA@16            004010ba f   user32:user32.dll
+ 0001:000000c0       _SendMessageA@16           004010c0 f   user32:user32.dll
+ 0001:000000c6       _ExitProcess@4             004010c6 f   kernel32:kernel32.dll
+ 0001:000000cc       _GetModuleHandleA@4        004010cc f   kernel32:kernel32.dll
+ 0001:000000d2       _installhook@4             004010d2 f   ac:kl.dll
+ 0001:000000d8       _removehook@0              004010d8 f   ac:kl.dll
+ 0002:00000000       __imp__ExitProcess@4       00402000     kernel32:kernel32.dll
+ 0002:00000004       __imp__GetModuleHandleA@4  00402004     kernel32:kernel32.dll
+ 0002:00000008       \177kernel32_NULL_THUNK_DATA 00402008     kernel32:kernel32.dll
+ 0002:0000000c       __imp__removehook@0        0040200c     ac:kl.dll
+ 0002:00000010       __imp__installhook@4       00402010     ac:kl.dll
+ 0002:00000014       \177kl_NULL_THUNK_DATA     00402014     ac:kl.dll
+ 0002:00000018       __imp__SendMessageA@16     00402018     user32:user32.dll
+ 0002:0000001c       __imp__MessageBoxA@16      0040201c     user32:user32.dll
+ 0002:00000020       __imp__EndDialog@8         00402020     user32:user32.dll
+ 0002:00000024       __imp__DialogBoxParamA@20  00402024     user32:user32.dll
+ 0002:00000028       \177user32_NULL_THUNK_DATA 00402028     user32:user32.dll
+ 0002:00000038       __IMPORT_DESCRIPTOR_user32 00402038     user32:user32.dll
+ 0002:0000004c       __IMPORT_DESCRIPTOR_kernel32 0040204c     kernel32:kernel32.dll
+ 0002:00000060       __IMPORT_DESCRIPTOR_kl     00402060     ac:kl.dll
+ 0002:00000074       __NULL_IMPORT_DESCRIPTOR   00402074     user32:user32.dll
+
+ entry point at        0001:00000000
+
+ Static symbols
+
+ 0001:00000000       _$$$00001@0                00401000 f   arcade.obj
+ 0001:00000042       @C0001                     00401042 f   arcade.obj
+ 0001:00000064       @C0006                     00401064 f   arcade.obj
+ 0001:00000066       @C0004                     00401066 f   arcade.obj
+ 0001:0000007d       @C000A                     0040107d f   arcade.obj
+ 0001:0000009c       @C000D                     0040109c f   arcade.obj
+ 0001:000000a5       @C000F                     004010a5 f   arcade.obj
+ 0001:000000a5       @C000C                     004010a5 f   arcade.obj
+ 0001:000000a5       @C0009                     004010a5 f   arcade.obj
+ 0001:000000a5       @C0003                     004010a5 f   arcade.obj
+ 0001:000000a5       @C0008                     004010a5 f   arcade.obj
+
+Line numbers for E:\programs\WIN32ASM\arcade\arcade.obj(E:\programs\WIN32ASM\arcade\arcade.asm) segment .text
+
+    30 0001:00000000    31 0001:00000007    32 0001:0000000c    33 0001:00000025
+    36 0001:0000002c    37 0001:0000002f    38 0001:00000038    39 0001:00000040
+    40 0001:0000004b    41 0001:0000004e    42 0001:00000054    43 0001:00000062
+    45 0001:00000064    46 0001:0000006c    47 0001:00000071    48 0001:0000007b
+    49 0001:00000086    51 0001:0000009a    52 0001:0000009c    53 0001:000000a1
+    55 0001:000000a5    56 0001:000000aa

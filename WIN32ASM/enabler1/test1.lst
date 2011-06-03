@@ -1,0 +1,117 @@
+Microsoft (R) Macro Assembler Version 6.14.8444		    11/15/03 21:35:59
+E:\programs\WIN32ASM\enabler1\test1.asm			     Page 1 - 1
+
+
+				;PE EXE
+				;SAMLE FILE FOR EXAMINING RESOURCES UNDER MEMORY
+				;Borland Resource Compiler  Version 5.20
+				;Copyright (c) 1990, 1997 Borland International.  All rights reserved.
+				;test1.obj : fatal error LNK1190: invalid fixup found, type 0x0001
+				;"resource compiled and processed"
+
+				.386
+				.model	flat,stdcall
+				option 	casemap:none
+				.nolist
+				;include macro.inc
+
+				includelib user32.lib
+				includelib kernel32.lib
+				.listall
+				dlgproc	proto  hwnd:HWND,uMsg:UINT,wparam:WPARAM,lparam:LPARAM
+ 00000000			.data?
+ 00000000 00000000		hinst	HINSTANCE	?
+ 00000000			.data
+ 00000000 54 68 69 73 20	one	db	'This is the sample data',0
+	   69 73 20 74 68
+	   65 20 73 61 6D
+	   70 6C 65 20 64
+	   61 74 61 00
+ 00000000			.const
+ 00000000 1234			const1	dw	1234h
+ 00000002 74 68 69 73 20	two	db	'this is the constant data',0
+	   69 73 20 74 68
+	   65 20 63 6F 6E
+	   73 74 61 6E 74
+	   20 64 61 74 61
+	   00
+ 0000001C 79 6F 75 20 68	msg	db	"you have unlocked the button",0
+	   61 76 65 20 75
+	   6E 6C 6F 63 6B
+	   65 64 20 74 68
+	   65 20 62 75 74
+	   74 6F 6E 00
+ 00000039 79 6F 75 20 68	msg1	db	"you have unlocked the button",0
+	   61 76 65 20 75
+	   6E 6C 6F 63 6B
+	   65 64 20 74 68
+	   65 20 62 75 74
+	   74 6F 6E 00
+ 00000056 49 44 44 5F 44	dlg	db	"IDD_DIALOG1",0
+	   49 41 4C 4F 47
+	   31 00
+				;msg1	equ	msg
+ 00000000			.code
+ 00000000			start:
+ 00000000				invoke	GetModuleHandle,NULL
+ 00000000  6A 00	   *	    push   +000000000h
+ 00000002  E8 00000000 E   *	    call   GetModuleHandleA
+ 00000007  A3 00000000 R		mov	[hinst],eax
+					invoke	DialogBoxParam,hinst,addr dlg,0,addr dlgproc,0
+ 0000000C  6A 00	   *	    push   +000000000h
+ 0000000E  68 0000002C R   *	    push   dlgproc
+ 00000013  6A 00	   *	    push   +000000000h
+ 00000015  68 00000056 R   *	    push   OFFSET dlg
+ 0000001A  FF 35 00000000 R *	    push   hinst
+ 00000020  E8 00000000 E   *	    call   DialogBoxParamA
+					invoke	ExitProcess,0
+ 00000025  6A 00	   *	    push   +000000000h
+ 00000027  E8 00000000 E   *	    call   ExitProcess
+
+
+ 0000002C 0000002C		dlgproc	proc hwnd:HWND,uMsg:UINT,wparam:WPARAM,lparam:LPARAM
+ 0000002C  55		   *	    push   ebp
+ 0000002D  8B EC	   *	    mov    ebp, esp
+					.if	uMsg==WM_CLOSE
+ 0000002F  83 7D 0C 10	   *	    cmp    uMsg, WM_CLOSE
+ 00000033  75 0C	   *	    jne    @C0001
+						invoke	EndDialog,hwnd,0
+ 00000035  6A 00	   *	    push   +000000000h
+ 00000037  FF 75 08	   *	    push   dword  ptr ss:[ebp]+000000008h
+ 0000003A  E8 00000000 E   *	    call   EndDialog
+					.elseif	uMsg==WM_COMMAND
+ 0000003F  EB 2D	   *	    jmp    @C0003
+ 00000041		   *@C0001:
+ 00000041  81 7D 0C
+	   00000111	   *	    cmp    uMsg, WM_COMMAND
+ 00000048  75 1E	   *	    jne    @C0004
+ 0000004A  8B 45 10				mov	eax,wparam
+						.if	ax==101
+ 0000004D  66| 83 F8 65	   *	    cmp    ax, 065h
+ 00000051  75 1B	   *	    jne    @C0006
+							invoke	MessageBox,0,addr msg,addr msg1,0
+ 00000053  6A 00	   *	    push   +000000000h
+ 00000055  68 00000039 R   *	    push   OFFSET msg1
+ 0000005A  68 0000001C R   *	    push   OFFSET msg
+ 0000005F  6A 00	   *	    push   +000000000h
+ 00000061  E8 00000000 E   *	    call   MessageBoxA
+						.endif
+					
+					.else
+ 00000066  EB 06	   *	    jmp    @C0008
+ 00000068		   *@C0004:
+ 00000068  33 C0				xor	eax,eax
+						ret
+ 0000006A  C9		   *	    leave  
+ 0000006B  C2 0010	   *	    ret    00010h
+					.endif
+ 0000006E		   *@C0008:
+ 0000006E		   *@C0003:
+ 0000006E		   *@C0006:
+ 0000006E  B8 00000001			mov	eax,1
+					ret
+ 00000073  C9		   *	    leave  
+ 00000074  C2 0010	   *	    ret    00010h
+ 00000077			dlgproc	endp
+
+				end	start	

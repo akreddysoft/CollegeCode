@@ -1,0 +1,5 @@
+LIBRARY CLTRECT
+EXPORTS
+installhook
+mouseproc
+removehook

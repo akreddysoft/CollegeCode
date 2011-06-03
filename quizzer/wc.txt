@@ -1,0 +1,3707 @@
++palpable+
+obvious
+'Head's very hot,' said the surgeon, a fact also palpable to the patient. 
+
++equivocal+
+ambiguous;doubtful
+it is equivocal that who is better programmer between im and me.
+
+{
++exonerate+
+to clear from accusation
+the evidences exonerate him
+
++exculpate+
+to free from blame
+
++absolve+
+set free;clear of sin
+}
+
+
++quiscence+;quiscent
+still;quite
+my mind is very quiscent
+
+
++corroborate+
+confirm;verify
+i must corroborate that i am a good programmer
+disprove;contradict
+
+
++antipathy+
+hatred;dislike
+LIKING; FRIENDSHIP;RAPPORT
+
+
++digress+
+to stray away from main point
+I digress into other matters while programming
+
+
++laconic+
+using few words
+i am very laconic while talking
+GARRULOUS;
+
++probity+
+honesty;integrity
+----
+
+
++feigned+;feign
+pretended;fake;
+----
+
++compliant+
+obeying;yielding
+the hardware is win98 compliant
+The only method..by which one can survive one's emotions is to feign not to have them. 
+
++diatribe+
+bitter verbal attack
+aussies are famous for diatribes against other teams
+
++guile+
+trickery;deception
+
++frugal+
+economical;meagre;scanty;insufficient
+EXTRAVAGANT; SPENDTHRIFT; LAVISH
+
+{
++aberrant+
+straying from main path;different from usual
+I am a very aberrant person
+
++anomalous
+}
+
++intractable+
+unmanageable;stubborn;difficult to control
+learget 45 is very intractable plane
+MANAGEABLE; SUBMISSIVE; OBEDIENT
+
++prevaricate+
+to hide the truth;lie
+---
+
++bolster+
+to support;
+
++intransigent+
+refuse to compromise;
+The Lieutenant..is uncooperative, intransigent and downright disobedient
+
++profound+
+deep;deep thought
+I have a profound knowledge of computer architecture
+
++garrulous+
+talkative;wordy
+i have become more and more garrulous from school to college
+quiet;
+loquacious
+
+
++ameliorate+
+to become better;improve
+i am trying constantly to ameliorate my programming
+
++manifest+
+show;display;visible
+
+
++impervious+
+not permitting penetration;impenetrable
+the pelt is impervious to rain
+
++pelt+
+to throw;falling of rain.snow
+
++commensurate+
+proportionatel;proportional
+
+
++contentious+
+quarrelsome;argumentative
+
++culpability+
+responsibility for wrong;guilt
+culpable homicide not amounting to murder
+BLAMELESS; INNOCENT
+
++lament+
+to mourn;
+
++allusion+
+hint
+give me a allusion for this word
+
+
++munificent+
+generous;lavish
+it is a munificent gift
+bountiful;
+
+
++repudiate+
+to reject as having no authority
+President saddam hussain had been repudiated by his own people
+accept;confirm
+
++motility+
+movement;
+--
+immotile
+
++obviate+
+to aniticipate and prevent
+we must obviate an hacking attempt at our sitre
+
++partisan+
+one who supports a particular person
+The fight between indian cricket Partisans and the pakistan's
+
++insolvent+
+unable to pay one debts
+
+
++exposition+
+explanation;
+Clear exposition was the only thing needed to convert him to the theory. 
+
++consensus+
+agreement or unity of opinion
+the general consensus is that prabhat is going to be a js
+
++florid+
+showily
+pathak's journal are very florid
+pale;plain;
+gaudy;ornate
+
+
+
++levee+
+embankment designed to prevent overflowing of river
+Islands in the river might be leveed and successfully cultivated
+
+
++sagacious+
+
+
++discourse+
+converse;speak formally;discuss
+I will have a long discourse with anu.
+
+
+
++iconoclast+
+person who attacks traditional beliefs
+today's generation is iconoclast
+
+
++conjure+
+to bring into existence by magic
+
+
+
++loquacious+
+see garrulous
+
+
++occlude+
+to shut;block;close
+occluded front a front at which occlusion has occurred
+
+
+
+{
++genial+
+friendly;helpful;cheerful;pleasant;hint gentle
+daga is a very genial person
+UNFRIENDLY; UNKIND; MOROSE
+
++geniality+
+see genial
+}
+
+
+
++precarious+
+uncertain
+i am very precarious about my ability of programming
+safe;secure
+
++abstain+
+to refrain;voluntarily not doing something;keep or withold oneself
+join;indulge
+
++abstinent+
+a person who abstains, esp. from eating or drinking particular things;like alcohol, meat
+
+
++rarefy+
+to make rare or rarer;less dense;make more refined
+--
+
+{
++placid+
+calm;peaceful;mild;peacefulness;calmness
+Over-excited--this was an ominous symptom in a woman who was ordinarily placid. 
+I am a placid type of person, not indulging in any activities
+stormy;excited
+
+
+
++venrate+
+to respect
+I want to become a venerated person like a doctor;i want to become a venerated comp engineer
+
+
++impede+
+block;hinder
+since gre my progress in programming has been impeded
+assist;advance
+
++permeate+
+to pass through;penetrate
+light seems to be permeating through walls;the rain permeated the tent
+
++propensity+
+tendency;inclination
+I have a huge propensity towards programming;Selfishness and laziness are..propensities inherent in human beings
+
+
+
+{
++indignant+
+angry
+--
+
++indignation+
+anger at an injustice;strong displeasure at something unjust
+som prakash uncles shows much of the indignation;.  Reports of child abuse aroused public indignation
+calm;serent
+}
+
+
+
+
+
+
++wheedle+
+to influency through flattery
+i wheedled sai to go to cinema;she wheedled into going with her
+--
+cajole;coax
+
+
++flattery+
+insincere praise;undue praise;over praise
+--
+
+
++entice+
+provoke;to persuade or attract
+
+
+
+renascence+;RENAISSANCE
+rebirth;revival
+
++prudent+
+careful;wise;judicious
+--
+: UNWISE; IMPRUDENT; INCAUTIOUS; RASH.
+
+{
++vex+
+annoy;agitate;confuse;pester
+I have never vexed my parents;my mom was sometimes vexed due to my sis in her college daya
+
++gall+
+to annoy;imjure or damage by rubbing;irritate;annoy;vex
+
++chafe+
+a state of vaxation,irritation,rage
+
++nettle+
+irritate;provoke;annoy
+She was nettled that her daughter hadn't told her she was going out. 
+
++harass
+
++irksome+
+tedious;annoying;troublesome
+
+
+}
+
+
+
++pester+
+obstruction;annoyance
+
++aggrandize+
+to make larger;greater;increase;magnify
+i would like to aggrandize my capacity of sitting on computer
+
+
++decimate+
+to reduce greatly;to destroy a large part
+plague decimated india in 1997
+
+
++succinct+
+brief;concise;in few words
+--
+lengthy
+brevity;terse;
+
++bereave+
+deprive;usuaaly due to death of a relative
+an accident bereaved him of his wife;the state or an instance of being bereaved (now only of a relative etc. by death
+--
+desolate
+
++desolate+
+deprived;left alone;llonely
+a person will surely become desolate if everyone who loved him left him
+
+
++connoisseur+
+a person with thoroush knowledge of critical judgement of subject
+--
+
++refute+
+refuse;reject
+prove a argument to be refute
+
++forbear+
+to refrain;abstains
+--
+
+{taste
+
++bland+
+tasteless
+america's food is bland
+spicy;interesting
+insipid
+
+
++decorous+
+appropriate;proper
+--
+
++piquant+
+spicy;pungent
+indian pickles are piquant;indian food is piquant
+bland;insipid;dull
+
++insipid+
+uninteresting;tasteless;dull;lacking excitement
+pastries filled with insipid-tasting custard
+INTERESTING; IMAGINATIVE; TASTY.
+
+}
+
++ostentatious+
+showing off;intended to attract notice,attention
+--
+ostensible
+
++ostensible+
+pretended;apparent
+
+
++frenetic+
+desperate or wild with emotion;wildly excited;over-enthusiastic
+i sometimes get frenetic about programming,computer
+
++effluvium+
+flowing out;escaping gas
+the air tainted with effluvium
+
+{behaviour
+
++impudent+
+lacking in shame;modesty;bold
+jaat is a impudent person
+modest;polite
+impertinent;audacious
+
++temerity+
+excessive boldness;rashness
+do you have the temerity to call him a liar
+
++impertinent+
+unrelated;not connected;interfering in which one doesnt concerns
+impertinent or irrevelant matter;impertinent person;not pertaining to a person;People will ask questions, including impertinent ones about your sex life
+mannerly;polite
+
++audacity+
+boldness;reckless daring
+
++petulant+
+immodest;showing irritation;rude;ill-tempered
+ashutosh is a perfect examp of petulant person
+good natured;easy going
+
+
+}
+
+
++squalid+
+filthy;repulsive;lack of cleanliness
+this place has become squalid due to people throwing thier filth here.
+clean;pleasant
+
++filth+
+rotten matter;dirt
+my mom school area is filled with filth
+
+{
++idyllic+
+charmingly simple or rustic;naturally peaceful
+i would like to have a idyllic girl
+--
+peaceful;rustic
+
++rustic+
+a simple person, unsophisticated
+}
+
+
++eclectic+
+choosing the best from many sources;ec-lect-ic, lect=choose, a hint from e-lect-ion
+
+
++pristine+
+uncorrupted;unspoiled;pure
+a took a pristine sheet of paper.
+-
+virgin
+
++palliate+
+to alleviate the disease without any cure;to excuse;try to conceal;conceal the gravity of offense
+if not cured we must palliate it
+
++evanescent+
+vanishing;fading;become imperceptible
+teachings of mahatma gandhi are slowly becoming evanescent thoughts
+
++imperceptible+
+not able to perceive;unnoticeable
+extra files in the temp dir often goes imperceptible
+obvious;noticeable
+
++flout+
+to disregard out of disrespect
+--
+obey;
+
+
++ineluctable+
+inevitable;unavoidable
+--
+
++mellifluous+
+sweetly flowing
+--
+
++ossify+
+to harden like bone
+--
+
++propinquity+
+nearness;adjacent
+our families have a propinquity with each other
+
++proselytize+
+to convert;conversion from one relegion to another
+--
+{
++recondite+
+difficult to understand
+gre word list is recondite
+open;straightforward
+esoteric;arcane
+
+
++abstruse+
+hard to understand
+the gre wordlist is very abstruse
+--
+esoteric
+
++esoteric+
+understood by a few people
+i want to be able to write a esoteric code in perl
+--
+abtruse;recondite
+}
+
+
++brook+
+to bear;tolerate;suffer
+
+
++vacuous+
+empty;void;lacking in ideas
+Success in doing something you don't enjoy is very vacuous. 
+
++coda+
+a concluding section of para
+i had a hard time thinking about coda for my site
+
++penchant+
+a strong liking
+i am penchant towards programming
+
+
++cognizant+
+having knowledge;aware
+
++obdurate+
+stubborn
+--
+malleable;compliant
+
+
++reprobate+
+a wicked person;
+saddam was a reprobate
+
++panegyric+
+public speech in praise of something;formal praise
+
+criticism;censure
+
++censure+
+judicial sentence;criticise in harsh manner
+--
+praise;approve
+
++welter+
+confused mass
+welter of notes
+
++untoward+
+inconvenient;unlucky;awkward;perverse
+The..parade passed off without any untoward occurrence. 
+timely;advantageous
+
++hone+
+to sharpen;
+
++timbre+
+the quality of sound independent of pitch and loudness
+i bought a great keyboard with precise timbres
+
++disavow+
+to deny;disclaim knowledge of
+indian politicians are expert in disavowing
+--
+repudiate
+
+{fight
++repugn+
+contradictory;inconsistent;to oppose or refute
+
++impugn+
+to attack,especially the truth
+}
+
++veracity+
+truthfulness
+i doubt abt the veracity of politicians
+
++rivet+
+to attract;
+
++cajole+
+persuade by flattery to do something
+She cajoled him into getting things for her and then would not even let him kiss her
+wheedle;entice
+
+
++fulsome+
+excessive;extravagant
+we have already discussed this topic in a fulsome way
+
+
++espouse+
+make a spouse;to marry;adopt
+a man espoused to a girl
+--
+embrace
+
+
+
++subjugate+
+bring under control;dominate
+environment will pollute as man subjugates the earth;hacking is subjugating the remote computer
+
++dissonant+
+disagreement;or harsh in sound
+
+
++plumb+
+to measure depth;straight;vertical;perpendicular
+the aircraft crashed plumb in the centre of sea
+
+
+{
++debauchery+
+excessive indulgence in sensual pleasures
+--
+--
+intemperance
+
++debauch+
+turn away;entice;seduce a woman
+
+
+
++licentious+
+sexually unrestrained;immoral;going beyond customary bounds
+porn starts are licentious
+
++lascivious+
+
+
+}
+
+{
+
++profiligate+
+extravagant;licentious
+
++prodigal+
+recklessly extravagant
+he lives the life prodigal ways
+
+
+}
+
++surreptitious+
+obtained,done,made by secret,stealth,suppression of fault
+we students take surreptitious drinks in pune
+
++paltry+
+worthless;trash;rubbish
+this is a paltry sum of money
+considerable;substantial
+
+
++flippant+
+disrespectful;lacking in seriousness
+i am trying to become a flippant type of person;jaat is a flippant person;he also talkes in a flippant way
+serious;responsible
+frivilous
+
+
++sterile+
+infertile;unfruitful;
+sterile woman;sterile land
+
++fecund+
+fertile;productive
+
++deleterious+
+harmful;noxious;
+cigratte smoking is deleterious to health
+
++hermetic+
+airtight;impervious to external influence
+our house is hermetic against the storm;a hermetic society
+
++foster+
+to promote the growth of
+foster mother;foster house;foster son;
+
+
+
++goad+
+to urge forcefully
+
++cacophony+
+harsh sounding mixture of sounds
+
+
+
+
++salubrious+
+promoting good health
+salsbury atta,ours is a very salubrious house
+
+{
++turpitude+
+vileness;depravity;wickedness
+
++vile+
+wicked;bad;offensive;objectionable
+--
+pleasant;agreeable;admirable
+
++revile+
+to attack with abusive or contempous language
+ She reviled the maid for not dusting the furniture
+}
+
+{
++capricious+
+unpredictable;likely to change at any moment;
+delhi's climate is very capricious; some crops are cultivated only in a capricious climate
+
++caprice+
+a sudden change of one's mind or weather
+
++whim+
+a pun; a play of words; capriciousness;a sudden fancy,freakish idea
+
++mercurial+
+changeable
+}
+
++alacrity+
+cheerful;readiness;eagerness
+i want to marry a alacrity type of girl
+
++circumlocution+
+an indirect way of speaking an expression;using more words
+
++facetious+
+joking;humorous;comical
+the first issay was very facetious
+
++shoddy+
+worthless;of inferior quality
+shoddy hole- hole where rubbish is deposited
+
++vicious+
+fierce;of severe intensity
+a man attacked by vicious dogs;a vicious attack
+gentle;kindly
+
++detestable+
+hateful;diskliked
+--
+--
+odious
+
+
+
++clamour+
+a loud shout by group of people
+--
+--
+clamor
+
+{
++intricate+
+involved or entangled;interwinding in a complicated manner
+
++extricate+
+remove something from complexity
+suicide is the only way,he could extricate himself from pain
+}
+
++endemic+
+related to people;a habitual disease;natural to or characterstic of people,place
+endemic disease or a plant;
+
++ingress+
+an entry;the beginning or start of something
+We have been forced to allow ingress to innumerable dull and tedious books. 
+
++stymie+
+a difficult of frustating situation
+
++lucrative+
+money making;
+ours is a lucrative business
+
++callous+
+hardened in feeling;hear hearted
+he is a callous person
+kind;compassionate
+
++rudimentary+
+basic;fundamental
+this is a rudimentary principle
+advanced;sophisticated
+
++exalt+
+increase;honoured;to raise in power
+
+
+
++rampart+
+a fortification;defense;
+
+
++cobble+
+to put together roughily or clumsily
+
+{
++conform+
+obey the rules;follow standards
+
++nonconformist+
+person not conforming to a particular practice or course of action
+--
+--
+maverick;rebel
+
++maverick+
+an independent-minded person;unorthodox person
+he was a original thinker,a maverick
+--
+rebel;nonconformist
+
++rebel+
+person who fight againsts the ruling government;who refules allegiance
+victory over afghan rebels;rebellions are fighting
+
+}
+
+
++truculent+
+characterized by ferocity,aggressiveness
+he has said some truculent things
+friendly;amilable;placid
+
+
+
++kinship+
+blood relationship
+more than the friendship;i felt kinship with lav
+
++incisive+
+sharp or keen in physical activities;
+incisive mind:sharp;incisive turn of prase:biting;scientist like einstein had incisive minds
+vague;dull
+
+
+{amount
+
++sober+
+not in excessive amount esp in eating,drinking;in self control;not drunk
+eat in sober amounts;sober people:light hearted
+drunk;flamboyant
+
++abstemious+ ;word related:abstinent
+moderate esp in eating,drinking;see abstinent
+i am a abstemious person
+
+
+}
+
+
++beget+;be-get
+get;acquire;generate
+begetter;the person who begets i.e. giver,genereator; It is unproven that the strongest males necessarily beget the strongest offspring
+
++incursion+; word related:recursion
+a hostile invasion
+british carried out incursion on india
+--
+raid;foray;onslaught
+
++conundrum+
+a puzzle whose answer involves pun
+children must have played conundrum
+
++doggerel+
+poorly written verse;loose
+
+{
++invective+
+insulting or abusing speech;
+His invective against his enemies included phrases like 'slimy bastard'. 
+
++vituperative+
+abusive language
+}
+
++exigent+
+requiring imeediate attension;urgent
+
+{soft
++pacify+
+calm down;allay the anger,excitementor agiatation
+
++soothe+; word related: smooth
+reduce the force or intensity
+the baby cried had to soothe him
+agitate;aggravate
+
++placate+; word derived: placid 
+calm down
+we must placate our enemies
+agitate;anger
+
++mollify+
+make soften;to reduce
+to mollify one's demands
+--
+appease
+
++appease+
+bring to peace
+
++assuage+
+to calm or soothe
+
+
+
+}
+
+
+{
+
++bale+; word derived: bail=get out from difficulty
+destructive force;evil;harm;injury
+
++baleful+
+menacing;harmful
+
++malevolent+
+wishing evil or harm to others
+he is completely malevolent
+benevoloent;kind
+}
+
+
+
++lax+; word derived:relax
+not strict;not severe;loose;slack;not tense
+
+
+
++desiccate+
+to dry;remove moisture
+i have desiccated my clothes
+
++erudite+
+scholar;learned
+--
+illiterate
+
++debacle+
+a violent breakdown;breaking of ice in river
+british suffered debacles one after another
+
+
++ratiocination+
+to think logically
+
+{
++prophesy+
+think or write by divine inspiration
+
++vaticinate+; derived word:vatican city
+to prophesy
+}
+
++delineate+
+to portray through drawings;outline
+delineate her features
+
++usurp+
+seize using power or force;get possestion by trickery
+Young modern leadership..was necessary to usurp the corrupt traditionalists
+
++skeptic+;+sceptic
+a person who doubts all opinions
+Young modern leadership..was necessary to usurp the corrupt traditionalists
+
++aver+
+declare true;
+
+
++prefunctory+
+carelessly done;only for sake of duty
+Her smile was perfunctory, meaningless
+
++lassitude+
+weariness of body,mind
+
++prolific+
+productive; producing offsprings
+
++dogmatic+
+asserting opinions in dictated manner
+ashutosh is dogmatic when it comes to programming
+
++renounce+
+to give up;put aside;to repudiate
+
++recant+
+to withdraw and renounce a formally anounced statement
+politicans are famous for recanting
+
++abeyance+
+the state of temporary disuse or suspension;dormant state
+in holidays, this comp is in abeyance
+
++buttress+
+a structure used to give support to a wall
+
+
+
++precacious+
+unusually advanced or mature in mental development or talent;prematurely developed
+a precacious child;My brother Ninian had been sexually precocious;i have been precocious in programming
+
++carp+
+to find fault;complain petity
+
++redoubtable+
+formidable;evoking fear
+imran turned to be redoubtable
+
+{
++sopor+;derived word:soporific
+deep sleep;coma
+
++soporific+
+introducing sleep;dizziness
+soporific drugs
+}
+
++fideism+
+The doctrine that knowledge depends on faith or revelation
+
+{faith
++perfidy+
+deliberate  breach of faith and trust
+
++treachery+
+Violation of faith or betrayal of trust
+}
+
+
+{
++credulity+
+ready to beleive on weak grounds;gullible
+
++increduility+
+a tendency to disbelief
+}
+
++gubblible+
+easily cheated or duped
+bedi is gullible person
+
+
++vacillation+
+the habit of changing your mind,opinion;action of swaying unsteadily to and fro
+
+
++platitude+
+a commonplace remark especially one solemnly derived
+
+
+
++ingenious+
+characterized by cleverness or origanlity of invention
+intelligent+genious;Wine..makes the dull ingenious
+
++ingeneous+
+candid;innocent
+
++ephemeral+
+lasting a very short time;transitory
+
++deference+
+respect;courteous regard
+--
+disrespect;discourteousl
+
+
++apostate+
+a person who abandons his religious faith
+
++apostasy+
+abondonement of one's religious faith,beleifs;abondonement of principles
+
++assiduous+
+hard working;industrious
+
++lampoon+
+a satiric attack on individual,institution
+
++condone+
+to forgive;overlook
+you must condone my son's fraud
+condemn
+
++incarcerate+
+to confine;imprison
+
++desultory+
+lacking in consistency;disconnected;immethodical
+
+
++interdict+
+any prohibhitory act or decree of court
+
++ensconce+
+Shelter within or behind a fortification
+king in aoe ensconced themselves in a castle; i will ensconce myself incase of earthquake
+
++armada+;related word:army
+a fleet of warships
+
++pragmatic+
+a person dealing with practical consideration or consequences;having practical point of view
+i am pragmatic when it  comes to subject of computers;remem:#pragma
+impractical;theoritical
+
++discomfit+;dis-com-fit= not fit for combat
+to confuse;deject;to frustrate the plans
+the primary aim in aoe is to discomfit the enemy
+--
+thwart
+
++thwart+
+to oppose successfully;prevent the plans
+
+{
++alleviate+
+make less burden;releive;
+--
+aggravate
+
++mitigate+
+to make milder;
+
++propitiate+
+make favouribly inclined;to appease someone
+His attempt to propitiate her, to get her on his side. 
+
+}
+
+
++efficacy+
+power of capacity to produce effects
+
+{
++ramification+
+the act of dividing a complex structure like branches of a tree
+
++ramify+
+to form branches
+Argument has ramified through the pages of academic journals. 
+
++disparate+
+diverse in kind;distinct
+shukla is a disparate person
+
++gregarious+
+fond of company;esp as herds of animals
+my father is gregarious person
+
+
+
++chauvinist+
+a person who is prejudiced against a different cast,sex
+vp singh was a chauvinist
+
++fetter+;derived word:feet
+a chain of shackles around the prisoner
+saif was fetted in the end
+--
+confine;impede
+
++divest+
+take off;deprive;disposses
+divest them of their  clothes
+
+
++elegy+
+a poem for the dead
+
++shard+
+a broken piece of pottery
+
++burgeon+
+to grow or develop rapidly;flourish
+i want to burgeon my skills in programming
+
++hiatus+
+a physical break in continuity
+
++abate+
+make or become less strong,intense,severe
+abate the pain,abate the noise
+
++imminent
+soon to happen;likely to occur at any moment
+her death is imminent
+distant
+impending
+
++sophistry+
+clever arguments that are false
+
++impassive+
+incapable of feeling emotion;not subject to suffering
+--
+--
+serene
+
++imperious+
+dictatorial;domineering
+
++diligence+
+steady and careful approach
+
++lachrymose+
+tearful;inclined to weep
+
++collusion+
+a conspicary for fraud purposes
+
+
+
+{
++par+
+normal
+
++paragon+;par+gone=going above normal
+model of excellence;supreme person in merit;a partner;a competitor
+
++discordant+
+disagreeing,not in harmony
+ashutosh was discordant with me in the project
+
+
++fervor+;fervour
+zeal;passion
+A sudden brightness came into the little face, a fervor so glowing. 
+--
+apathy;
+
+
++compendium+
+summary or abstract of larger work
+
++sycophant+
+a servile flatterer
+
++vigor+;vigour
+active strength;intensity;
+
+
++enervate+
++lacking moral literary;lack of vigor
+
++discern+
+showing good judgement o r insignt
+i am quite discerning when it comes to comp problems
+
++inimical+
+unfriendly;hostile;adverse
+A dangerous monopoly inimical to the interests of the majority;inimcal to the interests
+friendly
+
++insularity+
+state or condition of being island
+
++conducing+
+tending to produce
+eating habits conducive to good health
+
+
++disingenuous+
+dishonest;lacking in frankness,having secret motive
+
++aviary+;avi=bird
+a large enclosure for keeping birds
+
++elicit+
+to evoke;bring out a response
+
+
++fledgling+
+an in experienced person
+a young bird just fledged;i seek the company of fledging programmers
+
++irate+
+angry;enraged
+
+
++despot+
+rule of dictator;tyrant
+saddam hussain was a despot;a despotic state
+
++despotism+
+rule of despotic govt
+saddam's govt was despotic
+
++levity+
+lack of seriousness on serious matters
+the levity of her nature;situation is too grave for levity
+gravity;
+
++proscribe+
+reject;banish;exile;forbid;ban
+proscribe the use of alcohol
+allow;authorize
+
++anachronism+
+a thing or person that belongs to earlier time;error in time
+
++salacious+
+lustful;erotic;lewd
+--
+--
+lecherous
+
++lechery+
+excessive indulgence to sex
+a lecherous act
+
+
+
++embellish+
+to beautify;decorate
+
++derelict+
+abandoned;homeless
+derelict land;derelict cars;area in front of oswal is derelict
+
++incongruity+;incongrous
+out of place;absurd;unsuitable;inapproriate;lack of harmony
+
++hypocritical+
+person who practices hypocrisy
+
++bane+
+the cause of ruins,troubles;the thing that destroys life
+she who had been the bane of his life
+
++tendentious+
+having a underlying purpose
+
++indolence+
+lazy;wishing to avoid activity or exertion
+Her indolence--she habitually stayed in bed all morning. 
+
+{
++ridicule+
+ridiculous or absurd thing;absurdity;speech intended to cause laughter
+
++mockery+
+--
+--
+--
+ridicule;derision
+
++derision+
+the action of ridicule;mockery
+Every attempt I made to write,sing was greeted with derision
+
+}
+
+
++stigma+
+a mark on skin representing desgrace,associated with shame,disgrace
+
++stolidity+;stolid
+not easily moved;unmoved or unstirring;lacking or concealing emotion
+i am a stolid person
+emotional;lively;
+phlegmatic
+
+{
++phlegmatic+
+not easily excited;calm;unexcitable
+
++dispassionate+
+free from or unaffected by passion;calm;unemotional;cool;unexcited
+
++allay+
+to put to rest,lessen;releive;mitigate
+his reassuring words allayed my fears
+
++halcyon+
+calm;peaceful
+
+}
+
+
++hyperbole+
+an exaggerated statement not to be taken seriously;
+The place was a residence, but by no stretch of hyperbole could you call it a home;ashutosh hyperboles about his programming
+
++burnish+
+polish by rubbing
+
++extrapolation+
+infer widely from limeted range
+
++ascetic+
+a person who leads a austere life for religious person
+he wore a ascetic dark suit;shul\kla is an example of ascetic person
+
++dichotomy+
+
++multifarious+
+having many forms;variety
+the whole range of his multifarious duties
+
++felicitate+
+to complement upon a  happy event
+
++felicitous+
+happiness, marked by great
+
++rescind+
+to cancel;abrogate
+The judge rescinded the court's previous decision
+
++striated+
+marked with furrowed;striae;
+
++corpulent+
+fat body
+
++eerie+
+supernatural;fearful;ghostly
+that was a eerie night;The watch-dog's howling..makes the nightly wanderer eerie. 
+
+
++elusive+
+that fails or refuses to be caught by someone
+esusive person,elusive perfume:indefinable; His deer..were too elusive; no hit was scored. 
+
+
++strut+
+a bar, designed to reduced compression
+
++substantiate+
+to prrove;give the proof
+convict found himself unable tp substatntiate its accusations
+
++supplant+
+dispose and take place of person by force
+i will become head of my family supplanting my father
+
++indigence+;indigent
+condition of poverty
+
+{
++disparage+
+lower in value;
+dont't disparage his attempts in order to better himself
+praise
+belittle
+
++belittle+
+diminish;lower in size
+}
+
+{
++expunge+
+to remove or erase
+i must expunge --- from my mind
+
++countermand+
+a command order,revoking the previous one
+
+
++pedantic+;word derived:pedagogue;pedant
+a person obsessed by theory, who rates technical knowledge above all else
+i am a pedantic when it comes to comp
+
++debase+
+to lower in quality,value
+
++enigmatic+;word derived:enigma
+mysterious,puzzling
+mona lisa has enigmatic smile
+candid;
+
++reticent+
+reserved in speech
+
++presumptuous+
+
+
++mendicant+
+a person who lives by begging
+
+{
++equanimity+
+composure of mind
+
+
++tranquil+;derived word:tranquilisers,a medicine
+free from agiatation;calm;serene
+}
+
+
+{
++trench+
+a path or track,cut through a forest 
+
++trenchant+;trench+ant
+clearly or sharply defined;incisive
+trenchant criticism against somebody; trenchant division
+dull;fuzzy
+clear;sharply defined
+}
+
++reparation+;repair+tion
+the action of restoring something to a proper state
+Would there..be time for reparation?..for the injury done his character. 
+
+
+{
++droll+
+a humorist;jokist;droll
+--
+--
+jester
+
++jest+
+a joke or witty remark
+
++jester+
+a person who make jests
+}
+
+
+
++irascible+
+easily prone to anger;irritable;hot tempered
+These irascible old figures started to make their habitual peevish fuss. 
+
++penury+
+extreme poverty
+--
+--
+destitution
+
++destitution+
+extreme poverty
+
+
++ubiquitous+
+present everywhere
+Scrooge and Tiny Tim are almost as ubiquitous as Santa Claus
+
+
++fawn+
+showing too much attention;behave servily
+
++pretentious+
+making an excessive claim to merit;ostentatious;showy
+her grave is marked by a pretentious monument
+
++diaphanous+
+light to be almost transparent
+the fiber was almost diaphanous
+opaque;thick;coarse
+
++enmity+
+the condition of being enemy
+
++banal+
+
++approbation+
+approval;consent
+
++deprecate+
+pray against;protest
+deprecate the committee actions
+praise;extol
+
++castigate+
+reprimand or punish severely
+the principal castigated the students for ragging
+
++itinerary+
+a line of course of travel;a route
+
++agrarian+
+pertaining to land;cultivation
+
++accrue+
+come as a natural growth;grow;increase
+loda regularly accrues; money in savings account accrues
+decrease;dimish;lessen
+pile up;add up;
+
++crestfallen+
+dejected;despirited
+i was crestfallen after losing the programming contest
+
+
++carafe+
+a glass water bottle
+With each dinner, the patron receives a carafe of red or white wine.
+--
+decanter
+
++acquiesce+
+to agree silently
+
++nadir+
+lowest point
+
++sybarite+
+a  person devoted to luxury
+
++trepid+
+fear;agitation
+
+
++distraught+
+very upset;deeply agitated
+
++augment+
+to increae;make larger
+i augmented my skills i programming
+decrease;diminish
+
++nexus+
+a connection;a bond;a link;a connected group of series
+
++explicate+
+to explain in detail
+
+
++viable+
+able to live;sufficiently developed to live
+it is viable to buy a webcam now
+--
+feasible
+
+
++compunction+
+a feeling of anxiety due to a wrong doing
+
+--
+regret;remorse
+
++ardous+
+requiring great exertion;laborious;difficult to achieve
+climing the mt evereset is an ardous task
+easy;effortless
+
+
++snub+
+to revoke, with a cutting remark;refuse
+
+
++distend+
+to spread in all directions;swell
+the children stomach were distended by manutrition
+
++expedite+
+to speed the progress;to perform promtpltly
+
++atrophy+
+wasting away of the body;organ
+
++progeny+
+the offspring of a parent;children;descendant;product;outcome;result
+
+
+
+{
++grim+
+fierce;cruel;savage;harsh
+teachers looking grim;one of those grim smiles whether good or bad
+gentle;amiable
+
++grimace+
+making faces showing ugliness,pain,laughter
+his face was distorted in grimace of fear and annoyance
+
+}
+
++disquisition+
+a subject or topic for formail discussion,discourse
+pm held a disquisition on a topic
+
++scad+
+large amount of quantity
+i have made scad programs
+
++collation+
+a light meal
+
++artisan+
+a person skilled in some art
+
++apiary+
+place where bees are kept
+
++minion+
+a servile follower or subordinate
+
++carillon+
+a set of bells, played either mechanicallly or from keyboard
+
++pittance+
+a small amount of wage or remuneration
+he was granted a small pittance
+
+
++pity+
+to have compassion;feel sorry for a suffering
+
++martinet+
+a strict disciplarian;esp a militarian
+
++ventral+
+related to abdominal
+
+{
++mutable+
+subject to change
+
++fickle+
+likely to change;esp weather
+The wind was unusually fickle, changing speed and direction every few minutes
+constant;stable
+capricious
+}
+
+
+{
++foresight+
+the ability to see future
+--
+--
+prescience
+
++prescience+
+knowledge of events before they happen
+she had a strange prescience,intimation of what to happen
+}
+
++empathy+
+identification or experiencing feelings with others
+empathy is feeling sorry with someone;pity is feeling sorry for someone
+
++tangible+
+ability to be touched;palpable;that can be grasped by mind
+--
+intangible;abstract
+
++buoyant+
+ability to float in liquid;not depressed,cheerful
+he is in buoyant mood;; i am usually i buoyant mood
+
++ambulatory+;ambulant
+able to walk;not bedridden
+you will be ambulatory in a week
+
++abrogate+
+cancel;disprove;abolish
+
+
++trait+
+a distinguishing characterstic;a feature
+
+
++distrait+
+absentminded
+
+
++imperative+
+absolutely necessary;critically important
+She gave these orders in an imperative, hot rush of words
+unimportant;optional
+
+{
++rapt+
+deeply absorbed or engrossed
+a rapt listener
+
+
++assimilate+
+absorb
+
++riveting+
+
+}
+
+{
++celibate+
+a person who abstains from sexual relations
+
++chaste+
+virginal;abstaining from sexual intercourse;simple;unsullied;decent;pure
+chaste women;chaste speech
+
+}
+
+
+
+
++preposterous+
+absurd;ridiculous
+Nothing can be more preposterous than a mother who thinks it below her to take care of her..child. 
+
+
+
+{abundant
++plenitude+
+abundant;
+He..was delighted with the plenitude of oranges. 
+
++affluence+
+abundance of wealth
+winter with its affluence of snow
+
++ample+
+
++rife+
+abundant;plentiful;numerous
+crime is rife in city;a rumour of --- was rife in city
+
++bountiful+
+abundant
+
++luxuriant+
+abundant;rich and fertile;producing offspring
+prolific vegetation;prolific scorer
+
+}
+
+
+
+{
++abyss+
+a deep immeasurable space,gulf or cavity
+profound;unfathomable
+
+
++chasm+
+a deep fissure
+
+}
+
+{
++mishap+
+an accident
+
++spoonerism+
+accidental transposition of sounds
+slipping of tounge
+
++fortuitous+
+by chance or accidental;
+the money came at fortuitous moment;his presence is not fortuitous, he has a role to play
+
++adventitious+
+accidental;appearing in usual place or abnormal condition
+
+}
+
++incriminate+;in-crim-in-ate
+to accuse or charge with a crime
+tending to incriminate someone
+
++wean+
+detach or disengage from a habit
+Esther..weaned baby Shlomo away from her breast
+
+{
++inure+
+to come into use;to toughen or harden by use or exposure;habituate
+growing up in delhi has inured me into the hot weather
+
+
++acclimate+
+become habitual;become accustomed to conditions
+bowlers and batsmen are acclimated to aussie conditions
+--
+inured
+}
+
+
+
++arbitrate+
+act as judge;settle by arbitration
+united nations will try to arbitrate the internation disputes
+
++vivisection+
+the act of dissecting living animals
+
++orientation+
+the ability to locate oneself in society
+
++volition+
+act of making a conscious choice;act of choosing,resolving
+
++vicarious+
+acting as a substitute;indirect;second hand
+The old lady..seemed to get a vicarious thrill out of my romance. 
+
++pantomime+;mim=mimic
+acting without dialogue;the play in which the actors communicate thorugh gestures
+
++animosity+
+active enmity;strong hostility
+
++veritable+
+being truly;genuine
+a veritable triumph
+
++anguish+
+acute suffering or pain;
+
++condign+
+well deserved;equal in worth;
+condign punishment
+
++viscid+
+adhesive;sticky
+
+
++suffragist+
+advocate of voting rights
+
++mannered+
+well behaved;well mannered;artificial;unnatural
+That Spohr was too doctrinaire and mannered
+
+
+
++dainty+
+of delicate beauty or form;pleasing to taste;worth;beauty;estimation;regard
+dainty eater;dainty little girls
+clumsy;nasty;
+
+
++mincing+
+affectedly dainty
+
++gustatory+
+concerning to taste
+
++posthumous+
+occuring,arising,appearing after death
+Wedgwood..had recently died leaving a posthumous novel. 
+
++polemic+
+a controversial argument;person who argues in opposition to another
+people became polemic against the author sulman rushdie
+
+
+
++ferment+
+agitation;excitement;commotion
+
++harrowing+
+distressing;painful;agonizing
+The ordeal he had undergone..was so much more harrowing
+
+{
++accede+
+assent or agree;come forward;approach
+the minister acceded to the people demands
+--
+assent
+
++jibe+
+agree
+}
+
++thicket+
+a dense group of trees,shrubs,brushwood
+
+{
++bewildered+
+to confuse;puzzle;mix up
+
++befuddle+
+
++muddle+
+
++fluster+
+
+
+
+}
+
+
+
++chisel+
+a surgical tool for cutting bones
+
++chastise+
+to punish
+the staff was chastised for coming late
+praise;reward
+castigate
+
++brood+
+young ones produced;hatching of bird;to warm,protect;to sit upon eggs
+
++spew+;spewing
+to vomit;bring the contents of stomach to mouth
+passengers spewed at the ship; i have nasty habit of spewing in bus
+
++ignoble+
+not noble; dishonourable;mean spirited;of low character
+
+{
++heretic+
+anyone who doesnt confirm to a doctrine,principle
+
++heresy+
+any belief or theory that is contrary to the accepted doctrine
+}
+
++atheist+
+a non beleiver in god
+
++grandiose+
+impressive or imposing on account of extravagance of appearence;over ambitious;extravagant
+ashutosh is a grandiose person
+modest;humble
+
+{
++innocous+
+unharmful;unoffensive;not causing injury
+that was an innocous remark
+
++obnoxious+
+harmful;offensive
+}
+
+
+
++macabre+
+gruesome;grim;ghastly;gory
+a macabre happening
+
++frivolous+
+of little value;having no value;lack of seriousness
+frivolous young girls;frivolous clothes;frivolous remark
+
+
++captious+
+fond of taking exceptions or raising objections
+--
+--
+carping
+
++cavil+
+raise a captious or frivolous objection
+
++incite+
+to setup in motion;urge up;excite
+he went on trial for inciting the strike
+deter;discourage
+excite;provoke
+
++slander+
+defamation;a malicious of false statement or report
+guilty of slander;slander his neighbour
+
+{
++derogatory+
+tending to detract from authority,rights;lowering in honour
+This Act was annulled as derogatory to the King's just rights
+complimentary;laudatory
+
+
+
++belittle+
+to regard of portray as less impressive;make small;diminish in size
+--
+praise;exagerate
+
++pejorative+
+having disparaging,derogatory or belittle effect
+}
+
+
+
++purported+
+alleged or claimed:no evidence;
+of their purported wealth;the letter purported to be from general himself
+
++omniscient+
+having very extensive knowledge;all knowing
+
++omnipotent+
+having unlimited power;all powerful
+
+
++waylay+
+to intercept and attack from ambush in order to rob
+waylay=to lie in wait;The two men..would waylay the magistrate and murder him. 
+
++rider+
+an addition or amendment to a document;additional clause
+a rider was added to the will
+
+
++disport+
+to divert or amuse
+
++assay+;as-say
+to examine or analyze a situation,metal,composition of allow
+assay a metal;a substance to be assayed;assay a winsock program
+
+
++forebear+
+an ancestor
+
++cherubic+
+innocent; a child with a sweet,chubby,innocent face
+
+{
++wrath+
+anger;fury
+
++irate+
+angry;
+}
+
+
+{
++antiquated+;derived word:antique piece
+grown out of long;old fashioned;out dated
+
++archaic+
+marked by characterstic of earlier period;primitive
+an archaic form of animal life;archaic ideas
+
++antediluvian+
+out of date;very antiquated
+antideluvian times;antideluvian attitude
+
+}
+
++perquisite+
+any income,benifit above salary
+one of the perquisite is the use of company car or an 24 hours internet connection
+
++canker+;related word:cancer
+an ulcerous sore esp in mouth; a diseased tissue;evil
+
+
++aloof+
+apart;reserved
+i used to be aloof from other classmates in school;stand aloof
+
+
+
++verisimilitude+
+the appearance of being real,truth
+
+
++guise+
+external appearance;style of dress
+
+
++accost+
+to approach with a greeting,question,remark;approach and speak first to a person
+
++apposite+
+appropriate;fitting
+an apposite answer;his remarks were amusing but not apposite to the topic
+
++countenance+
+to approve or tolerate
+not give contenance to the plan; He had given countenance to the reprehensible practice of gaming. 
+
+{
++ardent+
+passionate;burning with passion;gleaming
+ardent eyes;ardent fan
+--
+fervent;fervid;abid
+
++fervent+
+showing intense feeling;warm;passionate
+--
+--
+ardent;intense
+
++fervid+
+burning;glowing
+}
+
++haggle+
+dispute over the price;bargain
+my father haggles a lot
+
++cohorts+
+armed band;a group or company of armed soldiers
+
+
+
+{
++incite+
+urge up;stir up
+leaders are inciting the workers to attack
+provoke
+discourage;deter
+
++provoke+
+urge up
+}
+
++hubris+
+excessive pride;self confidence;excessive self conceit
+
++conceit+
+favourable opinion about own's abilityl;imagine fancy
+
+{
++disdain+
+The feeling that is entertained towards something unworthy of notice or beneath one's dignity; scorn, contempt
+traitors has always been treated with disdain,contempt
+
++disdainful+
+full of or showing disdain;scornful;contemptuous
+
++haughty+
+high in one's own estimation;
+her high social position has made her haughty
+
+
++scorn+
+open of unqualified contempt,disdain;to mock ,jeer; to treat with derision
+she regarded weaker people with scorn
+
++contempt+
+the action of scorning;the action in which someone is considered worthless;a scornful or disrepectful act: contempt of court:disrespect to the law
+
++supercillous+
+haughtily disdainful or contemptous
+}
+
+
+
++presumptuous+
+arrogant;impertinent;taking liberties
+It was presumptuous of the young senator  to challenge the leadership so soon
+--
+over confident;arrogant
+
+{
+
++arson+;arsonist
+the person who maliciously sets fire to a property whether others's or own's in order to get insurance
+
+
++incendiary+
+the person who sets fire to a property
+
+
+}
+
++rhetoric+
+art of effective lanuage in speech of writing
+use of rhetoric to win over the crowd;
+
++sluice+
+artificial channel for controlling flow of water
+
++aesthetic+
+artistic;dealing with of capable of appreciation of beautiful
+ The course in art history is designed to develop the student's esthetic judgme
+
+
+{
++ascribe+
+assign to something as someone;enroll ;register
+
++impute+
+to attribute or ascribe;to charge a person with fault
+The children imputed magical powers to the old woman.;
+}
+
++ashen+
+ash coloured
+
++assail+
+assault; to attack regerously
+assail the enemy
+
+
++convene+;related word:conoke,convocation
+meet;assemble for a common purpose
+President Eisenhower convened a White House Conference on Education
+
+
++abet+
+to encourage or assist in wrongdoing
+
++consort+
+a companion or partner;husband or wife
+consort with criminals; A man could have as many consorts as he wished, but only one wife at one time
+
+
++dumbfound+
+astonish;amaze;suprise
+
++annex+;annexe;annexure
+an accessory;an adjunct;an addition to the document;to take possesstion of something;attack;add;acquire
+The city annexed the area across the river
+
+
++personable+
+pleasing in appearance;attractive;agreeable;pleasing in behavious
+We need a personable girl at the reception desk
+--
+amiable
+
+
++comely+
+pleasing to the eye without being beautiful;becoming proper,decorous
+comely young woman;
+
+
++dictum+
+an authorative statement;a judicial assertion
+The children  imputed magical powers to the old woman.
+
+
++covetous+
+having an excessive desire;desire of possessing wealth(nagative)
+Poverty made him covetous of others ' wealth
+
+
++ungainly+
+awkward;clumsy;ungraceful
+An overgrown, somewhat ungainly schoolgirl
+
++hinterland+
+remote or less developed parts of the ocuntry;back country
+
+
++thwart+
+to oppose successfully;prevent a plan;prevent from accomplishing a purpose
+i have thwarted his intentions to kill
+assist;help
+
++embargo+
+order by govt to prohibhit ships from leaving the ports;a ban of trade activity
+She wanted to talk, but there seemed an embargo on every subject
+
+
+{
++delegate+
+a person designated to act on behalf of other;to send or appoint a deputy
+
++relegate+
+to send a person to exile; to consign a person to inferior position or place
+She was considered exceedingly ignorant and relegated to the lowest class
+
+}
+
++barrage+;bar-rage
+a heavy barrier of artillery fire to protect troop movements;a rapid succession of questions
+
++seethe+
+be disturbed;boil
+
++dote+
+a foolish or weak minded person
+
++transpire+
+to happen,occur;to be revealed,known;pass through;emit
+it transpired that he had been married before become known
+
+
+
++swelter+
+to be oppressed with heat;
+
++stint+
+to set limits
+i have to sting my time working on computer
+
++fructify+
+to bear fruits
+
++comport+
+to bear fruit
+
+{
++ursine+
+pertaining to bears;bearlike
+
++bestial+
+having the form of beast
+bestial treatment of prisoners;
+}
+
+
+{
++pummel+
+to beat with fists
+
++lambaste+
+to beat or reprimand severely
+the masters lambasted their slaves
+}
+
++pulchritude+
+beautiful
+
++betroth+
+become engaged to marry
+the person to whom one is betrothed
+
++ingratiate+
+get oneself into favour;
+to ingratiate oneself with the boss
+
++degenerate+
+to decline;deteriorate;worsen;decay
+The debate degenerated into an angry shouting match
+
+{
++implore+
+to beg urgently for forgiveness
+--
+--
+beseechness
+
++importune+
+beg persistently
+
++beseech+
+to implore urgently
+}
+
++arrear+
+the debt which is unpaid
+
++aboriginal+
+native;being first in kind
+The Indians were the aboriginal people of America:
+
++fatalism+
+the doctrine that states that all events are predetermined by fate
+
++monotheism+
+the doctrine that states the existence of only one god
+
+
++moron+
+a stupid person;person lacking in good judgement
+narang is a moron
+genius
+fool
+
+
++genuflect+
+to bend the knee in worship
+i have never genuflected in the temple;we genuflect whenever we go to vaishno devi
+
++beleauger+
+to surround with forces; harass
+the castle beleaugered be enemies in aoe; i was beleaugered by sps
+--
+besiege
+
++preternatural+
+something beyond from normal;extraordinary;supernatural
+the programming of imran is preternatural
+
++indenture+
+a contract by which an apprentice is bound to master
+
+--
+contract;compact
+
+
++astringent+;stringent
+contracting;severe;incisive
+
+{
++mordant+
+sharply biting;sarcastic;cutting;substance used as acid
+the tcs paper was mordant for the whole class accept nidhi
+
++acrimonious+
+bitter and irritating in nature
+narang sometimes gets acrimonious in his talk
+
++acerbity+
+bitterness of speech;sharp comment
+
++rancor+
+bitterness;hatred
+
++vitriolic+;related word:vitriol
+cutting;biting;caustic;acrimonious
+the movie heyram is framous for his vitrioliv views
+
+}
+
++rancid+
+having the unpleasant smell;nasty;rotten
+some mess makes rancid food
+fresh
+rotten;bad
+
+
++outlandish+
+foreign;alien;bizzare;unconventional;pecuilar
+i have seen some outlandish programs on the net;some of the recent movies are outlandish
+ordinary;commonplace
+strange;odd;commonplace
+
++necromancy+
+black magic;dealings with the dead
+
++obsidian+
+a black volcanic rock
+
++denigrate+
+blacken;blacken someone's reputation
+the reputation of politicians is denegrated in india
+laud;acclaim
+belittle;disparage
+
++censure+
+reprimand;blamd;criticize in a harsh manner
+students of the law college were censured for ragging
+
++impeccable+
+error free;perfect;faultless
+
++blanch+
+to make white;bleaching; 
+blanch in fear;blanching of skin;blanching of metal
+darken;blacken
+
++hallow+
+to make holy;to honor as holy
+
++hallowed+
+regarded as holy;venerated
+
++filibuster+
+the person who blocks the legislative assembly proceedings
+pm of india is usuall a filibuster
+
+
+{
++feud+
+a hostility or hatred between families marked by murderous assaults
+the feud cause many deaths in familes; inidian movies are usually based on the feud
+--
+rivalry;hostility;conflict
+
++vendetta+
+a blood feud in which one person seeks vengeance of the other family's member
+
+}
+
++vengeance+
+the action of avenging;injury of punishment due to a wrong doing to oneself or another
+
+
++sanguinary+
+characterized by blood shed
+
++mottled+
+marked with spots or blotches
+i looked at blotched sky; the face is mottled when infected with chicken pox
+
+
++bluster+
+blow in heavy gusts;threaten
+
++doldrums+
+the condition of dullness; a lazy person
+i was in doldrums after my result
+
+
++brusque+
+talk in a rude manner;blunt;abrupt;rough
+the english teachers are usually brusque
+
+
+
+
++vaunted+
+highly publicized
+karan johar is vaunted before his release
+
+{
++boast+
+loud speech;
+he boasted about his achievements
+
++bragg+
+show off;pumpous demeanour
+
++braggart+
+a boaster-person who boasts
+madhur is so abt his programming that he has started bragging abt his programming
+
+
++magniloquent+;grandiloquent;
+speaking in a lofty manner
+
+
+}
+
+
++vainglorious+
+boastful about self abilities;self conceit
+
++regatta+
+a boat or yacht race
+
++corporeal+
+of the nature matter;bodily;material
+
+{
++churl+
+a rude,boorish person
+
++boorish+
+like a boor of aoe;ill mannered
+
++churlish+
+a rude person;
+english teachers are usually churlish
+
+}
+
++abut+
+to be adjacent;to be at border
+There is a fence where the two yards abut
+
++maritime+
+pertatining to sea;nautical
+
+
+
+{
++blase+
+bored with life due to excess pleasures
+villains in hindi films are blased with life
+
++ennui+
+mental weariness due to lack of intereset and boredom
+i sometimes get in the state of ennui due to absence of inernet
+
+
++tedium+
+the quality of being tedious
+}
+
+
+
+
++obeisance+
+bow;respect;homage
+give a bow to the emperor
+
++plugilist+
+a person who fights with fists;boxer
+mike tyson is a plugilist
+
++valor+;valour
+boldness or determination in facing danger
+the freedom fighters of india were valorous
+--
+courage;bravery
+
++fortitude+
+moral strength
+it takes a lot of fortitude to live alone at the age of ten
+
++fray+
+an assault;stir up;fight
+franks must fray the turks in aoe
+
++fancier+
+a person who breeds animals
+
++refulgent+
+shining brightly;gleamimg
+
++nonplus+
+a state in which nothing more can be said;state of dumbfound,upset,stun
+i was nonplus with my result
+
++farce+
+a comedy based on unlikely situations and exaggerated effects.
+chuppa rustam on star plus shows farce type of comedy
+
++sheaf+
+bundle of stalks of grain
+
++encumber+
+burdunsome;cumbersome
+
++incubus+
+nightmare
+
+
++cauterize+
+to burn with hot iron
+
++smolder+
+burn without flame
+
++caustic+
+burning;saracastic biting
+
++inter+
+to place a dead body in grave or tomb
+
+{
++actuary+
+a person who computes insurance premium ratesm,dividends etc
+
++actuarial+
+calcualating ,pertaining to insurance
+}
+
++spatula+
+a broad instrument, for spreading and mixing
+
+
++contusion+
+an injury to the tissue with breaking of the skin
+
++atrocity+
+brutal deed;extremely wickedness
+
++bugaboo+
+object of baseless terror
+
++browbeat+
+tp intimidate
+
++candid+
+frank;informal;not reserved
+im trying to become a candid person
+
++venal+
+coruptible;open to bribery
+the indian politicians are veanl
+
+
++prehensile+
+capable of holding or grasping
+
+
+
++sentient+
+capable of sendisng
+
+{
++scabbard+
+a case for the sword
+tipu sultan puts his sword in the scabbard
+
++quiver+
+a case for hodling arrows
+
+}
+
++slough+
+cast off;remove off;shed
+the snake soughs his skin periodically
+
+
++offhand+
+casual ,done without prior thought
+
+
++cursory+
+casual;hastily done
+i usually make my programs in a cusrory manner
+thorough
+rapid;hasty;hurried
+
++descry+
+get sight off from a distance
+One has to go on reading for several pages before beginning to descry..what it is he is saying
+
+
++pander+
+one who caters to the low desires of others
+
+
++certitude+
+certainity; no doubt
+i am certitude that my programming is better than ashutosh
+
+
++veer+
+change of direction
+
++vicissitude+
+change of fortune
+
+
++arraign+
+charge in court;indict
+the criminals are arraign
+
++amulet+
+something worn as a charm against evil
+
+
++engaging+
+charming,attractive
+namita has always the same engaging manner
+
++tawdry+
+cheap and gaudy
+i am used to wearing a tawdry dress
+
+
+{
++babble+
+idle,foolish talk
+the girls babbles a lot in the classroom
+
+jabber
+
++jabber+
+talk rapidly and indistinctly
+}
+
+
++hap+;related word: hapless
+chance;luck
+i was hapless when i realised that i made wrong program in se
+
+
+{
++mountbank+
+the person who pretends who have skill and knowledge,esp about medicines
+bedi looks to me like a mountbank
+--
+charlatan;fraud
+
++charlatan+
+a mountbank
+}
+
+
+{
++swindler+
+a cheat; the person who cheats for money,assets and other
+all indian politicians are swindlers; the master card was a pure swindle and nothing
+
++cozen+
+to deceive;trick
+}
+
++stanch+
+stop the flow of blood or liquid from a wound,leak
+the doctors applied something to stanch the bleeding
+
+
++sanguine+
+blood red;cheeruful;hopeful;
+i am trying to have a sanguine outlook towards life
+
+
+{
++masticate+
+to chew
+
++ruminate+
+to chew either physically or mantally
+}
+
++cardinal+
+of prime importance;chief
+
+{
++puerile+
+childish;
+i would like to maintain a puerile nature to my parents
+adult;mature
+puerile;infantile
+
++infantile+
+see puerile
+}
+
++chortle+
+chuckle with delight;
+
++prelate+
+a church dignitary as like bishop or archbishop;
+
+
++rotunda+
+a building with a circular dome or hall
+taj mahal is not a rotunda
+
+
++vociferous+
+noisy;yelling;loud shouts
+the seen at india's railway station is vociferous
+silent;quiet
+
++talon+
+clow of bird
+
+
++expurgate+
+to remove something from book,objectionable
+the book of sulman rushdie,a roy was expurgated
+
++limpid+
+clear;transparent;not turbid
+limpid water; we are used to drink a limpid water
+
+
+
+perspicuity
+repartee
+
++stratagem+;related word: strategy
+a deceptive strick to surprise the enemy; a plot;
+the indian's police stratagem has never been successful against evemy
+--
+plan;tactic;
+
++precipice+
+a steep cliff or mountain from which one might fall
+we were standing on the edge of the precipice
+
+
++clamber+
+to climb crawling; to climb using both feets and hand
+i have a dream of clambing on cocomut tree
+
+{
++array+
+to get ready for something(esp for battle); another meaning - dress up,clothe, adorn
+we arrayed for my sister 's marriage
+
++adorn+
+ornate;decorate; dress up
+
+}
+
+
++raiment+
+clothing
+
++buffoonery+
+a joker;mocker
+the buffoons are used in circus
+
+
++bludgeon+
+a heavy headed stick or club
+bludgeon is like a golf stick
+
++clumsy+
+heavy and awkward in motion or action
+the jadu of kmg is clumsy
+
+
++lout+
+a rough,crude or ill mannered person;clumsy person
+narang is a lout
+--
+oaf
+
+{
++adroit+
+an intelligent,skillful,resourceful person
+--
+clumsy;inept
+
++maladroit+
+clumsy;inept person
+--
+adroit;skillful
+}
+
++menagerie+
+collection of wild animals for exhibition
+zoo is a type of menagerie
+
++canon+
+a collection of books; a set or rules of ecclesiastical society
+
++agglomeration+
+collection
+
+{
++pugnacious+
+inclined to fight;quarrelsome
+sp singh was a pugnacious person
+bellicose;aggressive
+friendly
+
++pugnacity+
+the condition of being pugnacious
+}
+
++malapropism+
+use of wrong word for comical purpose
+
++travesty+
+a comical parody;the treatment aimed at making something appear ridiculous
+
++commemorate+
+mention; to serve as a reminder or memorial
+the taj mahal is  a commemorate for love
+
++perpetrate+
+commit an offense;commit a crime
+a theif perpetrated in our house
+
++plebeian+
+common person;undistinguished;uncultured
+plebian style; plebeian person;
+aristocratic
+
+
++tumult+
+a disturbance by a disorderly crowd;a riot
+
++plenary+
+full;complette;not deficient in anything
+plenary session - a full meeting
+
++sedate+;related word:sedation
+calm;compose;in relaxed state
+doctars gave a sedative drug to them
+nervous
+calm
+
++fathom+
+to comprehend;investigate
+my aim is to fathom mohan's motives
+
++smirk+
+a coneeited smile
+narang always gives a smirk
+
++olfactory+;olfac+tory
+pertaining to the action of smelling
+
+
++imbroglio+
+a confused situation; misunderstanding
+we could not sort out the imbroglio between us
+
++pithy+
+full of strength, substantial or significance
+a pithy remark - expressing much matter in few words
+
++peroration+
+the concluding parts of the speech with sums up the principal points
+it is customary to give peroration in the paper presentation
+
++denounce+
+condemn;anounce something as a threat;make a formal accusation against someone
+
+{
++deign+
+to lower oneself to give or grant
+yogiraj deigen themselves to visit us
+
+condescend
+}
+
++plight+
+a bad condition
+
+{
++bestow+
+present oneself;devote;donate;
+bestow your time;
+
++confer+
+contrbute;bestow
+}
+
++parley+
+a discussion; discourse; conference
+genesis holded many parleys
+
+
++obfuscate+
+obscure; make unclear;darken
+the things have obfuscated since then
+clear up;clarify
+confuse;muddle;obscure
+
+
++confound+
+to confuse; puzzle
+
+{
++epicure+
+connoisseur of food and drink
+
++gourmet+
+connoisseur of food and drink
+}
+
+
++dolt+
+a stupid;foolish person
+
++conspicuous+;cons=intensive;spic=look
+striking to the eye;remarkable;
+the moon landing was conspicuous
+
+
++scrupulous+
+troubled or confused with questions of conscience
+
++conscience+
+one's innermost thourhgt - mind or heart
+
++meticulous+
+taking or showing exteme care about minute details;fearful;timid
+programmer must write meticulous code
+
+
++flagrant+
+a shocking noticeable or evident;
+
++notorious+
+well known for some bad practice
+
+
++solecism+
+a violation of rules and conventions;mistake of grammar , idiom
+
+
+
++narcissist+
+a person affected or characterised by self admiration; a self conceited person
+
+{
++disconcert+
+lack of agreement; disunity in action
+
++discombobulate+
+upset;disconcert
+
++liaison+
+connection;linkage;contact;a secret sexual affair
+there was no liaison between the departments
+
++intimate+
+intrinsic;close
+intimate knowledge;intimate friend
+
++taint+
+a trace of infection of contamination;
+to become tainted; the water had become tainted; he has tainted his reptation
+
++vie+
+to compete in a competition;contend for superiority
+the 2 teams were vying for the championship
+
+
++din+
+a continous loud noise;
+
+
++belie+
+to deceive by lying;give a false impression
+
++contravene+
+contradict; deny or oppose
+i contravened his statement
+
++ascendancy+
+dominance;control;power;controlling influence
+the bjp has full ascendancy in the parliament
+--
+weakness;
+ 
+
+
++mores+
+the customs of the society;moral standards
+we must respect our social mores
+
+trenchant
+
++cogent+
+beleivable;convincing;conclusive
+he gave us cogent reasons as why would this software fail
+
+
+
++pith+
+the central part of something; core;substance
+the pith of the speech; the speech didnt had any piths
+--
+main point;crux;heart of the matter
+
+{
++cadaver+
+dead body
+
++corpse+
+human body weather dead or alive
+
+}
+
+
++disabuse+
+rid of illusion or a misconception
+
+{
++pervert+
+to lead astray from the right course; to misuse
+
++preversion+
+the act or preverting; turning aside from truth or right
+
+}
+
++pluck+
+courage
+
++bumpkin+
+an awkward or rustic person
+
++yokel+
+a country bumpkin
+
++tribunal+
+court;place of judgement or decision
+
+
++chivalrous+
+courteous;brave;loyal;
+chivalrous towards the woman; chivalrous person treat woman with respect
+
+{
++bovine+
+cowlike; dull and stolid
+
++corvine+
+crowlike
+
++cervine+
+deerlike
+
+
++ovine+
+sheep like
+
+}
+
++hurtle+
+to rush violently; a crash or a collision;to drive violently
+
+
++nascent+
+the act of being born; just came into existence
+nascent oxygen; my mind is in a nascent state
+--
+incipient;burgeoning
+
+
++comity+;com+ity;com=together
+courteous behavious towards others;civil
+
++pusillanimous+;adjective
+coward;person lacking in courage
+the hero killed the pusillanimous villain
+coward;fainthearted
+breave;fearless
+
+
++quail+;verb
+to loose heart or courage
+i quailed while giving programming contest
+
+
++flinch+
+to draw back or shrink; to shrink under tense
+
+
++crevice+
+fissure;hiatus
+
++machiavellian
+
++stricture+
+an adverse criticism
+
+
++grovel+
+lie or move in a position with face downward esp in abject humility
+the villain was grovelling on the floor
+
+
++obsequious+
+compliant with the well wishes of other;characterized by showing servilance,flatter;sycophant
+--
+proud;arrogant
+servile;submissive
+
+{
++panacea+;pan+acea
+cure for all; universal remedy
+there is no panacea for software bugs
+--
+remedy
+
++elixir+
+a medicine for all cure;a drug for prolonging the life
+}
+
+
++invigorate+
+energize;strength;refresh
+
+{
++imprecate+
+shaap dena;invoke or call evil on a person
+ravana was imprecated by sadhus
+
++malediction+
+a curse;the condition of ban
+
++execrate+
+to utter curses;invoke evil upon;express loathe
+
+}
+
++loathe+
+be hateful;offensive;feel disgust
+i used to loathe lav ahuja
+dote
+hate;detest;abhor
+
+
++aquiline+
+eagle like;curved; hooked
+curved like a eagle bleak
+some girl's figures are aquiline
+
+
++wont+
+accustomed;used
+i am wont to sit 9 hrs on computer
+
+{
++excise+;cis=cut
+to cut off
+excise duty , a tax
+
++prune+
+cut down; shorten or abbreviate by removing superflous matter
+i want to completely prune the plants
+
++retrench+
+diminish in amount;cut down;economize; make reductions
+firm must retrench;cost must retrench
+
++amputate+
+cut off the part of a body due to a disease
+the surgeon had to amputate the patient legs
+--
+lop off;cut
+
++hew+
+cut with a sword or axe
+the farmer spent time hewing crops
+--
+chop
+
+}
+
+{
++diurnal+
+everyday
+
++quotidian+
+everyday;daily
+a quotidian report
+}
+
++mar+
+to damage the attractiveness or appeal; to impair
+the computer is so marred that it cannot be repaired
+improve;enhance;restore
+
++perdition+
+a state of final ruin;loss of soul
+
+
++dank+
+watery;oozy;humid;related to marshes
+
+--
+humid;damp
+
+
++murky+
+dark;gloomy;obscured by fog;not clear
+murky weather;murky streets
+foggy;cloudy
+clear;bright
+
++swarthy+
+dark;dusky
+one wood become swarthy after living in west indies; mohan is swarthy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++word+;adjective;verb
+meanings;...
+stat1
+stat2
+....
+statn
+antonymns
+synoym
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

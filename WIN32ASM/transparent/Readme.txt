@@ -1,0 +1,3 @@
+Transparent Icon - BY Madhur
+===========================
+This is a utility to make the background colour of the desktop icon's text transparent. This utility remains in memory and checks every 500ms to ensure that the background colour have not been changed. This is necessary because windows provides no permanent way of setting the colour to transparent. To unload it from memory simply run the file again.

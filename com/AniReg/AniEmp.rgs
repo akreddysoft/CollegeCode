@@ -1,0 +1,26 @@
+HKCR
+{
+	AniReg.AniEmp.1 = s 'AniEmp Class'
+	{
+		CLSID = s '{439B55FF-8A5B-4537-9F81-40E680CBA0AA}'
+	}
+	AniReg.AniEmp = s 'AniEmp Class'
+	{
+		CLSID = s '{439B55FF-8A5B-4537-9F81-40E680CBA0AA}'
+		CurVer = s 'AniReg.AniEmp.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {439B55FF-8A5B-4537-9F81-40E680CBA0AA} = s 'AniEmp Class'
+		{
+			ProgID = s 'AniReg.AniEmp.1'
+			VersionIndependentProgID = s 'AniReg.AniEmp'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{E000165D-8FA6-4517-B760-A43BA364B85E}'
+		}
+	}
+}

@@ -1,0 +1,20 @@
+ascii val
+===========
+space bar=32
+null char('\0')=0
+numeric 0.......=48........
+new line(\n)=10
+linefeed(\r)=13 // also enter key
+backspace=8
+escape=27      scan code=1
+
+max array size dimession is 65535 bytes
+
+imp doubt
+when a struct of 14 bytes is written into file using fstream (ios::app) ,if we do not specify ios::binary
+the file is written of 15 bytes, if we specify binary then it is written as 14 bytes 
+
+now while reading we do not specify the ios::binary it reads correctly first 12 records but after it reads wrongly even if we write data using ios::binary.
+thus its compulsory to mention ios::binary whenever fiddling with binary file.
+
+how to return whole character arrays from function or even interger array

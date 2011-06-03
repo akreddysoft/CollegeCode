@@ -1,0 +1,69 @@
+ CLIENT
+
+ Timestamp is 3f0f7a2d (Sat Jul 12 08:32:05 2003)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000001d2H .text                   CODE
+ 0002:00000000 00000038H .idata$5                DATA
+ 0002:00000038 0000000cH .rdata                  DATA
+ 0002:00000044 0000003cH .idata$2                DATA
+ 0002:00000080 00000014H .idata$3                DATA
+ 0002:00000094 00000038H .idata$4                DATA
+ 0002:000000cc 000000d8H .idata$6                DATA
+ 0002:000001a4 00000000H .edata                  DATA
+ 0003:00000000 000000b0H .data                   DATA
+ 0003:000000b0 00000004H .bss                    DATA
+ 0004:00000000 00000144H .rsrc$01                DATA
+ 0004:00000150 00000700H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       _start                     00401000 f   CLIENT.obj
+ 0001:0000002c       _dlgproc@16                0040102c f   CLIENT.obj
+ 0001:00000164       _DialogBoxParamA@20        00401164 f   user32:user32.dll
+ 0001:0000016a       _EndDialog@8               0040116a f   user32:user32.dll
+ 0001:00000170       _GetClassNameA@12          00401170 f   user32:user32.dll
+ 0001:00000176       _ScreenToClient@8          00401176 f   user32:user32.dll
+ 0001:0000017c       _SendMessageA@16           0040117c f   user32:user32.dll
+ 0001:00000182       _SetDlgItemTextA@12        00401182 f   user32:user32.dll
+ 0001:00000188       _WindowFromPoint@8         00401188 f   user32:user32.dll
+ 0001:0000018e       _ExitProcess@4             0040118e f   kernel32:kernel32.dll
+ 0001:00000194       _GetModuleHandleA@4        00401194 f   kernel32:kernel32.dll
+ 0001:0000019a       _installhook@4             0040119a f   cltrect:CLTRECT.dll
+ 0001:000001a0       _removehook@0              004011a0 f   cltrect:CLTRECT.dll
+ 0001:000001a8       _dw2hex@8                  004011a8 f   masm32:DW2HEX.obj
+ 0002:00000000       __imp__removehook@0        00402000     cltrect:CLTRECT.dll
+ 0002:00000004       __imp__installhook@4       00402004     cltrect:CLTRECT.dll
+ 0002:00000008       \177CLTRECT_NULL_THUNK_DATA 00402008     cltrect:CLTRECT.dll
+ 0002:0000000c       __imp__GetModuleHandleA@4  0040200c     kernel32:kernel32.dll
+ 0002:00000010       __imp__ExitProcess@4       00402010     kernel32:kernel32.dll
+ 0002:00000014       \177kernel32_NULL_THUNK_DATA 00402014     kernel32:kernel32.dll
+ 0002:00000018       __imp__GetClassNameA@12    00402018     user32:user32.dll
+ 0002:0000001c       __imp__DialogBoxParamA@20  0040201c     user32:user32.dll
+ 0002:00000020       __imp__SendMessageA@16     00402020     user32:user32.dll
+ 0002:00000024       __imp__ScreenToClient@8    00402024     user32:user32.dll
+ 0002:00000028       __imp__EndDialog@8         00402028     user32:user32.dll
+ 0002:0000002c       __imp__SetDlgItemTextA@12  0040202c     user32:user32.dll
+ 0002:00000030       __imp__WindowFromPoint@8   00402030     user32:user32.dll
+ 0002:00000034       \177user32_NULL_THUNK_DATA 00402034     user32:user32.dll
+ 0002:00000044       __IMPORT_DESCRIPTOR_user32 00402044     user32:user32.dll
+ 0002:00000058       __IMPORT_DESCRIPTOR_kernel32 00402058     kernel32:kernel32.dll
+ 0002:0000006c       __IMPORT_DESCRIPTOR_CLTRECT 0040206c     cltrect:CLTRECT.dll
+ 0002:00000080       __NULL_IMPORT_DESCRIPTOR   00402080     user32:user32.dll
+
+ entry point at        0001:00000000
+
+ Static symbols
+
+ 0001:00000000       _$$$00001@0                00401000 f   CLIENT.obj
+ 0001:00000048       @C0001                     00401048 f   CLIENT.obj
+ 0001:00000071       @C0004                     00401071 f   CLIENT.obj
+ 0001:0000008b       @C0009                     0040108b f   CLIENT.obj
+ 0001:00000152       @C000C                     00401152 f   CLIENT.obj
+ 0001:0000015b       @C000E                     0040115b f   CLIENT.obj
+ 0001:0000015b       @C000B                     0040115b f   CLIENT.obj
+ 0001:0000015b       @C0008                     0040115b f   CLIENT.obj
+ 0001:0000015b       @C0003                     0040115b f   CLIENT.obj
+ 0001:0000015b       @C0006                     0040115b f   CLIENT.obj
