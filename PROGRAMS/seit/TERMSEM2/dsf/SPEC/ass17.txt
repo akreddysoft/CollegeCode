@@ -1,0 +1,94 @@
+
+1 With replacement
+2 Without replacement
+0 Exit
+Enter choice:1
+
+
+ The position under consideration is 9
+-----------------------------------------
+The value can be entered in the table at position 9
+The hash table is ...
+0       1       2       3       4       5       6       7       8       9
+
+
+-1      1       -1      -1      4       5       -1      -1      -1      9
+
+Any more numbers ? y/ n The generated hash table is ...
+ Position 0  contains -1
+ Position 1  contains 1
+ Position 2  contains -1
+ Position 3  contains -1
+ Position 4  contains 4
+ Position 5  contains 5
+ Position 6  contains -1
+ Position 7  contains -1
+ Position 8  contains -1
+ Position 9  contains 9
+
+
+
+1 With replacement
+2 Without replacement
+0 Exit
+Enter choice:2
+
+
+Please give the value to enter in the table ...
+1
+1
+The position under consideration is 1
+------------------------------------------
+The value can be entered in the table at position 1
+
+Any more numbers ? y/ n
+
+Please give the value to enter in the table ...
+2
+2
+The position under consideration is 2
+------------------------------------------
+The value can be entered in the table at position 2
+
+Any more numbers ? y/ n
+
+Please give the value to enter in the table ...
+3
+3
+The position under consideration is 3
+------------------------------------------
+The value can be entered in the table at position 3
+
+Any more numbers ? y/ n
+
+Please give the value to enter in the table ...
+2
+2
+The position under consideration is 2
+------------------------------------------
+The required position is full , next empty position  3
+The position under consideration is 3
+------------------------------------------
+The required position is full , next empty position  4
+The position under consideration is 4
+------------------------------------------
+The value can be entered in the table at position 4
+
+Any more numbers ? y/ n
+The generated hash table without replaement with chain is ...
+     Position  Value     Next
+------------------------------------
+        0       -1      -1
+        1       1       -1
+        2       2       4
+        3       3       -1
+        4       2       -1
+        5       -1      -1
+        6       -1      -1
+        7       -1      -1
+        8       -1      -1
+        9       -1      -1
+------------------------------------
+
+
+

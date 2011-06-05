@@ -1,0 +1,29 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\SPULS.SPUlsInfo]
+@="SPULS.SPUlsInfo"
+
+[HKEY_CLASSES_ROOT\SPULS.SPUlsInfo\CLSID]
+@="{2E3FE898-8A41-344A-8A55-74B4D0215C56}"
+
+[HKEY_CLASSES_ROOT\CLSID\{2E3FE898-8A41-344A-8A55-74B4D0215C56}]
+@="SPULS.SPUlsInfo"
+
+[HKEY_CLASSES_ROOT\CLSID\{2E3FE898-8A41-344A-8A55-74B4D0215C56}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="SPULS.SPUlsInfo"
+"Assembly"="SPULS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7b5eaa7215dd969b"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///C:/Users/mahuja/Desktop/ULSLogView/OldVersion/ULSLogView/SPULS/bin/Debug/spuls.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{2E3FE898-8A41-344A-8A55-74B4D0215C56}\InprocServer32\1.0.0.0]
+"Class"="SPULS.SPUlsInfo"
+"Assembly"="SPULS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7b5eaa7215dd969b"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///C:/Users/mahuja/Desktop/ULSLogView/OldVersion/ULSLogView/SPULS/bin/Debug/spuls.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{2E3FE898-8A41-344A-8A55-74B4D0215C56}\ProgId]
+@="SPULS.SPUlsInfo"
+
+[HKEY_CLASSES_ROOT\CLSID\{2E3FE898-8A41-344A-8A55-74B4D0215C56}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]

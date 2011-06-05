@@ -1,0 +1,33 @@
+
+1. insertion operation on the queue
+2. deletion operation on the queue
+3. traversal of the queue
+0. exit
+enter your choice1
+
+ Enter The Data To Be Inserterd :3
+
+ front ----->  1  1  2  3   <-------- rear
+
+
+1. insertion operation on the queue
+2. deletion operation on the queue
+3. traversal of the queue
+0. exit
+enter your choice2
+
+ Data Deleted Is 1
+ front ----->  1  2  3   <-------- rear
+
+
+
+1. insertion operation on the queue
+2. deletion operation on the queue
+3. traversal of the queue
+0. exit
+enter your choice3
+
+ front ----->  1  2  3   <-------- rear
+
+
+

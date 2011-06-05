@@ -1,0 +1,37 @@
+1. Insertion Of The Queue
+2. Deletion Of Queue
+3. Traversal Of The Queue
+0. Exit
+ Enter Your Choice:1
+
+ Enter The Data To Be Inserted 1
+
+ Queue Is
+1 1
+
+
+
+1. Insertion Of The Queue
+2. Deletion Of Queue
+3. Traversal Of The Queue
+0. Exit
+ Enter Your Choice:1
+
+ Enter The Data To Be Inserted 1
+
+ Queue Is
+1 1
+
+
+1. Insertion Of The Queue
+2. Deletion Of Queue
+3. Traversal Of The Queue
+0. Exit
+ Enter Your Choice:3
+
+ Queue Is
+1
+
+
+
+

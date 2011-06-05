@@ -1,0 +1,13 @@
+
+ This program displays the magnitude and phase transfer function plots
+ from given coeff. of  difference equation
+
+ Enter the coeff. of x(n) ,m= 1
+b0= 1
+
+enter the number of coeff of y(n),n= 1
+a1= -.9
+
+
+
+

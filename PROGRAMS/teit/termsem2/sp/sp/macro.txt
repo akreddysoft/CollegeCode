@@ -1,0 +1,21 @@
+CLOSEIT MACRO &arg1,&arg2,&arg3
+CLOSE   &arg1
+CLOSE   &arg2
+CLOSE   &arg3
+MEND
+
+
+MOV     AX,BX
+MOV     CX,DX
+ADD     A,C
+CLOSEIT XXX,YYY,ZZZ
+
+
+MADHUR MACRO &A1,&A2
+ADD     &A1
+ADD     &A2
+MEND
+
+MADHUR CX,DX
+
+END

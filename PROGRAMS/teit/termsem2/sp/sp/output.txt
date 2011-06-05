@@ -1,0 +1,8 @@
+MOV     AX,BX
+MOV     CX,DX
+ADD     A,C
+CLOSE   XXX
+CLOSE   YYY
+CLOSE   ZZZ
+ADD     CX
+ADD     DX

@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="FB3C545B-1833-4F34-88FA-6FA4BC0A6EFE" ModuleId="SPULS" />
+  <Module PersistentId="528D010D-48EE-4325-802B-10FC1672FC6D" ModuleId="ConsoleApplication1" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="mscorlib" />
+  <Module PersistentId="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" ModuleId="Microsoft.SharePoint" />
+  <Module PersistentId="E0DD44C7-E018-4AC7-A1F3-5D434010E489" ModuleId="SPUlsConsole" />
+</Modules>

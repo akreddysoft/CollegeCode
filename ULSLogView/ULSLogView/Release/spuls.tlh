@@ -1,0 +1,74 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 15.00.30729.01 (81f85e35).
+//
+// c:\users\mahuja\desktop\ulslogview\oldversion\ulslogview\ulslogview\release\spuls.tlh
+//
+// C++ source equivalent of Win32 type library ..\SPULS\bin\Debug\SPULS.tlb
+// compiler-generated file created 11/15/10 at 21:05:51 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace SPULS {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("a998e098-99d0-459e-afd0-8271343031ac"))
+/* LIBID */ __SPULS;
+struct /* coclass */ Constants;
+struct __declspec(uuid("ed1ed747-b451-3bdc-998c-dc70841fb411"))
+/* dual interface */ IUlsInfo;
+struct /* coclass */ SPUlsInfo;
+struct __declspec(uuid("0cc7f1a0-0912-3c4e-81d0-1e0ab760670f"))
+/* dual interface */ _Constants;
+struct __declspec(uuid("44eac68d-94f0-339b-b47e-ef5e6b77b4be"))
+/* dual interface */ _SPUlsInfo;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IUlsInfo, __uuidof(IUlsInfo));
+_COM_SMARTPTR_TYPEDEF(_Constants, __uuidof(_Constants));
+_COM_SMARTPTR_TYPEDEF(_SPUlsInfo, __uuidof(_SPUlsInfo));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("b345acf7-eab9-3d7e-a855-f3763717d2c6"))
+Constants;
+    // [ default ] interface _Constants
+    // interface _Object
+
+struct __declspec(uuid("ed1ed747-b451-3bdc-998c-dc70841fb411"))
+IUlsInfo : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall GetLogLocation (
+        /*[out,retval]*/ BSTR * pRetVal ) = 0;
+};
+
+struct __declspec(uuid("2e3fe898-8a41-344a-8a55-74b4d0215c56"))
+SPUlsInfo;
+    // [ default ] interface _SPUlsInfo
+    // interface _Object
+    // interface IUlsInfo
+
+struct __declspec(uuid("0cc7f1a0-0912-3c4e-81d0-1e0ab760670f"))
+_Constants : IDispatch
+{};
+
+struct __declspec(uuid("44eac68d-94f0-339b-b47e-ef5e6b77b4be"))
+_SPUlsInfo : IDispatch
+{};
+
+} // namespace SPULS
+
+#pragma pack(pop)
