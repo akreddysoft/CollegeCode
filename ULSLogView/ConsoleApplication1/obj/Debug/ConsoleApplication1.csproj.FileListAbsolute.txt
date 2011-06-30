@@ -1,9 +1,0 @@
-C:\Users\mahuja\Desktop\ULSLogView\OldVersion\ULSLogView\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
-C:\Users\mahuja\Desktop\ULSLogView\OldVersion\ULSLogView\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
-C:\Users\mahuja\Desktop\ULSLogView\OldVersion\ULSLogView\ConsoleApplication1\bin\Debug\SPULS.dll
-C:\Users\mahuja\Desktop\ULSLogView\OldVersion\ULSLogView\ConsoleApplication1\bin\Debug\Microsoft.SharePoint.Search.dll
-C:\Users\mahuja\Desktop\ULSLogView\OldVersion\ULSLogView\ConsoleApplication1\bin\Debug\Microsoft.SharePoint.Search.xml
-C:\Users\mahuja\Desktop\ULSLogView\OldVersion\ULSLogView\ConsoleApplication1\bin\Debug\SPULS.pdb
-C:\Users\mahuja\Desktop\ULSLogView\OldVersion\ULSLogView\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\mahuja\Desktop\ULSLogView\OldVersion\ULSLogView\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
-C:\Users\mahuja\Desktop\ULSLogView\OldVersion\ULSLogView\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

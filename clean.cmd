@@ -13,3 +13,8 @@ git rm *.LST
 git rm *.MAP
 git rm *.PDB
 git rm *.RES
+
+dir /s/b Debug > debuglist.txt
+for /F %%T in (debuglist.txt) do rmdir /s /q %%T
+dir /s/b Release > releaselist.txt
+for /F %%T in (releaselist.txt) do rmdir /s /q %%T

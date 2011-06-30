@@ -1,5 +1,0 @@
-C:\Users\mahuja\Desktop\ULSLogView\OldVersion\ULSLogView\SPUlsConsole\bin\Debug\SPUlsConsole.exe
-C:\Users\mahuja\Desktop\ULSLogView\OldVersion\ULSLogView\SPUlsConsole\bin\Debug\SPUlsConsole.pdb
-C:\Users\mahuja\Desktop\ULSLogView\OldVersion\ULSLogView\SPUlsConsole\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\mahuja\Desktop\ULSLogView\OldVersion\ULSLogView\SPUlsConsole\obj\Debug\SPUlsConsole.exe
-C:\Users\mahuja\Desktop\ULSLogView\OldVersion\ULSLogView\SPUlsConsole\obj\Debug\SPUlsConsole.pdb
