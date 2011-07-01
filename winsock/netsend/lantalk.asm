@@ -8,11 +8,12 @@ include	windows.inc
 include	kernel32.inc
 include user32.inc
 include wsock32.inc
-include	comctl32.inc
-include crtlib.inc
+include crtdll.inc
+include comctl32.inc
 include masm32.inc
 include winmm.inc
 include shell32.inc
+include msvcrt.inc
 include ..\macro.inc
 .listall
 includelib shell32.lib
@@ -22,9 +23,11 @@ includelib kernel32.lib
 includelib ws2_32.lib
 includelib masm32.lib
 includelib comctl32.lib
+;includelib crtlib.lib
 includelib crtdll.lib
 includelib winmm.lib
-includelib lanchat.lib
+includelib msvcrt.lib
+;includelib lanchat.lib
 ;ллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллл
 .data
 INIDATA struct
@@ -225,7 +228,7 @@ start:
 		invoke	MessageBox,0,offset err10,offset app,0
 		invoke	ExitProcess,0
 	.endif
-	invoke	strupr,offset hostnam
+	invoke	_strupr,offset hostnam
 	
 	invoke	GetModuleHandle,0
 	mov	hinst,eax
@@ -437,7 +440,7 @@ local	cf:CHARFORMAT
 				ret
 			.endif
 			;convert to ucase
-			invoke	strupr,addr buff
+			invoke	_strupr,addr buff
 			
 			invoke	strcat,offset cmdline,addr buff
 			;attach the host name to command line

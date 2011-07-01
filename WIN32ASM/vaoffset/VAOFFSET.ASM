@@ -359,7 +359,7 @@ rva2offset PROC uses edi esi edx ecx pFileMap:DWORD,RVA:DWORD
    	assume 	esi:nothing 
    	mov 	eax,edi 
    	ret 
-RVAToOffset endp 
+rva2offset endp 
 
 
 

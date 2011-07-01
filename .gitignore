@@ -5,6 +5,9 @@
 *.map
 *.pdb
 *.res
+*.zip
+*.lib
+*.exp
 
 [Bb]in
 [Dd]ebug*/

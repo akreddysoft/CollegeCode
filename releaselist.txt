@@ -1,0 +1,12 @@
+D:\projects\programs\ULSLogView\ConsoleApplication1\bin\Release
+D:\projects\programs\ULSLogView\ConsoleApplication1\obj\Release
+D:\projects\programs\ULSLogView\SPULS\bin\Release
+D:\projects\programs\ULSLogView\SPULS\obj\Release
+D:\projects\programs\ULSLogView\ULSLogView\Release
+D:\projects\programs\win32vc++\PERMU\HOOKDLL\Release
+D:\projects\programs\win32vc++\PERMU\TEST\Release
+D:\projects\programs\winsock\bell\Release
+D:\projects\programs\winsock\portscan\Release
+D:\projects\programs\winsock\telnet\Release
+D:\projects\programs\winsock\telnet\tlntclient\Release
+D:\projects\programs\winsock\telnet2\Release

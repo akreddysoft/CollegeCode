@@ -1,6 +1,6 @@
 #include <windows.h>
 #include "resource.h"
-#include "F:\programs\win32vc\general.h"
+#include "general.h"
 //why gethostname,getshostbyname creates another thread
 //see IDC_HOSTADD
 #define IDI_EXIT 50
@@ -47,7 +47,7 @@ LRESULT CALLBACK dlgproc(HWND hwnd,UINT msg,WPARAM wparam,LPARAM lparam);
 BOOL WINAPI NetErrorHandler(HWND hwnd, 
                             DWORD dwErrorCode, 
                             LPSTR lpszFunction) ;
-init();
+int init();
 void writeinifile();
 BOOL CALLBACK addhostproc(HWND hwnd,UINT msg,WPARAM wparam,LPARAM lparam);
 /////////////////////////////////////////////////////////
@@ -87,7 +87,7 @@ int WINAPI WinMain(HINSTANCE hinst,HINSTANCE hprev,LPSTR cmdline,int cmdshows=SW
 	return msg.wParam ;
 }
 
-init()
+int init()
 {
 	char buffer[255];		
 	WSADATA wsadata;

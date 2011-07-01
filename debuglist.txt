@@ -1,0 +1,42 @@
+D:\projects\programs\com\AniReg\Debug
+D:\projects\programs\com\gh\Debug
+D:\projects\programs\java1\debug
+D:\projects\programs\SPY\Copy of latest praject\Proj\Client\Debug
+D:\projects\programs\SPY\Copy of latest praject\Proj\Client\server\Debug
+D:\projects\programs\SPY\Copy of latest praject\Proj\Spy\Debug
+D:\projects\programs\SPY\latest praject\copy of i\Debug
+D:\projects\programs\SPY\latest praject\l\Debug
+D:\projects\programs\SPY\latest praject\Proj\Client\Debug
+D:\projects\programs\SPY\latest praject\Proj\Client\server\Debug
+D:\projects\programs\SPY\latest praject\Proj\Spy\Debug
+D:\projects\programs\SPY\Spy\back\Client\Debug
+D:\projects\programs\SPY\Spy\back\Client\server\Debug
+D:\projects\programs\SPY\Spy\back\l\Debug
+D:\projects\programs\SPY\Spy\back\Spy\Debug
+D:\projects\programs\SPY\Spy\Client\Debug
+D:\projects\programs\SPY\Spy\Client\server\Debug
+D:\projects\programs\SPY\Spy\l\Debug
+D:\projects\programs\SPY\Spy\Spy\Debug
+D:\projects\programs\ULSLogView\Debug
+D:\projects\programs\ULSLogView\ConsoleApplication1\bin\Debug
+D:\projects\programs\ULSLogView\ConsoleApplication1\obj\Debug
+D:\projects\programs\ULSLogView\SPULS\bin\Debug
+D:\projects\programs\ULSLogView\SPULS\obj\Debug
+D:\projects\programs\ULSLogView\SPUlsConsole\bin\Debug
+D:\projects\programs\ULSLogView\SPUlsConsole\obj\Debug
+D:\projects\programs\ULSLogView\Test\Debug
+D:\projects\programs\ULSLogView\ULSLogView\Debug
+D:\projects\programs\ULSLogView\ULSLogView\x64\Debug
+D:\projects\programs\ULSLogView\x64\Debug
+D:\projects\programs\win32vc++\DLL\DD\Debug
+D:\projects\programs\win32vc++\DLL1\DD\Debug
+D:\projects\programs\win32vc++\PERMU\HOOKDLL\Debug
+D:\projects\programs\win32vc++\PERMU\HOOKDLL\Debug\Debug
+D:\projects\programs\win32vc++\PERMU\TEST\Debug
+D:\projects\programs\winsock\bell\Debug
+D:\projects\programs\winsock\netbis\Debug
+D:\projects\programs\winsock\portscan\Debug
+D:\projects\programs\winsock\spy\Debug
+D:\projects\programs\winsock\spy\bmp\Debug
+D:\projects\programs\winsock\telnet2\Debug
+D:\projects\programs\winsock\telnetserver\Debug
